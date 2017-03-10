@@ -67,6 +67,10 @@ GodEye目前可以通过 [CocoaPods](http://cocoapods.org)来安装.只需要将
 pod "GodEye"
 ```
 
+## 在使用GodEye的开源App
+
+[CocoaChinaPlus](https://github.com/zixun/CocoaChinaPlus)是一款用Swift编写的开源的CocoaChina第三方客户端，目前已经接入GodEye，并且可以很好的工作。
+
 ## 书与原理
 
 **笔者写了一本书，名叫[《iOS监控编程》](https://www.qingdan.us/product/25),每个章节记录了功能的实现细节，以及笔者一路探索的心路历程。当然，笔者后续依旧会寻求与探索新的监控方向，一旦有所得都会更新到本书的章节中.**

@@ -75,6 +75,11 @@ pod "GodEye"
 <p align="center">
   <img src="./design/image/cover.jpg" width=45%/>
 </p>
+
+## OpenSource Application Use GodEye
+
+[CocoaChinaPlus](https://github.com/zixun/CocoaChinaPlus) is an open source application wrote by swift, now the GodEye is work well in it!
+
 ## Usage
 
 import at AppDelegate:
