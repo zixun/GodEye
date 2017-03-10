@@ -1,0 +1,6 @@
+framework module ANREye {
+  umbrella header "ANREye-umbrella.h"
+
+  export *
+  module * { export * }
+}

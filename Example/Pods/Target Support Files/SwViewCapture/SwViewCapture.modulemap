@@ -1,0 +1,6 @@
+framework module SwViewCapture {
+  umbrella header "SwViewCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}

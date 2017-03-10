@@ -1,0 +1,22 @@
+{
+  "name": "ANREye",
+  "version": "0.1.0",
+  "summary": "Class for monitor excessive blocking on the main thread.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ANREye",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zixun": "chenyl.exe@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ANREye.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ANREye/Classes/**/*"
+}

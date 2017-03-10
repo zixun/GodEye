@@ -1,0 +1,22 @@
+{
+  "name": "CrashEye",
+  "version": "0.1.0",
+  "summary": "A short description of CrashEye.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CrashEye",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zixun": "chenyl.exe@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CrashEye.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CrashEye/Classes/**/*"
+}

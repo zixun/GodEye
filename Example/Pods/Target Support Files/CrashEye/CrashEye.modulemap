@@ -1,0 +1,6 @@
+framework module CrashEye {
+  umbrella header "CrashEye-umbrella.h"
+
+  export *
+  module * { export * }
+}

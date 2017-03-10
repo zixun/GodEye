@@ -1,0 +1,6 @@
+framework module ASLEye {
+  umbrella header "ASLEye-umbrella.h"
+
+  export *
+  module * { export * }
+}

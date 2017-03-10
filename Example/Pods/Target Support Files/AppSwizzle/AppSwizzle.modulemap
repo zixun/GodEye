@@ -1,0 +1,6 @@
+framework module AppSwizzle {
+  umbrella header "AppSwizzle-umbrella.h"
+
+  export *
+  module * { export * }
+}

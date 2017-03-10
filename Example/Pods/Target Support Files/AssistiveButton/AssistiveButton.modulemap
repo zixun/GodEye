@@ -1,0 +1,6 @@
+framework module AssistiveButton {
+  umbrella header "AssistiveButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

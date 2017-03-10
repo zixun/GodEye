@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9532"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PreviewTransitionViewController" customModule="FileBrowser" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="XU1-oS-O9g" id="1iD-NB-doP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XU1-oS-O9g">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XU1-oS-O9g" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="16b-EN-UAr"/>
+                <constraint firstItem="XU1-oS-O9g" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LcQ-I8-kyx"/>
+                <constraint firstAttribute="bottom" secondItem="XU1-oS-O9g" secondAttribute="bottom" id="VKY-GO-mL1"/>
+                <constraint firstAttribute="trailing" secondItem="XU1-oS-O9g" secondAttribute="trailing" id="kGR-cW-okX"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

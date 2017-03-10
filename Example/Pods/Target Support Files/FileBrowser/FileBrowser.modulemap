@@ -1,0 +1,6 @@
+framework module FileBrowser {
+  umbrella header "FileBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

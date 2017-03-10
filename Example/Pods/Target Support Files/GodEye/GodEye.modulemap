@@ -1,0 +1,6 @@
+framework module GodEye {
+  umbrella header "GodEye-umbrella.h"
+
+  export *
+  module * { export * }
+}

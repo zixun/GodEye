@@ -1,0 +1,6 @@
+framework module SystemEye {
+  umbrella header "SystemEye-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AppBaseKit {
+  umbrella header "AppBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
