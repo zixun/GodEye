@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EC5A1E8E7217DF14C0ED2BA5AD651203797E9B8B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "EC5A1E8E7217DF14C0ED2BA5AD651203797E9B8B" : 9223372036854775807,
+    "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3" : 9223372036854775807,
     "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "96BAC8FC-E296-4135-84F1-54FC58099DF5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "EC5A1E8E7217DF14C0ED2BA5AD651203797E9B8B" : "GodEye\/",
+    "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3" : "GodEye\/",
     "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "GodEye",
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:GodEyeSwift\/GodEye.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC5A1E8E7217DF14C0ED2BA5AD651203797E9B8B"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3"
     }
   ]
 }
