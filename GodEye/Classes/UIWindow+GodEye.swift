@@ -47,17 +47,16 @@ extension UIWindow {
         UIWindow.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter)
         
         
-        orig = #selector(UIWindow.motionEnded(_:with:))
-        alter = #selector(UIWindow.app_motionEnded(_:with:))
-        UIWindow.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter)
+        orig = #selector(UIResponder.motionEnded(_:with:))
+        alter = #selector(UIResponder.app_motionEnded(_:with:))
+        UIResponder.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter)
     }
     
     
 }
 
-extension UIWindow {
-    
-    @objc fileprivate func app_motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+extension UIResponder {
+    func app_motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         let control = GodEyeController.shared.configuration.control
         if control.enabled && control.shakeToShow() {
             if event?.type == UIEventType.motion && event?.subtype == UIEventSubtype.motionShake {
@@ -68,9 +67,12 @@ extension UIWindow {
                 }
             }
         }
-        
         self.app_motionEnded(motion, with: event)
     }
+}
+
+extension UIWindow {
+    
     
     @objc fileprivate func app_sendEvent(_ event: UIEvent) {
         if self.canHandle(event: event) {
