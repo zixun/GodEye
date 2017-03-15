@@ -1,6 +1,0 @@
-framework module Log4G {
-  umbrella header "Log4G-umbrella.h"
-
-  export *
-  module * { export * }
-}
