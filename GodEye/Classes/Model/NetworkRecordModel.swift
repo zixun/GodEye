@@ -172,6 +172,9 @@ extension NetworkRecordModel {
         
         do {
             let returnValue = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+            guard JSONSerialization.isValidJSONObject(returnValue) else {
+                return nil;
+            }
             let data = try JSONSerialization.data(withJSONObject: returnValue)
             return String(data: data, encoding: .utf8)
         } catch  {
