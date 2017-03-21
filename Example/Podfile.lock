@@ -1,37 +1,37 @@
 PODS:
-  - ANREye (1.0.0)
-  - AppBaseKit (0.1.0)
-  - AppSwizzle (1.0.0)
-  - ASLEye (1.0.0)
-  - AssistiveButton (1.0.0)
-  - CrashEye (1.0.1)
+  - ANREye (1.1.0)
+  - AppBaseKit (0.2.0)
+  - AppSwizzle (1.1.1)
+  - ASLEye (1.1.0)
+  - AssistiveButton (1.1.0)
+  - CrashEye (1.1.0)
   - FileBrowser (0.2.0)
-  - GodEye (1.0.1):
-    - ANREye (~> 1.0.0)
-    - AppBaseKit
-    - AppSwizzle (~> 1.0.0)
-    - ASLEye (~> 1.0.0)
-    - AssistiveButton (~> 1.0.0)
-    - CrashEye (~> 1.0.1)
+  - GodEye (1.0.2):
+    - ANREye (~> 1.1.0)
+    - AppBaseKit (~> 0.2.0)
+    - AppSwizzle (~> 1.1.1)
+    - ASLEye (~> 1.1.0)
+    - AssistiveButton (~> 1.1.0)
+    - CrashEye (~> 1.1.0)
     - FileBrowser (~> 0.2.0)
-    - LeakEye (~> 1.0.0)
-    - Log4G (~> 0.1.1)
+    - LeakEye (~> 1.1.1)
+    - Log4G (~> 0.2.0)
     - MJRefresh (~> 3.1.12)
-    - NetworkEye.swift (~> 1.0.0)
+    - NetworkEye.swift (~> 1.1.0)
     - SQLite.swift (~> 0.11.1)
     - SwViewCapture (~> 1.0.5)
-    - SystemEye (~> 0.1.0)
-  - LeakEye (1.0.0):
-    - AppSwizzle (~> 1.0.0)
-  - Log4G (0.1.2)
+    - SystemEye (~> 0.2.0)
+  - LeakEye (1.1.1):
+    - AppSwizzle (~> 1.1.1)
+  - Log4G (0.2.0)
   - MJRefresh (3.1.12)
-  - NetworkEye.swift (1.0.0):
-    - AppSwizzle (~> 1.0.0)
+  - NetworkEye.swift (1.1.0):
+    - AppSwizzle (~> 1.1.1)
   - SQLite.swift (0.11.2):
     - SQLite.swift/standard (= 0.11.2)
   - SQLite.swift/standard (0.11.2)
   - SwViewCapture (1.0.5)
-  - SystemEye (0.1.0)
+  - SystemEye (0.2.0)
 
 DEPENDENCIES:
   - GodEye (from `../`)
@@ -41,21 +41,21 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ANREye: a3c65dfdcf027f70cf2967ee2bca8c92c01464ef
-  AppBaseKit: 5bc9211a560e7bd3afb48ed5b2cc303fc2e4073c
-  AppSwizzle: 0ba5dc3d884a5315a89ac4ab08c7f8e1c85c795c
-  ASLEye: 486cae91913d54266201b6392ea00df33b316f07
-  AssistiveButton: 562aae28b8875b107ea468ccce1b932ff50ac866
-  CrashEye: 1f08b89b46d65c752277ea12d43bc2c1fa84ef9f
+  ANREye: f5d8afdfa695af4bd08ecb8d370d5e85b570e14a
+  AppBaseKit: 41da67c2456b8acaf4e7a8ec646bb2d1370fa7ef
+  AppSwizzle: ff4ae6735b6e2bab9991d5b660357beae2fa6e68
+  ASLEye: 88490116e798292fbf28f9b08a354dadfcffc4c2
+  AssistiveButton: 1af6cd2cdcb5b5cb87808cd965ae72b76dae2f0d
+  CrashEye: 22e4daeb27f30bed7fd034edd413100b84ac45c5
   FileBrowser: af8abc035daca66a6066351ae162c4af4c6b24dd
-  GodEye: 0b83875aaf1320a0512e3fd5fa28df68dc766e77
-  LeakEye: 0797226c1415d2c69fdb4085866f47d7b5aeeac3
-  Log4G: 28bc441d103633ea02962dd6ffa238388304e2fb
+  GodEye: 9cea07f5240033a16dc292869a65a99cc017c448
+  LeakEye: 277f708e88acc6816950663d21f8808e26aaa754
+  Log4G: f04fe4e1beb2e7e72e8467b17da07f9ce124130d
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  NetworkEye.swift: cec9c0e73ebda143679751e047bce14ad96cccbc
+  NetworkEye.swift: 24d81314c5cfccfa25b4bdd8490c5f2a4023ac7e
   SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
   SwViewCapture: 7ddb627ffbc70b21d92690bf25a84e545c38083e
-  SystemEye: efee11d6f355d91daddb2cb69fb844f1038df956
+  SystemEye: d6c5ec3e39a0a75d51e4bebd1cfc15a58effed35
 
 PODFILE CHECKSUM: 9877fa90d1c0cee190e1a39a22342801b9f1adb4
 
