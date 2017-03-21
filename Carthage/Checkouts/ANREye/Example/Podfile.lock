@@ -1,0 +1,16 @@
+PODS:
+  - ANREye (0.1.0)
+
+DEPENDENCIES:
+  - ANREye (from `../`)
+
+EXTERNAL SOURCES:
+  ANREye:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANREye: 850bd95d308567fa1b995c03ac794a6d20abea05
+
+PODFILE CHECKSUM: 43dc7e3969babdfdafcfc1af13cfdfff612d2d56
+
+COCOAPODS: 1.1.1

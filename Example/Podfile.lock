@@ -17,7 +17,7 @@ PODS:
     - LeakEye (~> 1.1.1)
     - Log4G (~> 0.2.0)
     - MJRefresh (~> 3.1.12)
-    - NetworkEye.swift (~> 1.1.0)
+    - NetworkEye.swift (~> 1.1.1)
     - SQLite.swift (~> 0.11.1)
     - SwViewCapture (~> 1.0.5)
     - SystemEye (~> 0.2.0)
@@ -25,7 +25,7 @@ PODS:
     - AppSwizzle (~> 1.1.1)
   - Log4G (0.2.0)
   - MJRefresh (3.1.12)
-  - NetworkEye.swift (1.1.0):
+  - NetworkEye.swift (1.1.1):
     - AppSwizzle (~> 1.1.1)
   - SQLite.swift (0.11.2):
     - SQLite.swift/standard (= 0.11.2)
@@ -48,11 +48,11 @@ SPEC CHECKSUMS:
   AssistiveButton: 1af6cd2cdcb5b5cb87808cd965ae72b76dae2f0d
   CrashEye: 22e4daeb27f30bed7fd034edd413100b84ac45c5
   FileBrowser: af8abc035daca66a6066351ae162c4af4c6b24dd
-  GodEye: 9cea07f5240033a16dc292869a65a99cc017c448
+  GodEye: 54d1f656fb46b999b7186fce790f7d8331b3c134
   LeakEye: 277f708e88acc6816950663d21f8808e26aaa754
   Log4G: f04fe4e1beb2e7e72e8467b17da07f9ce124130d
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  NetworkEye.swift: 24d81314c5cfccfa25b4bdd8490c5f2a4023ac7e
+  NetworkEye.swift: 5eb24e1c9d396c714c48005461a598fdf2195168
   SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
   SwViewCapture: 7ddb627ffbc70b21d92690bf25a84e545c38083e
   SystemEye: d6c5ec3e39a0a75d51e4bebd1cfc15a58effed35

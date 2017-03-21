@@ -8,7 +8,7 @@
 
 import Foundation
 import ASLEye
-import NetworkEye_swift
+import NetworkEye
 import Log4G
 import CrashEye
 import ANREye

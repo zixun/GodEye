@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NetworkEye_Example' do
+  pod 'NetworkEye.swift', :path => '../'
+  
+  target 'NetworkEye_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

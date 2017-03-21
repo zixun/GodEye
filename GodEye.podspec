@@ -48,7 +48,7 @@ Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and et
     s.dependency 'CrashEye', '~> 1.1.0'
     s.dependency 'ANREye', '~> 1.1.0'
     s.dependency 'SystemEye', '~> 0.2.0'
-    s.dependency 'NetworkEye.swift', '~> 1.1.0'
+    s.dependency 'NetworkEye.swift', '~> 1.1.1'
     s.dependency 'LeakEye', '~> 1.1.1'
 
     s.dependency 'FileBrowser', '~> 0.2.0'

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Log4G_Example' do
+  pod 'Log4G', :path => '../'
+
+  target 'Log4G_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

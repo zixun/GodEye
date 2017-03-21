@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ANREye_Example' do
+  pod 'ANREye', :path => '../'
+
+  target 'ANREye_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
