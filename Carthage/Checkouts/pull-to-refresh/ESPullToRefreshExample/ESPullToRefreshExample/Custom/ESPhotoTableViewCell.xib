@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ESPhotoTableViewCell" rowHeight="617" id="KGk-i7-Jjw" customClass="ESPhotoTableViewCell" customModule="ESRefresh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="617"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="617"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MPv-KV-GgE">
+                        <rect key="frame" x="0.0" y="8" width="378" height="60"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Gqx-Ia-SPO">
+                                <rect key="frame" x="16" y="10" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="nTT-BT-ojI"/>
+                                    <constraint firstAttribute="height" constant="40" id="zc4-vu-YDk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egg swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owu-El-dsa">
+                                <rect key="frame" x="71" y="21" width="64" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Hours age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zR-Vl-skc">
+                                <rect key="frame" x="288" y="22" width="74" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.74901960784313726" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gqx-Ia-SPO" firstAttribute="leading" secondItem="MPv-KV-GgE" secondAttribute="leading" constant="16" id="82L-9U-Gej"/>
+                            <constraint firstItem="8zR-Vl-skc" firstAttribute="centerY" secondItem="MPv-KV-GgE" secondAttribute="centerY" id="RH2-31-EC3"/>
+                            <constraint firstAttribute="height" constant="60" id="VaO-SM-zBB"/>
+                            <constraint firstItem="owu-El-dsa" firstAttribute="centerY" secondItem="MPv-KV-GgE" secondAttribute="centerY" id="d6L-Bk-Bgg"/>
+                            <constraint firstItem="owu-El-dsa" firstAttribute="leading" secondItem="Gqx-Ia-SPO" secondAttribute="trailing" constant="15" id="sH3-sC-dOe"/>
+                            <constraint firstItem="Gqx-Ia-SPO" firstAttribute="centerY" secondItem="MPv-KV-GgE" secondAttribute="centerY" id="sSl-al-aIP"/>
+                            <constraint firstAttribute="trailing" secondItem="8zR-Vl-skc" secondAttribute="trailing" constant="16" id="yMW-Dq-oh4"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo_Lofter_1" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-KH-tiZ">
+                        <rect key="frame" x="0.0" y="68" width="378" height="252"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="NQI-KH-tiZ" secondAttribute="height" multiplier="680:453" id="3lI-aa-rNu"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4uF-Hf-pKR">
+                        <rect key="frame" x="0.0" y="609" width="378" height="8"/>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="HGv-1g-Nik"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The perfect weekend in Paris for less than £200: here's how to do it" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMJ-lF-0hs">
+                        <rect key="frame" x="16" y="336" width="346" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fST-3Z-rDc">
+                        <rect key="frame" x="30" y="391" width="332" height="108"/>
+                        <string key="text">Paris has lots of beautiful, free outdoor attractions- take the Place des Vosges, Jardin des Plantes, Domaine National de Saint-Cloud, among others- but if it is cold or rainy, there are also some great indoor exhibitions and galleries that you can visit for free. Here are five of the best.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSQ-ld-oiS">
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="8"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="bGr-cs-CzM"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo_Lofter_Tab" translatesAutoresizingMaskIntoConstraints="NO" id="dGH-f2-hLT">
+                        <rect key="frame" x="2" y="505" width="205" height="56"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo_Lofter_Info" translatesAutoresizingMaskIntoConstraints="NO" id="hAa-hR-nhp">
+                        <rect key="frame" x="304" y="505" width="74" height="56"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZK-o7-W5S">
+                        <rect key="frame" x="16" y="395" width="2" height="100"/>
+                        <color key="backgroundColor" red="0.68627450980392157" green="0.68627450980392157" blue="0.68627450980392157" alpha="0.77577574823943662" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="2" id="SG5-s0-W1L"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GMJ-lF-0hs" secondAttribute="trailing" constant="16" id="0vd-Pu-cIO"/>
+                    <constraint firstItem="GMJ-lF-0hs" firstAttribute="top" secondItem="NQI-KH-tiZ" secondAttribute="bottom" constant="16" id="57g-dI-oPy"/>
+                    <constraint firstItem="fST-3Z-rDc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="5kR-lF-6pn"/>
+                    <constraint firstItem="hAa-hR-nhp" firstAttribute="centerY" secondItem="dGH-f2-hLT" secondAttribute="centerY" id="5mD-8E-aM8"/>
+                    <constraint firstItem="NQI-KH-tiZ" firstAttribute="top" secondItem="MPv-KV-GgE" secondAttribute="bottom" id="9aC-LA-0rx"/>
+                    <constraint firstAttribute="trailing" secondItem="fST-3Z-rDc" secondAttribute="trailing" constant="16" id="BfT-gb-crz"/>
+                    <constraint firstItem="GMJ-lF-0hs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="HYy-2u-4xR"/>
+                    <constraint firstAttribute="trailing" secondItem="4uF-Hf-pKR" secondAttribute="trailing" id="Lwl-wS-ocS"/>
+                    <constraint firstItem="4uF-Hf-pKR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dGH-f2-hLT" secondAttribute="bottom" constant="12" id="NIq-vQ-e5h"/>
+                    <constraint firstItem="NQI-KH-tiZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PBX-Xd-IgI"/>
+                    <constraint firstAttribute="trailing" secondItem="KSQ-ld-oiS" secondAttribute="trailing" id="QDW-y6-H4Z"/>
+                    <constraint firstAttribute="trailing" secondItem="NQI-KH-tiZ" secondAttribute="trailing" id="Qqt-0L-n97"/>
+                    <constraint firstItem="dGH-f2-hLT" firstAttribute="top" secondItem="fST-3Z-rDc" secondAttribute="bottom" constant="6" id="UfC-jd-p8h"/>
+                    <constraint firstItem="bZK-o7-W5S" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Xqu-Cw-fwZ"/>
+                    <constraint firstAttribute="bottom" secondItem="4uF-Hf-pKR" secondAttribute="bottom" id="Zgf-iE-KbS"/>
+                    <constraint firstItem="4uF-Hf-pKR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aFW-Q4-Fvn"/>
+                    <constraint firstItem="bZK-o7-W5S" firstAttribute="height" secondItem="fST-3Z-rDc" secondAttribute="height" constant="-8" id="aqJ-AJ-2Mx"/>
+                    <constraint firstItem="bZK-o7-W5S" firstAttribute="centerY" secondItem="fST-3Z-rDc" secondAttribute="centerY" id="j7e-VR-vdz"/>
+                    <constraint firstAttribute="trailing" secondItem="hAa-hR-nhp" secondAttribute="trailing" id="k16-qD-vOI"/>
+                    <constraint firstItem="MPv-KV-GgE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nLp-qE-GgU"/>
+                    <constraint firstItem="fST-3Z-rDc" firstAttribute="top" secondItem="GMJ-lF-0hs" secondAttribute="bottom" constant="12" id="qmU-O9-DeU"/>
+                    <constraint firstItem="KSQ-ld-oiS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rWO-hn-WB0"/>
+                    <constraint firstItem="MPv-KV-GgE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="tQ4-zI-Tmo"/>
+                    <constraint firstAttribute="trailing" secondItem="MPv-KV-GgE" secondAttribute="trailing" id="urd-Oy-jKy"/>
+                    <constraint firstItem="KSQ-ld-oiS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xXT-ox-yd3"/>
+                    <constraint firstItem="dGH-f2-hLT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="yqo-Mh-sWd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="indexLabel" destination="8zR-Vl-skc" id="tDL-eS-mcw"/>
+                <outlet property="photoImageView" destination="NQI-KH-tiZ" id="kzT-q4-aQP"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="392.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Photo_Lofter_1" width="680" height="453"/>
+        <image name="Photo_Lofter_Info" width="74" height="56"/>
+        <image name="Photo_Lofter_Tab" width="205" height="56"/>
+        <image name="icon" width="220" height="208"/>
+    </resources>
+</document>
