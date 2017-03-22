@@ -26,7 +26,11 @@ extension UIWindow {
         
         let rect = CGRect(x: self.frame.size.width - 48, y: self.frame.size.height - 160, width: 48, height: 48)
         
-        let image = UIImage(named: "GodEye.bundle/eye", in: Bundle(for: GodEyeController.classForCoder()), compatibleWith: nil)
+        var image = UIImage(named: "GodEye.bundle/eye", in: Bundle(for: GodEyeController.classForCoder()), compatibleWith: nil)
+        if image == nil {
+            // for carthage, image in framework
+            image = UIImage(named: "eye", in: Bundle(for: GodEyeController.classForCoder()), compatibleWith: nil)
+        }
         let btn = AssistiveButton(frame: rect, normalImage: image!)
         btn.didTap = { () -> () in
             if GodEyeController.shared.showing {
