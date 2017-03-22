@@ -7,6 +7,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Log4G.svg?style=flat)](http://cocoapods.org/pods/GodEye)
 [![License](https://img.shields.io/cocoapods/l/Log4G.svg?style=flat)](http://cocoapods.org/pods/GodEye)
 [![Platform](https://img.shields.io/cocoapods/p/Log4G.svg?style=flat)](http://cocoapods.org/pods/GodEye)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code based on Swift. Just like God opened his eyes.
 
@@ -49,27 +50,7 @@ Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and et
 
 
 ## 预览
-  <img src="./design/image/1-console.jpg" width=30%/>
-  <img src="./design/image/2-monitor.jpg" width=30%/>
-  <img src="./design/image/3-file_list.jpg" width=30%/>
-  <img src="./design/image/4-setting.jpg" width=30%/>
-  <img src="./design/image/5-log.jpg" width=30%/>
-  <img src="./design/image/6-crash.jpg" width=30%/>
-  <img src="./design/image/7-anr_detail.jpg" width=30%/>
-  <img src="./design/image/8-net_detail.jpg" width=30%/>
-  <img src="./design/image/9-terminal.jpg" width=30%/>
-
-## 安装
-
-GodEye目前可以通过 [CocoaPods](http://cocoapods.org)来安装.只需要将下面的代码加入到你的Podfile中即可:
-
-```ruby
-pod "GodEye"
-```
-
-## 在使用GodEye的开源App
-
-[CocoaChinaPlus](https://github.com/zixun/CocoaChinaPlus)是一款用Swift编写的开源的CocoaChina第三方客户端，目前已经接入GodEye，并且可以很好的工作。
+  <img src="./design/image/preview_meitu_1.jpg" width="100%"/>
 
 ## 书与原理
 
@@ -78,6 +59,68 @@ pod "GodEye"
 <p align="center">
   <img src="./design/image/cover.jpg" width=45%/>
 </p>
+
+## 安装
+### CocoaPods
+GodEye目前可以通过 [CocoaPods](http://cocoapods.org)来安装.只需要将下面的代码加入到你的Podfile中即可:
+
+```ruby
+pod "GodEye"
+```
+
+#### 在Release下不编译进一行代码
+首先，在Podfile中添加configurations配置：
+
+```ruby
+pod 'GodEye', '~> 1.0.0', :configurations => ['Debug']
+```
+
+然后，在你的target的`Build Settings`中找到`Other Swift Flags`项，,在Debug scheme中添加 `DEBUG`.
+
+最后，在初始化GodEye代码上添加`DEBUG`宏：
+
+```swift
+#if DEBUG 
+    GodEye.makeEye(with: self.window!)
+#endif
+```
+
+### Carthage
+如果你使用 [Carthage](https://github.com/Carthage/Carthage)来集成, 在Cartfile添加GodEye:
+
+``` 
+github "zixun/GodEye"
+```
+
+#### Add GodEye to Embed Frameworks
+拖拽Carthage/Build目录下的`GodEye.framework`到你应用的target的`“General”`设置面板中的`“Embed Frameworks”`栏中
+
+#### Add Dependency to Linked Frameworks and Libraries
+
+拖拽Carthage/Build目录下的GodEye依赖的framework到你应用的target的`“General”`设置面板中的`“Linked Frameworks and Libraries”`栏中
+
+<p align="center">
+  <img src="./design/image/dependency.jpg" width="683" height="429"/>
+</p>
+
+#### Add Run Script
+在你应用的target下的“Build Phases”设置面板中，点击“+”按钮，选择“New Run Script Phase”，新建一个Run Script，添加下面的内容到shell输入框中：
+
+```
+/usr/local/bin/carthage copy-frameworks
+```
+
+添加上面依赖的framework的路径到“Input Files”中：
+
+<p align="center">
+  <img src="./design/image/runscript.jpg" width="690" height="565"/>
+</p>
+
+## 在使用GodEye的开源App
+
+[CocoaChinaPlus](https://github.com/zixun/CocoaChinaPlus)是一款用Swift编写的开源的CocoaChina第三方客户端，目前已经接入GodEye，并且可以很好的工作。
+
+
 
 ## 使用
 

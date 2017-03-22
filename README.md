@@ -91,7 +91,7 @@ Finally, add `DEBUG` macro in makeEye：
 ```
 
 ### Carthage
-Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add GodEye to your Cartfile:
 
 ``` 
 github "zixun/GodEye"
