@@ -50,15 +50,9 @@ It's so huge that I split it into several independent components:
 
 
 ## Preview
-  <img src="./design/image/1-console.jpg" width="30%"/>
-  <img src="./design/image/2-monitor.jpg" width="30%"/>
-  <img src="./design/image/3-file_list.jpg" width="30%"/>
-  <img src="./design/image/4-setting.jpg" width="30%"/>
-  <img src="./design/image/5-log.jpg" width="30%"/>
-  <img src="./design/image/6-crash.jpg" width="30%"/>
-  <img src="./design/image/7-anr_detail.jpg" width="30%"/>
-  <img src="./design/image/8-net_detail.jpg" width="30%"/>
-  <img src="./design/image/9-terminal.jpg" width="30%"/>
+
+  <img src="./design/image/preview.png" width="100%"/>
+
 
 ## Book and Principle
 
