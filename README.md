@@ -51,7 +51,7 @@ It's so huge that I split it into several independent components:
 
 ## Preview
 
-  <img src="./design/image/preview.png" width="100%"/>
+  <img src="./design/image/preview_meitu_1.jpg" width="100%"/>
 
 
 ## Book and Principle
