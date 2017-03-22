@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5C65E1A0DF07B186C275611DFCB6907F9BD8DAC0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5C65E1A0DF07B186C275611DFCB6907F9BD8DAC0" : 9223372036854775807,
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0CB12C37-D96F-4E37-99A6-EA1B9BB695B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5C65E1A0DF07B186C275611DFCB6907F9BD8DAC0" : "AppSwizzle\/",
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AppSwizzle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/AppSwizzle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/AppSwizzle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C65E1A0DF07B186C275611DFCB6907F9BD8DAC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zixunapp\/AppSaber-MAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1F56C483977AC36F575A9C50FB74A7EFF41C69"
+    }
+  ]
+}

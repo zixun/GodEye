@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AssistiveButton_Example' do
+  pod 'AssistiveButton', :path => '../'
+
+  target 'AssistiveButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

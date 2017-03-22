@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3" : 9223372036854775807,
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2DEA37E2-1A78-482B-B30F-1E9A33E136B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3" : "GodEye\/",
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GodEye",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/GodEye.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zixunapp\/AppSaber-MAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1F56C483977AC36F575A9C50FB74A7EFF41C69"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/GodEye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3"
+    }
+  ]
+}

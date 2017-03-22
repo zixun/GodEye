@@ -7,6 +7,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Log4G.svg?style=flat)](http://cocoapods.org/pods/GodEye)
 [![License](https://img.shields.io/cocoapods/l/Log4G.svg?style=flat)](http://cocoapods.org/pods/GodEye)
 [![Platform](https://img.shields.io/cocoapods/p/Log4G.svg?style=flat)](http://cocoapods.org/pods/GodEye)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code based on Swift. Just like God opened his eyes.
 
@@ -49,24 +50,9 @@ It's so huge that I split it into several independent components:
 
 
 ## Preview
-  <img src="./design/image/1-console.jpg" width=30%/>
-  <img src="./design/image/2-monitor.jpg" width=30%/>
-  <img src="./design/image/3-file_list.jpg" width=30%/>
-  <img src="./design/image/4-setting.jpg" width=30%/>
-  <img src="./design/image/5-log.jpg" width=30%/>
-  <img src="./design/image/6-crash.jpg" width=30%/>
-  <img src="./design/image/7-anr_detail.jpg" width=30%/>
-  <img src="./design/image/8-net_detail.jpg" width=30%/>
-  <img src="./design/image/9-terminal.jpg" width=30%/>
 
-## Installation
+  <img src="./design/image/preview_meitu_1.jpg" width="100%"/>
 
-GodEye is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "GodEye"
-```
 
 ## Book and Principle
 
@@ -75,6 +61,65 @@ pod "GodEye"
 <p align="center">
   <img src="./design/image/cover.jpg" width=45%/>
 </p>
+
+## Installation
+
+### CocoaPods
+GodEye is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "GodEye"
+```
+
+#### Not build in Release
+
+First, add configurations in Podfile.
+
+```ruby
+pod 'GodEye', '~> 1.0.0', :configurations => ['Debug']
+```
+
+Then, find `Other Swift Flags` in your target's `Build Settings`,add `DEBUG` in Debug scheme.
+
+Finally, add `DEBUG` macro in makeEye：
+
+```swift
+#if DEBUG 
+    GodEye.makeEye(with: self.window!)
+#endif
+```
+
+### Carthage
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add GodEye to your Cartfile:
+
+``` 
+github "zixun/GodEye"
+```
+
+#### Add GodEye to Embed Frameworks
+On your application targets’ `“General”` settings tab, in the “Embed Frameworks” section, drag and drop `GodEye.framework` from the Carthage/Build folder on disk.
+
+#### Add Dependency to Linked Frameworks and Libraries
+On your application targets’ `“General”` settings tab, in the “Linked Frameworks and Libraries” section, drag and drop the dependency framework used in GodEye from the Carthage/Build folder on disk.
+
+<p align="center">
+  <img src="./design/image/dependency.jpg" width="683" height="429"/>
+</p>
+
+#### Add Run Script
+On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase”. Create a Run Script in which you specify your shell (ex: /bin/sh), add the following contents to the script area below the shell:
+
+```
+/usr/local/bin/carthage copy-frameworks
+```
+
+and add the paths to the frameworks you want to use under “Input Files”:
+
+<p align="center">
+  <img src="./design/image/runscript.jpg" width="690" height="565"/>
+</p>
+
 
 ## OpenSource Application Use GodEye
 

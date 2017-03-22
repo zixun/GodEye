@@ -9,7 +9,7 @@
 import Foundation
 import ASLEye
 import CrashEye
-import NetworkEye_swift
+import NetworkEye
 import ANREye
 import Log4G
 import LeakEye

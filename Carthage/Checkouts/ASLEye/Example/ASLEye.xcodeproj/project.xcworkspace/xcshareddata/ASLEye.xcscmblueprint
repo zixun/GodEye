@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04F333FDAC6B3FF5A3153B1765B5F99DB10B55A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "04F333FDAC6B3FF5A3153B1765B5F99DB10B55A0" : 9223372036854775807,
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "034F5A1F-7825-4C9C-BE35-00DA024E365D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "04F333FDAC6B3FF5A3153B1765B5F99DB10B55A0" : "ASLEye\/",
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ASLEye",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/ASLEye.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/ASLEye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04F333FDAC6B3FF5A3153B1765B5F99DB10B55A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zixunapp\/AppSaber-MAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1F56C483977AC36F575A9C50FB74A7EFF41C69"
+    }
+  ]
+}

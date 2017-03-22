@@ -1,0 +1,19 @@
+PODS:
+  - AppSwizzle (1.0.0)
+  - LeakEye (0.1.0):
+    - AppSwizzle (~> 1.0.0)
+
+DEPENDENCIES:
+  - LeakEye (from `../`)
+
+EXTERNAL SOURCES:
+  LeakEye:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppSwizzle: 0ba5dc3d884a5315a89ac4ab08c7f8e1c85c795c
+  LeakEye: aa57f4b814579985063f5a7678c5b81753bdf073
+
+PODFILE CHECKSUM: 63e89493110ff745cf47b7b8f73f2abfa6f21719
+
+COCOAPODS: 1.2.0

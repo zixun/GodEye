@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AppBaseKit_Example' do
+  pod 'AppBaseKit', :path => '../'
+
+  target 'AppBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -15,6 +15,79 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		99EF52E446A0B2DD16C5945C /* Pods_GodEye_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CBB94DCF364B6182266AFF /* Pods_GodEye_Tests.framework */; };
 		9E19FE3A1E25072E002A7398 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19FE391E25072E002A7398 /* DemoModel.swift */; };
+		9EA9D81F1E821D330045492A /* GodEye.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA9D81D1E821D330045492A /* GodEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA9D8751E821D440045492A /* eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA9D8261E821D440045492A /* eye@2x.png */; };
+		9EA9D8761E821D440045492A /* eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA9D8271E821D440045492A /* eye@3x.png */; };
+		9EA9D8781E821D440045492A /* CommandConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D82B1E821D440045492A /* CommandConfiguration.swift */; };
+		9EA9D8791E821D440045492A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D82C1E821D440045492A /* Configuration.swift */; };
+		9EA9D87A1E821D440045492A /* ControlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D82D1E821D440045492A /* ControlConfiguration.swift */; };
+		9EA9D87B1E821D440045492A /* SwitchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D82E1E821D440045492A /* SwitchConfiguration.swift */; };
+		9EA9D87C1E821D440045492A /* GodEyeController+Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8301E821D440045492A /* GodEyeController+Show.swift */; };
+		9EA9D87D1E821D440045492A /* GodEyeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8311E821D440045492A /* GodEyeController.swift */; };
+		9EA9D87E1E821D440045492A /* ConsolePrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8331E821D440045492A /* ConsolePrintViewController.swift */; };
+		9EA9D87F1E821D440045492A /* ConsoleController+Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8361E821D440045492A /* ConsoleController+Eye.swift */; };
+		9EA9D8801E821D440045492A /* ConsoleController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8371E821D440045492A /* ConsoleController+TableView.swift */; };
+		9EA9D8811E821D440045492A /* ConsoleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8381E821D440045492A /* ConsoleController.swift */; };
+		9EA9D8821E821D440045492A /* EyesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8391E821D440045492A /* EyesManager.swift */; };
+		9EA9D8831E821D440045492A /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D83B1E821D440045492A /* FileController.swift */; };
+		9EA9D8841E821D440045492A /* MonitorContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D83D1E821D440045492A /* MonitorContainerView.swift */; };
+		9EA9D8851E821D440045492A /* MonitorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D83E1E821D440045492A /* MonitorController.swift */; };
+		9EA9D8861E821D440045492A /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8401E821D440045492A /* SettingController.swift */; };
+		9EA9D8871E821D440045492A /* MonitorSystemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8421E821D440045492A /* MonitorSystemType.swift */; };
+		9EA9D8881E821D440045492A /* RecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8431E821D440045492A /* RecordType.swift */; };
+		9EA9D8891E821D440045492A /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8441E821D440045492A /* Define.swift */; };
+		9EA9D88A1E821D440045492A /* GodEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8451E821D440045492A /* GodEye.swift */; };
+		9EA9D88B1E821D440045492A /* ANRRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8471E821D440045492A /* ANRRecordModel.swift */; };
+		9EA9D88C1E821D440045492A /* CommandRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8481E821D440045492A /* CommandRecordModel.swift */; };
+		9EA9D88D1E821D440045492A /* CrashRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8491E821D440045492A /* CrashRecordModel.swift */; };
+		9EA9D88E1E821D440045492A /* LeakRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D84A1E821D440045492A /* LeakRecordModel.swift */; };
+		9EA9D88F1E821D440045492A /* LogRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D84B1E821D440045492A /* LogRecordModel.swift */; };
+		9EA9D8901E821D440045492A /* NetworkRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D84C1E821D440045492A /* NetworkRecordModel.swift */; };
+		9EA9D8911E821D440045492A /* ANRRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D84E1E821D440045492A /* ANRRecordModel+ORM.swift */; };
+		9EA9D8921E821D440045492A /* CommandRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D84F1E821D440045492A /* CommandRecordModel+ORM.swift */; };
+		9EA9D8931E821D440045492A /* CrashRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8501E821D440045492A /* CrashRecordModel+ORM.swift */; };
+		9EA9D8941E821D440045492A /* LeakRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8511E821D440045492A /* LeakRecordModel+ORM.swift */; };
+		9EA9D8951E821D440045492A /* LogRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8521E821D440045492A /* LogRecordModel+ORM.swift */; };
+		9EA9D8961E821D440045492A /* NetworkRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8531E821D440045492A /* NetworkRecordModel+ORM.swift */; };
+		9EA9D8971E821D440045492A /* ORMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8541E821D440045492A /* ORMProtocol.swift */; };
+		9EA9D8981E821D440045492A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8561E821D440045492A /* Store.swift */; };
+		9EA9D8991E821D440045492A /* UIFont+GodEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8571E821D440045492A /* UIFont+GodEye.swift */; };
+		9EA9D89A1E821D440045492A /* UIWindow+GodEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8581E821D440045492A /* UIWindow+GodEye.swift */; };
+		9EA9D89B1E821D440045492A /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D85B1E821D440045492A /* Date+.swift */; };
+		9EA9D89C1E821D440045492A /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D85C1E821D440045492A /* String+.swift */; };
+		9EA9D89D1E821D440045492A /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D85D1E821D440045492A /* Thread.swift */; };
+		9EA9D89E1E821D440045492A /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D85E1E821D440045492A /* UITableView+.swift */; };
+		9EA9D89F1E821D440045492A /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D85F1E821D440045492A /* UITableViewCell+.swift */; };
+		9EA9D8A01E821D440045492A /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8601E821D440045492A /* Double+.swift */; };
+		9EA9D8A11E821D440045492A /* UIApplication+GodEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8611E821D440045492A /* UIApplication+GodEye.swift */; };
+		9EA9D8A21E821D440045492A /* UIScreen+GodEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8621E821D440045492A /* UIScreen+GodEye.swift */; };
+		9EA9D8A31E821D440045492A /* UIView+GodEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8631E821D440045492A /* UIView+GodEye.swift */; };
+		9EA9D8A41E821D440045492A /* MonitorBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8661E821D440045492A /* MonitorBaseView.swift */; };
+		9EA9D8A51E821D440045492A /* MonitorDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8671E821D440045492A /* MonitorDeviceView.swift */; };
+		9EA9D8A61E821D440045492A /* MonitorSysNetFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8681E821D440045492A /* MonitorSysNetFlowView.swift */; };
+		9EA9D8A71E821D440045492A /* RecordTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D86A1E821D440045492A /* RecordTableView.swift */; };
+		9EA9D8A81E821D440045492A /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D86B1E821D440045492A /* RecordTableViewCell.swift */; };
+		9EA9D8A91E821D440045492A /* ANRRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D86D1E821D440045492A /* ANRRecordViewModel.swift */; };
+		9EA9D8AA1E821D440045492A /* BaseRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D86E1E821D440045492A /* BaseRecordViewModel.swift */; };
+		9EA9D8AB1E821D440045492A /* CommandRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D86F1E821D440045492A /* CommandRecordViewModel.swift */; };
+		9EA9D8AC1E821D440045492A /* CrashRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8701E821D440045492A /* CrashRecordViewModel.swift */; };
+		9EA9D8AD1E821D440045492A /* LeakRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8711E821D440045492A /* LeakRecordViewModel.swift */; };
+		9EA9D8AE1E821D440045492A /* LogRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8721E821D440045492A /* LogRecordViewModel.swift */; };
+		9EA9D8AF1E821D440045492A /* NetworkRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9D8731E821D440045492A /* NetworkRecordViewModel.swift */; };
+		9EA9D8B11E821DB20045492A /* ANREye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8B01E821DB20045492A /* ANREye.framework */; };
+		9EA9D8B31E821DB60045492A /* AppBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8B21E821DB60045492A /* AppBaseKit.framework */; };
+		9EA9D8B51E821DB90045492A /* AppSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8B41E821DB90045492A /* AppSwizzle.framework */; };
+		9EA9D8B71E821DBD0045492A /* ASLEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8B61E821DBD0045492A /* ASLEye.framework */; };
+		9EA9D8B91E821DC20045492A /* AssistiveButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8B81E821DC20045492A /* AssistiveButton.framework */; };
+		9EA9D8BB1E821DCA0045492A /* CrashEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8BA1E821DCA0045492A /* CrashEye.framework */; };
+		9EA9D8BD1E821DD40045492A /* ESPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8BC1E821DD40045492A /* ESPullToRefresh.framework */; };
+		9EA9D8BF1E821DD80045492A /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8BE1E821DD80045492A /* FileBrowser.framework */; };
+		9EA9D8C11E821DDE0045492A /* LeakEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C01E821DDE0045492A /* LeakEye.framework */; };
+		9EA9D8C31E821DE20045492A /* Log4G.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C21E821DE20045492A /* Log4G.framework */; };
+		9EA9D8C51E821DE60045492A /* NetworkEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C41E821DE60045492A /* NetworkEye.framework */; };
+		9EA9D8C71E821DE90045492A /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C61E821DE90045492A /* SQLite.framework */; };
+		9EA9D8C91E821DED0045492A /* SwViewCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C81E821DED0045492A /* SwViewCapture.framework */; };
+		9EA9D8CB1E821DF00045492A /* SystemEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8CA1E821DF00045492A /* SystemEye.framework */; };
 		D8BE7E202C2E7281CE37BBF5 /* Pods_GodEye_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD8E22232895D32D06FB834 /* Pods_GodEye_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +117,81 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		78C2A5A02918EC5DDB2CEB2F /* Pods-GodEye_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodEye_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GodEye_Example/Pods-GodEye_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9E19FE391E25072E002A7398 /* DemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModel.swift; sourceTree = "<group>"; };
+		9EA9D81B1E821D330045492A /* GodEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GodEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA9D81D1E821D330045492A /* GodEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodEye.h; sourceTree = "<group>"; };
+		9EA9D81E1E821D330045492A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA9D8261E821D440045492A /* eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye@2x.png"; sourceTree = "<group>"; };
+		9EA9D8271E821D440045492A /* eye@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye@3x.png"; sourceTree = "<group>"; };
+		9EA9D82B1E821D440045492A /* CommandConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandConfiguration.swift; sourceTree = "<group>"; };
+		9EA9D82C1E821D440045492A /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		9EA9D82D1E821D440045492A /* ControlConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlConfiguration.swift; sourceTree = "<group>"; };
+		9EA9D82E1E821D440045492A /* SwitchConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchConfiguration.swift; sourceTree = "<group>"; };
+		9EA9D8301E821D440045492A /* GodEyeController+Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GodEyeController+Show.swift"; sourceTree = "<group>"; };
+		9EA9D8311E821D440045492A /* GodEyeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GodEyeController.swift; sourceTree = "<group>"; };
+		9EA9D8331E821D440045492A /* ConsolePrintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsolePrintViewController.swift; sourceTree = "<group>"; };
+		9EA9D8361E821D440045492A /* ConsoleController+Eye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConsoleController+Eye.swift"; sourceTree = "<group>"; };
+		9EA9D8371E821D440045492A /* ConsoleController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConsoleController+TableView.swift"; sourceTree = "<group>"; };
+		9EA9D8381E821D440045492A /* ConsoleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleController.swift; sourceTree = "<group>"; };
+		9EA9D8391E821D440045492A /* EyesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesManager.swift; sourceTree = "<group>"; };
+		9EA9D83B1E821D440045492A /* FileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
+		9EA9D83D1E821D440045492A /* MonitorContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorContainerView.swift; sourceTree = "<group>"; };
+		9EA9D83E1E821D440045492A /* MonitorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorController.swift; sourceTree = "<group>"; };
+		9EA9D8401E821D440045492A /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		9EA9D8421E821D440045492A /* MonitorSystemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorSystemType.swift; sourceTree = "<group>"; };
+		9EA9D8431E821D440045492A /* RecordType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordType.swift; sourceTree = "<group>"; };
+		9EA9D8441E821D440045492A /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		9EA9D8451E821D440045492A /* GodEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GodEye.swift; sourceTree = "<group>"; };
+		9EA9D8471E821D440045492A /* ANRRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANRRecordModel.swift; sourceTree = "<group>"; };
+		9EA9D8481E821D440045492A /* CommandRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandRecordModel.swift; sourceTree = "<group>"; };
+		9EA9D8491E821D440045492A /* CrashRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashRecordModel.swift; sourceTree = "<group>"; };
+		9EA9D84A1E821D440045492A /* LeakRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakRecordModel.swift; sourceTree = "<group>"; };
+		9EA9D84B1E821D440045492A /* LogRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRecordModel.swift; sourceTree = "<group>"; };
+		9EA9D84C1E821D440045492A /* NetworkRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRecordModel.swift; sourceTree = "<group>"; };
+		9EA9D84E1E821D440045492A /* ANRRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ANRRecordModel+ORM.swift"; sourceTree = "<group>"; };
+		9EA9D84F1E821D440045492A /* CommandRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CommandRecordModel+ORM.swift"; sourceTree = "<group>"; };
+		9EA9D8501E821D440045492A /* CrashRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CrashRecordModel+ORM.swift"; sourceTree = "<group>"; };
+		9EA9D8511E821D440045492A /* LeakRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LeakRecordModel+ORM.swift"; sourceTree = "<group>"; };
+		9EA9D8521E821D440045492A /* LogRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LogRecordModel+ORM.swift"; sourceTree = "<group>"; };
+		9EA9D8531E821D440045492A /* NetworkRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkRecordModel+ORM.swift"; sourceTree = "<group>"; };
+		9EA9D8541E821D440045492A /* ORMProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORMProtocol.swift; sourceTree = "<group>"; };
+		9EA9D8561E821D440045492A /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		9EA9D8571E821D440045492A /* UIFont+GodEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+GodEye.swift"; sourceTree = "<group>"; };
+		9EA9D8581E821D440045492A /* UIWindow+GodEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+GodEye.swift"; sourceTree = "<group>"; };
+		9EA9D85B1E821D440045492A /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		9EA9D85C1E821D440045492A /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		9EA9D85D1E821D440045492A /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		9EA9D85E1E821D440045492A /* UITableView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		9EA9D85F1E821D440045492A /* UITableViewCell+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
+		9EA9D8601E821D440045492A /* Double+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		9EA9D8611E821D440045492A /* UIApplication+GodEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+GodEye.swift"; sourceTree = "<group>"; };
+		9EA9D8621E821D440045492A /* UIScreen+GodEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+GodEye.swift"; sourceTree = "<group>"; };
+		9EA9D8631E821D440045492A /* UIView+GodEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+GodEye.swift"; sourceTree = "<group>"; };
+		9EA9D8661E821D440045492A /* MonitorBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorBaseView.swift; sourceTree = "<group>"; };
+		9EA9D8671E821D440045492A /* MonitorDeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorDeviceView.swift; sourceTree = "<group>"; };
+		9EA9D8681E821D440045492A /* MonitorSysNetFlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorSysNetFlowView.swift; sourceTree = "<group>"; };
+		9EA9D86A1E821D440045492A /* RecordTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableView.swift; sourceTree = "<group>"; };
+		9EA9D86B1E821D440045492A /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		9EA9D86D1E821D440045492A /* ANRRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANRRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D86E1E821D440045492A /* BaseRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D86F1E821D440045492A /* CommandRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D8701E821D440045492A /* CrashRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D8711E821D440045492A /* LeakRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D8721E821D440045492A /* LogRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D8731E821D440045492A /* NetworkRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRecordViewModel.swift; sourceTree = "<group>"; };
+		9EA9D8B01E821DB20045492A /* ANREye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ANREye.framework; path = ../Carthage/Build/iOS/ANREye.framework; sourceTree = "<group>"; };
+		9EA9D8B21E821DB60045492A /* AppBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppBaseKit.framework; path = ../Carthage/Build/iOS/AppBaseKit.framework; sourceTree = "<group>"; };
+		9EA9D8B41E821DB90045492A /* AppSwizzle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSwizzle.framework; path = ../Carthage/Build/iOS/AppSwizzle.framework; sourceTree = "<group>"; };
+		9EA9D8B61E821DBD0045492A /* ASLEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASLEye.framework; path = ../Carthage/Build/iOS/ASLEye.framework; sourceTree = "<group>"; };
+		9EA9D8B81E821DC20045492A /* AssistiveButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssistiveButton.framework; path = ../Carthage/Build/iOS/AssistiveButton.framework; sourceTree = "<group>"; };
+		9EA9D8BA1E821DCA0045492A /* CrashEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashEye.framework; path = ../Carthage/Build/iOS/CrashEye.framework; sourceTree = "<group>"; };
+		9EA9D8BC1E821DD40045492A /* ESPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESPullToRefresh.framework; path = ../Carthage/Build/iOS/ESPullToRefresh.framework; sourceTree = "<group>"; };
+		9EA9D8BE1E821DD80045492A /* FileBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileBrowser.framework; path = ../Carthage/Build/iOS/FileBrowser.framework; sourceTree = "<group>"; };
+		9EA9D8C01E821DDE0045492A /* LeakEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LeakEye.framework; path = ../Carthage/Build/iOS/LeakEye.framework; sourceTree = "<group>"; };
+		9EA9D8C21E821DE20045492A /* Log4G.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Log4G.framework; path = ../Carthage/Build/iOS/Log4G.framework; sourceTree = "<group>"; };
+		9EA9D8C41E821DE60045492A /* NetworkEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkEye.framework; path = ../Carthage/Build/iOS/NetworkEye.framework; sourceTree = "<group>"; };
+		9EA9D8C61E821DE90045492A /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = ../Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		9EA9D8C81E821DED0045492A /* SwViewCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwViewCapture.framework; path = ../Carthage/Build/iOS/SwViewCapture.framework; sourceTree = "<group>"; };
+		9EA9D8CA1E821DF00045492A /* SystemEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemEye.framework; path = ../Carthage/Build/iOS/SystemEye.framework; sourceTree = "<group>"; };
 		B7B09398705F2E997E16DF59 /* Pods-GodEye_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodEye_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GodEye_Tests/Pods-GodEye_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C0ABE2AA0DC951C75EC55266 /* Pods-GodEye_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodEye_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GodEye_Example/Pods-GodEye_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAD8E22232895D32D06FB834 /* Pods_GodEye_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GodEye_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +216,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EA9D8171E821D330045492A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA9D8BD1E821DD40045492A /* ESPullToRefresh.framework in Frameworks */,
+				9EA9D8B11E821DB20045492A /* ANREye.framework in Frameworks */,
+				9EA9D8B31E821DB60045492A /* AppBaseKit.framework in Frameworks */,
+				9EA9D8B51E821DB90045492A /* AppSwizzle.framework in Frameworks */,
+				9EA9D8B91E821DC20045492A /* AssistiveButton.framework in Frameworks */,
+				9EA9D8B71E821DBD0045492A /* ASLEye.framework in Frameworks */,
+				9EA9D8BF1E821DD80045492A /* FileBrowser.framework in Frameworks */,
+				9EA9D8C31E821DE20045492A /* Log4G.framework in Frameworks */,
+				9EA9D8C11E821DDE0045492A /* LeakEye.framework in Frameworks */,
+				9EA9D8C71E821DE90045492A /* SQLite.framework in Frameworks */,
+				9EA9D8C51E821DE60045492A /* NetworkEye.framework in Frameworks */,
+				9EA9D8CB1E821DF00045492A /* SystemEye.framework in Frameworks */,
+				9EA9D8C91E821DED0045492A /* SwViewCapture.framework in Frameworks */,
+				9EA9D8BB1E821DCA0045492A /* CrashEye.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +257,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for GodEye */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				9EA9D81C1E821D330045492A /* GodEye */,
 				607FACD11AFB9204008FA782 /* Products */,
 				5459B87DAFE08EC274CCF455 /* Pods */,
 				E4499FB9EECF304E2155F820 /* Frameworks */,
@@ -99,6 +269,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* GodEye_Example.app */,
 				607FACE51AFB9204008FA782 /* GodEye_Tests.xctest */,
+				9EA9D81B1E821D330045492A /* GodEye.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,9 +324,259 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9EA9D81C1E821D330045492A /* GodEye */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8231E821D440045492A /* GodEye */,
+				9EA9D81D1E821D330045492A /* GodEye.h */,
+				9EA9D81E1E821D330045492A /* Info.plist */,
+			);
+			path = GodEye;
+			sourceTree = "<group>";
+		};
+		9EA9D8231E821D440045492A /* GodEye */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8241E821D440045492A /* Assets */,
+				9EA9D8281E821D440045492A /* Classes */,
+			);
+			name = GodEye;
+			path = ../../GodEye;
+			sourceTree = "<group>";
+		};
+		9EA9D8241E821D440045492A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8261E821D440045492A /* eye@2x.png */,
+				9EA9D8271E821D440045492A /* eye@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9EA9D8281E821D440045492A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D82A1E821D440045492A /* Configuration */,
+				9EA9D82F1E821D440045492A /* Controller */,
+				9EA9D8411E821D440045492A /* Define */,
+				9EA9D8441E821D440045492A /* Define.swift */,
+				9EA9D8451E821D440045492A /* GodEye.swift */,
+				9EA9D8461E821D440045492A /* Model */,
+				9EA9D84D1E821D440045492A /* ORM */,
+				9EA9D8551E821D440045492A /* Store */,
+				9EA9D8571E821D440045492A /* UIFont+GodEye.swift */,
+				9EA9D8581E821D440045492A /* UIWindow+GodEye.swift */,
+				9EA9D8591E821D440045492A /* Util */,
+				9EA9D8641E821D440045492A /* View */,
+				9EA9D86C1E821D440045492A /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9EA9D82A1E821D440045492A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D82B1E821D440045492A /* CommandConfiguration.swift */,
+				9EA9D82C1E821D440045492A /* Configuration.swift */,
+				9EA9D82D1E821D440045492A /* ControlConfiguration.swift */,
+				9EA9D82E1E821D440045492A /* SwitchConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9EA9D82F1E821D440045492A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8301E821D440045492A /* GodEyeController+Show.swift */,
+				9EA9D8311E821D440045492A /* GodEyeController.swift */,
+				9EA9D8321E821D440045492A /* Sub */,
+				9EA9D8341E821D440045492A /* TabController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9EA9D8321E821D440045492A /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8331E821D440045492A /* ConsolePrintViewController.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		9EA9D8341E821D440045492A /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8351E821D440045492A /* ConsoleController */,
+				9EA9D83A1E821D440045492A /* FileController */,
+				9EA9D83C1E821D440045492A /* MonitorController */,
+				9EA9D83F1E821D440045492A /* SettingController */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
+		9EA9D8351E821D440045492A /* ConsoleController */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8361E821D440045492A /* ConsoleController+Eye.swift */,
+				9EA9D8371E821D440045492A /* ConsoleController+TableView.swift */,
+				9EA9D8381E821D440045492A /* ConsoleController.swift */,
+				9EA9D8391E821D440045492A /* EyesManager.swift */,
+			);
+			path = ConsoleController;
+			sourceTree = "<group>";
+		};
+		9EA9D83A1E821D440045492A /* FileController */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D83B1E821D440045492A /* FileController.swift */,
+			);
+			path = FileController;
+			sourceTree = "<group>";
+		};
+		9EA9D83C1E821D440045492A /* MonitorController */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D83D1E821D440045492A /* MonitorContainerView.swift */,
+				9EA9D83E1E821D440045492A /* MonitorController.swift */,
+			);
+			path = MonitorController;
+			sourceTree = "<group>";
+		};
+		9EA9D83F1E821D440045492A /* SettingController */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8401E821D440045492A /* SettingController.swift */,
+			);
+			path = SettingController;
+			sourceTree = "<group>";
+		};
+		9EA9D8411E821D440045492A /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8421E821D440045492A /* MonitorSystemType.swift */,
+				9EA9D8431E821D440045492A /* RecordType.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		9EA9D8461E821D440045492A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8471E821D440045492A /* ANRRecordModel.swift */,
+				9EA9D8481E821D440045492A /* CommandRecordModel.swift */,
+				9EA9D8491E821D440045492A /* CrashRecordModel.swift */,
+				9EA9D84A1E821D440045492A /* LeakRecordModel.swift */,
+				9EA9D84B1E821D440045492A /* LogRecordModel.swift */,
+				9EA9D84C1E821D440045492A /* NetworkRecordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EA9D84D1E821D440045492A /* ORM */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D84E1E821D440045492A /* ANRRecordModel+ORM.swift */,
+				9EA9D84F1E821D440045492A /* CommandRecordModel+ORM.swift */,
+				9EA9D8501E821D440045492A /* CrashRecordModel+ORM.swift */,
+				9EA9D8511E821D440045492A /* LeakRecordModel+ORM.swift */,
+				9EA9D8521E821D440045492A /* LogRecordModel+ORM.swift */,
+				9EA9D8531E821D440045492A /* NetworkRecordModel+ORM.swift */,
+				9EA9D8541E821D440045492A /* ORMProtocol.swift */,
+			);
+			path = ORM;
+			sourceTree = "<group>";
+		};
+		9EA9D8551E821D440045492A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8561E821D440045492A /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		9EA9D8591E821D440045492A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D85A1E821D440045492A /* Base */,
+				9EA9D8601E821D440045492A /* Double+.swift */,
+				9EA9D8611E821D440045492A /* UIApplication+GodEye.swift */,
+				9EA9D8621E821D440045492A /* UIScreen+GodEye.swift */,
+				9EA9D8631E821D440045492A /* UIView+GodEye.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9EA9D85A1E821D440045492A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D85B1E821D440045492A /* Date+.swift */,
+				9EA9D85C1E821D440045492A /* String+.swift */,
+				9EA9D85D1E821D440045492A /* Thread.swift */,
+				9EA9D85E1E821D440045492A /* UITableView+.swift */,
+				9EA9D85F1E821D440045492A /* UITableViewCell+.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9EA9D8641E821D440045492A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8651E821D440045492A /* Monitor */,
+				9EA9D8691E821D440045492A /* RecordTableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EA9D8651E821D440045492A /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D8661E821D440045492A /* MonitorBaseView.swift */,
+				9EA9D8671E821D440045492A /* MonitorDeviceView.swift */,
+				9EA9D8681E821D440045492A /* MonitorSysNetFlowView.swift */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		9EA9D8691E821D440045492A /* RecordTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D86A1E821D440045492A /* RecordTableView.swift */,
+				9EA9D86B1E821D440045492A /* RecordTableViewCell.swift */,
+			);
+			path = RecordTableView;
+			sourceTree = "<group>";
+		};
+		9EA9D86C1E821D440045492A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9D86D1E821D440045492A /* ANRRecordViewModel.swift */,
+				9EA9D86E1E821D440045492A /* BaseRecordViewModel.swift */,
+				9EA9D86F1E821D440045492A /* CommandRecordViewModel.swift */,
+				9EA9D8701E821D440045492A /* CrashRecordViewModel.swift */,
+				9EA9D8711E821D440045492A /* LeakRecordViewModel.swift */,
+				9EA9D8721E821D440045492A /* LogRecordViewModel.swift */,
+				9EA9D8731E821D440045492A /* NetworkRecordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E4499FB9EECF304E2155F820 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9EA9D8CA1E821DF00045492A /* SystemEye.framework */,
+				9EA9D8C81E821DED0045492A /* SwViewCapture.framework */,
+				9EA9D8C61E821DE90045492A /* SQLite.framework */,
+				9EA9D8C41E821DE60045492A /* NetworkEye.framework */,
+				9EA9D8C21E821DE20045492A /* Log4G.framework */,
+				9EA9D8C01E821DDE0045492A /* LeakEye.framework */,
+				9EA9D8BE1E821DD80045492A /* FileBrowser.framework */,
+				9EA9D8BC1E821DD40045492A /* ESPullToRefresh.framework */,
+				9EA9D8BA1E821DCA0045492A /* CrashEye.framework */,
+				9EA9D8B81E821DC20045492A /* AssistiveButton.framework */,
+				9EA9D8B61E821DBD0045492A /* ASLEye.framework */,
+				9EA9D8B41E821DB90045492A /* AppSwizzle.framework */,
+				9EA9D8B21E821DB60045492A /* AppBaseKit.framework */,
+				9EA9D8B01E821DB20045492A /* ANREye.framework */,
 				DAD8E22232895D32D06FB834 /* Pods_GodEye_Example.framework */,
 				E8CBB94DCF364B6182266AFF /* Pods_GodEye_Tests.framework */,
 			);
@@ -163,6 +584,17 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EA9D8181E821D330045492A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA9D81F1E821D330045492A /* GodEye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* GodEye_Example */ = {
@@ -206,6 +638,25 @@
 			productReference = 607FACE51AFB9204008FA782 /* GodEye_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9EA9D81A1E821D330045492A /* GodEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA9D8221E821D330045492A /* Build configuration list for PBXNativeTarget "GodEye" */;
+			buildPhases = (
+				9EA9D8161E821D330045492A /* Sources */,
+				9EA9D8171E821D330045492A /* Frameworks */,
+				9EA9D8181E821D330045492A /* Headers */,
+				9EA9D8191E821D330045492A /* Resources */,
+				9EA9D8CC1E821DFE0045492A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodEye;
+			productName = GodEye;
+			productReference = 9EA9D81B1E821D330045492A /* GodEye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +678,11 @@
 						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					9EA9D81A1E821D330045492A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "GodEye" */;
@@ -244,6 +700,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* GodEye_Example */,
 				607FACE41AFB9204008FA782 /* GodEye_Tests */,
+				9EA9D81A1E821D330045492A /* GodEye */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +720,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA9D8191E821D330045492A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA9D8751E821D440045492A /* eye@2x.png in Resources */,
+				9EA9D8761E821D440045492A /* eye@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +764,33 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GodEye_Example/Pods-GodEye_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		9EA9D8CC1E821DFE0045492A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/ESPullToRefresh.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/ANREye.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/AppBaseKit.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/AppSwizzle.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/AssistiveButton.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/ASLEye.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/FileBrowser.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/Log4G.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/LeakEye.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/SQLite.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/NetworkEye.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/SystemEye.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/SwViewCapture.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/CrashEye.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 		D338EB86C330D7964F049BF8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -377,6 +870,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA9D8161E821D330045492A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA9D8861E821D440045492A /* SettingController.swift in Sources */,
+				9EA9D88A1E821D440045492A /* GodEye.swift in Sources */,
+				9EA9D8871E821D440045492A /* MonitorSystemType.swift in Sources */,
+				9EA9D89D1E821D440045492A /* Thread.swift in Sources */,
+				9EA9D87A1E821D440045492A /* ControlConfiguration.swift in Sources */,
+				9EA9D88B1E821D440045492A /* ANRRecordModel.swift in Sources */,
+				9EA9D8A41E821D440045492A /* MonitorBaseView.swift in Sources */,
+				9EA9D89C1E821D440045492A /* String+.swift in Sources */,
+				9EA9D8791E821D440045492A /* Configuration.swift in Sources */,
+				9EA9D8A81E821D440045492A /* RecordTableViewCell.swift in Sources */,
+				9EA9D8981E821D440045492A /* Store.swift in Sources */,
+				9EA9D88E1E821D440045492A /* LeakRecordModel.swift in Sources */,
+				9EA9D8851E821D440045492A /* MonitorController.swift in Sources */,
+				9EA9D8AE1E821D440045492A /* LogRecordViewModel.swift in Sources */,
+				9EA9D8951E821D440045492A /* LogRecordModel+ORM.swift in Sources */,
+				9EA9D8921E821D440045492A /* CommandRecordModel+ORM.swift in Sources */,
+				9EA9D89F1E821D440045492A /* UITableViewCell+.swift in Sources */,
+				9EA9D87D1E821D440045492A /* GodEyeController.swift in Sources */,
+				9EA9D8A31E821D440045492A /* UIView+GodEye.swift in Sources */,
+				9EA9D88F1E821D440045492A /* LogRecordModel.swift in Sources */,
+				9EA9D8A71E821D440045492A /* RecordTableView.swift in Sources */,
+				9EA9D8991E821D440045492A /* UIFont+GodEye.swift in Sources */,
+				9EA9D8AA1E821D440045492A /* BaseRecordViewModel.swift in Sources */,
+				9EA9D8AD1E821D440045492A /* LeakRecordViewModel.swift in Sources */,
+				9EA9D8971E821D440045492A /* ORMProtocol.swift in Sources */,
+				9EA9D8A21E821D440045492A /* UIScreen+GodEye.swift in Sources */,
+				9EA9D8AC1E821D440045492A /* CrashRecordViewModel.swift in Sources */,
+				9EA9D8831E821D440045492A /* FileController.swift in Sources */,
+				9EA9D8AB1E821D440045492A /* CommandRecordViewModel.swift in Sources */,
+				9EA9D8A11E821D440045492A /* UIApplication+GodEye.swift in Sources */,
+				9EA9D8A91E821D440045492A /* ANRRecordViewModel.swift in Sources */,
+				9EA9D8961E821D440045492A /* NetworkRecordModel+ORM.swift in Sources */,
+				9EA9D8911E821D440045492A /* ANRRecordModel+ORM.swift in Sources */,
+				9EA9D8811E821D440045492A /* ConsoleController.swift in Sources */,
+				9EA9D88D1E821D440045492A /* CrashRecordModel.swift in Sources */,
+				9EA9D8931E821D440045492A /* CrashRecordModel+ORM.swift in Sources */,
+				9EA9D89A1E821D440045492A /* UIWindow+GodEye.swift in Sources */,
+				9EA9D87F1E821D440045492A /* ConsoleController+Eye.swift in Sources */,
+				9EA9D87E1E821D440045492A /* ConsolePrintViewController.swift in Sources */,
+				9EA9D8891E821D440045492A /* Define.swift in Sources */,
+				9EA9D8941E821D440045492A /* LeakRecordModel+ORM.swift in Sources */,
+				9EA9D8A61E821D440045492A /* MonitorSysNetFlowView.swift in Sources */,
+				9EA9D8841E821D440045492A /* MonitorContainerView.swift in Sources */,
+				9EA9D89B1E821D440045492A /* Date+.swift in Sources */,
+				9EA9D8AF1E821D440045492A /* NetworkRecordViewModel.swift in Sources */,
+				9EA9D88C1E821D440045492A /* CommandRecordModel.swift in Sources */,
+				9EA9D8801E821D440045492A /* ConsoleController+TableView.swift in Sources */,
+				9EA9D8A01E821D440045492A /* Double+.swift in Sources */,
+				9EA9D8881E821D440045492A /* RecordType.swift in Sources */,
+				9EA9D89E1E821D440045492A /* UITableView+.swift in Sources */,
+				9EA9D8821E821D440045492A /* EyesManager.swift in Sources */,
+				9EA9D8A51E821D440045492A /* MonitorDeviceView.swift in Sources */,
+				9EA9D87B1E821D440045492A /* SwitchConfiguration.swift in Sources */,
+				9EA9D8901E821D440045492A /* NetworkRecordModel.swift in Sources */,
+				9EA9D8781E821D440045492A /* CommandConfiguration.swift in Sources */,
+				9EA9D87C1E821D440045492A /* GodEyeController+Show.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +1116,67 @@
 			};
 			name = Release;
 		};
+		9EA9D8201E821D330045492A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/**";
+				INFOPLIST_FILE = GodEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.GodEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EA9D8211E821D330045492A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/**";
+				INFOPLIST_FILE = GodEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.GodEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +1206,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		9EA9D8221E821D330045492A /* Build configuration list for PBXNativeTarget "GodEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA9D8201E821D330045492A /* Debug */,
+				9EA9D8211E821D330045492A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

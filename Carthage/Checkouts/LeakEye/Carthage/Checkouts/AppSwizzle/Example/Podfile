@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AppSwizzle_Tests' do
+  pod 'AppSwizzle', :path => '../'
+  
+  
+end

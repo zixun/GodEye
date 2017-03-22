@@ -1,0 +1,16 @@
+PODS:
+  - AppSwizzle (0.1.0)
+
+DEPENDENCIES:
+  - AppSwizzle (from `../`)
+
+EXTERNAL SOURCES:
+  AppSwizzle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppSwizzle: eddd38c6429de033e115f66862622723274926a0
+
+PODFILE CHECKSUM: 939ed1355ec6a0adef5ae3f3b1e627821b2fc52a
+
+COCOAPODS: 1.1.1

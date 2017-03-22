@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D59A67FE6CA170C15FD7BFC20A431E042F4DA650",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D59A67FE6CA170C15FD7BFC20A431E042F4DA650" : 9223372036854775807,
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ED28BAF9-68A9-49D5-B497-F7E8651AA86D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D59A67FE6CA170C15FD7BFC20A431E042F4DA650" : "NetworkEye\/",
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NetworkEye",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/NetworkEye.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zixunapp\/AppSaber-MAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1F56C483977AC36F575A9C50FB74A7EFF41C69"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/NetworkEye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D59A67FE6CA170C15FD7BFC20A431E042F4DA650"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'LeakEye_Example' do
+  pod 'LeakEye', :path => '../'
+  target 'LeakEye_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

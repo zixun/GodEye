@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASLEye_Example' do
+  pod 'ASLEye', :path => '../'
+
+  target 'ASLEye_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

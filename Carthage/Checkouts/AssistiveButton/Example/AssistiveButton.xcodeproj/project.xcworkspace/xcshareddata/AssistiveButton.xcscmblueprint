@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60DE1C3A34E0DCD228D2ECF36F878D99014133B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60DE1C3A34E0DCD228D2ECF36F878D99014133B1" : 9223372036854775807,
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "73CE7CD0-A104-4A21-BD2F-503F6DFAE2F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60DE1C3A34E0DCD228D2ECF36F878D99014133B1" : "AssistiveButton\/",
+    "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AssistiveButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/AssistiveButton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/AssistiveButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60DE1C3A34E0DCD228D2ECF36F878D99014133B1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zixunapp\/AppSaber-MAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1F56C483977AC36F575A9C50FB74A7EFF41C69"
+    }
+  ]
+}
