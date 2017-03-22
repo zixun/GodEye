@@ -50,15 +50,23 @@ It's so huge that I split it into several independent components:
 
 
 ## Preview
-  <img src="./design/image/1-console.jpg" width=30%/>
-  <img src="./design/image/2-monitor.jpg" width=30%/>
-  <img src="./design/image/3-file_list.jpg" width=30%/>
-  <img src="./design/image/4-setting.jpg" width=30%/>
-  <img src="./design/image/5-log.jpg" width=30%/>
-  <img src="./design/image/6-crash.jpg" width=30%/>
-  <img src="./design/image/7-anr_detail.jpg" width=30%/>
-  <img src="./design/image/8-net_detail.jpg" width=30%/>
-  <img src="./design/image/9-terminal.jpg" width=30%/>
+  <img src="./design/image/1-console.jpg" width="30%"/>
+  <img src="./design/image/2-monitor.jpg" width="30%"/>
+  <img src="./design/image/3-file_list.jpg" width="30%"/>
+  <img src="./design/image/4-setting.jpg" width="30%"/>
+  <img src="./design/image/5-log.jpg" width="30%"/>
+  <img src="./design/image/6-crash.jpg" width="30%"/>
+  <img src="./design/image/7-anr_detail.jpg" width="30%"/>
+  <img src="./design/image/8-net_detail.jpg" width="30%"/>
+  <img src="./design/image/9-terminal.jpg" width="30%"/>
+
+## Book and Principle
+
+**I has wrote a book named [《iOS监控编程》](https://www.qingdan.us/product/25),each chapter records the course function of the implementation details and the way to explore.sorry for english friends,this book wrote by chineses.**
+
+<p align="center">
+  <img src="./design/image/cover.jpg" width=45%/>
+</p>
 
 ## Installation
 
@@ -118,14 +126,6 @@ and add the paths to the frameworks you want to use under “Input Files”:
   <img src="./design/image/runscript.jpg" width="690" height="565"/>
 </p>
 
-
-## Book and Principle
-
-**I has wrote a book named [《iOS监控编程》](https://www.qingdan.us/product/25),each chapter records the course function of the implementation details and the way to explore.sorry for english friends,this book wrote by chineses.**
-
-<p align="center">
-  <img src="./design/image/cover.jpg" width=45%/>
-</p>
 
 ## OpenSource Application Use GodEye
 
