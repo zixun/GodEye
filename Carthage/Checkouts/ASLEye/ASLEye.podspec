@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASLEye'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'ASLEye is an ASL monitor, automatic catch the log from NSLog by asl module.'
 
   s.description      = <<-DESC

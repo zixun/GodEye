@@ -15,11 +15,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
 AppSwizzle is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "AppSwizzle"
+```
+
+### Carthage
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+
+``` 
+github "zixun/AppSwizzle"
 ```
 ## Usage
 

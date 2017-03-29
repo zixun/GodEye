@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "SwViewCapture"
-s.version          = "1.0.5"
+s.version          = "1.0.6"
 s.summary          = "A nice iOS View Capture Library which can capture all content."
 
 s.description      = <<-DESC

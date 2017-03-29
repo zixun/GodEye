@@ -44,7 +44,7 @@ it, simply add the following line to your Podfile:
 pod "NetworkEye"
 ```
 ### Carthage
-Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add NetworkEye to your Cartfile:
 
 ``` 
 github "zixun/NetworkEye"

@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/Log4G.svg?style=flat)](http://cocoapods.org/pods/ASLEye)
 [![Platform](https://img.shields.io/cocoapods/p/Log4G.svg?style=flat)](http://cocoapods.org/pods/ASLEye)
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
+
 
 ASLEye is an ASL(Apple System Log) monitor, automatic catch the log from NSLog by asl module
 
@@ -38,11 +40,19 @@ func aslEye(aslEye:ASLEye,catchLogs logs:[String]) {
 
 ## Installation
 
+### CocoaPods
 ASLEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "ASLEye"
+```
+
+### Carthage
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+
+``` 
+github "zixun/ASLEye"
 ```
 
 ## Author

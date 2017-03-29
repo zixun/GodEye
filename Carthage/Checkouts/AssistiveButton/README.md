@@ -3,7 +3,6 @@
 [![Swift 3.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)](https://github.com/zixun/AssistiveButton)
 [![MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
 ## Context
 This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly disply Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
@@ -27,6 +26,7 @@ Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwVi
 
 ``` 
 github "zixun/AssistiveButton"
+```
 
 ## Usage
 

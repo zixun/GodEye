@@ -23,7 +23,7 @@ class STWKWebViewDemoController: UIViewController {
         webView = WKWebView(frame: self.view.bounds)
         let url = URL(string: "http://www.startry.com")
         let request = URLRequest(url: url!)
-        webView?.load(request)
+        _ = webView?.load(request)
         
         view.addSubview(webView!)
     }

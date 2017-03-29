@@ -1,5 +1,5 @@
 PODS:
-  - ANREye (0.1.0)
+  - ANREye (1.1.0)
 
 DEPENDENCIES:
   - ANREye (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ANREye: 850bd95d308567fa1b995c03ac794a6d20abea05
+  ANREye: c705d7bd2bfe26584554616ec7c56b887fcc5249
 
 PODFILE CHECKSUM: 43dc7e3969babdfdafcfc1af13cfdfff612d2d56
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0

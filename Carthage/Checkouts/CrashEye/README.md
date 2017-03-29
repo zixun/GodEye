@@ -35,13 +35,13 @@ Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwVi
 
 ``` 
 github "zixun/CrashEye"
+```
 
 ## Usage
 ### open and add delegate
 
 ```swift
 CrashEye.add(delegate: self)
-CrashEye.open()
 ```
 
 ### implement the delegate

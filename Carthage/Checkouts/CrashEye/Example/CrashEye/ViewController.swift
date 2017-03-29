@@ -15,9 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         CrashEye.add(delegate: self)
-        CrashEye.open()
-        CrashEye.close()
-        CrashEye.open()
         let arr = NSArray()
         arr[10]
     }

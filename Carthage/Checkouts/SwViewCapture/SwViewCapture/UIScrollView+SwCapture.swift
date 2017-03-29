@@ -61,7 +61,7 @@ public extension UIScrollView {
         
         // Swizzling setFrame
         let method: Method = class_getInstanceMethod(object_getClass(self), #selector(setter: UIView.frame))
-        let swizzledMethod: Method = class_getInstanceMethod(object_getClass(self), Selector("swSetFrame:"))
+        let swizzledMethod: Method = class_getInstanceMethod(object_getClass(self), Selector(("swSetFrame:")))
         method_exchangeImplementations(method, swizzledMethod)
         
         // Sometimes ScrollView will Capture nothing without defer;

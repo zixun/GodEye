@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AssistiveButton'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Simple Assistive Button.'
 
 # This description is used to generate tags and improve search results.

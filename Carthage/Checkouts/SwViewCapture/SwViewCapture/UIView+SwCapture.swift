@@ -20,15 +20,16 @@ public extension UIView {
     
     var isCapturing:Bool! {
         get {
-            let num =  objc_getAssociatedObject(self, &SwViewCaptureKey_IsCapturing)
+            let num = objc_getAssociatedObject(self, &SwViewCaptureKey_IsCapturing)
             if num == nil {
                 return false
             }
             
-//            num as AnyObject .boolValue
-            return false
-            
-//            return num.boolValue
+            if let numObj = num as? NSNumber {
+                return numObj.boolValue
+            }else {
+                return false
+            }
         }
         set(newValue) {
             let num = NSNumber(value: newValue as Bool)

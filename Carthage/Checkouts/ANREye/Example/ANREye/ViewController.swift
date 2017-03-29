@@ -17,8 +17,7 @@ class ViewController: UIViewController {
         
         self.anrEye = ANREye()
         self.anrEye.delegate = self
-        self.anrEye.start(with: 1)
-        
+        self.anrEye.open(with: 1)
         var s = ""
         for _ in 0..<9999 {
             for _ in 0..<9999 {

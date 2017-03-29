@@ -7,7 +7,7 @@
     "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3" : 9223372036854775807,
     "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "96BAC8FC-E296-4135-84F1-54FC58099DF5",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "53BF078C-251F-4275-8964-C6BE20CB5CE7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3" : "GodEye\/",
     "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
@@ -22,7 +22,7 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1F56C483977AC36F575A9C50FB74A7EFF41C69"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:GodEyeSwift\/GodEye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/GodEye.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3F7DA3A34E95B1AC5044B6CB97109AB59A9DCA3"
     }
