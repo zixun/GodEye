@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeakEye'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'LeakEye is a memory leak monitor write by swift inspired by PLeakSniffer.'
 
 # This description is used to generate tags and improve search results.

@@ -1,25 +1,25 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DB58DD37EA1B5358CB1103D5133CD67EC14E207",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60DE1C3A34E0DCD228D2ECF36F878D99014133B1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "1DB58DD37EA1B5358CB1103D5133CD67EC14E207" : 9223372036854775807,
+    "60DE1C3A34E0DCD228D2ECF36F878D99014133B1" : 9223372036854775807,
     "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8F0E8D0-B429-412F-B9BA-F12086FDCEFB",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5C08C586-8844-4407-916E-279BB8A964BF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "1DB58DD37EA1B5358CB1103D5133CD67EC14E207" : "LeakEye\/",
+    "60DE1C3A34E0DCD228D2ECF36F878D99014133B1" : "AssistiveButton\/",
     "BF1F56C483977AC36F575A9C50FB74A7EFF41C69" : "..\/.."
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "LeakEye",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AssistiveButton",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/LeakEye.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/AssistiveButton.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:GodEyeSwift\/LeakEye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zixun\/AssistiveButton.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DB58DD37EA1B5358CB1103D5133CD67EC14E207"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60DE1C3A34E0DCD228D2ECF36F878D99014133B1"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zixunapp\/AppSaber-MAC.git",

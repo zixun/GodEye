@@ -1,37 +1,37 @@
 PODS:
-  - ANREye (1.1.1)
-  - AppBaseKit (0.2.1)
+  - ANREye (1.1.2)
+  - AppBaseKit (0.2.2)
   - AppSwizzle (1.1.2)
   - ASLEye (1.1.1)
-  - AssistiveButton (1.1.1)
-  - CrashEye (1.1.1)
+  - AssistiveButton (1.1.2)
+  - CrashEye (1.1.2)
   - ESPullToRefresh (2.6)
   - FileBrowser (0.2.0)
   - GodEye (1.1.1):
     - ANREye (~> 1.1.1)
-    - AppBaseKit (~> 0.2.1)
+    - AppBaseKit (~> 0.2.2)
     - AppSwizzle (~> 1.1.2)
     - ASLEye (~> 1.1.1)
-    - AssistiveButton (~> 1.1.1)
-    - CrashEye (~> 1.1.1)
+    - AssistiveButton (~> 1.1.2)
+    - CrashEye (~> 1.1.2)
     - ESPullToRefresh (~> 2.6)
     - FileBrowser (~> 0.2.0)
-    - LeakEye (~> 1.1.2)
-    - Log4G (~> 0.2.1)
-    - NetworkEye.swift (~> 1.1.2)
+    - LeakEye (~> 1.1.3)
+    - Log4G (~> 0.2.2)
+    - NetworkEye.swift (~> 1.1.3)
     - SQLite.swift (~> 0.11.1)
     - SwViewCapture (~> 1.0.6)
-    - SystemEye (~> 0.2.1)
-  - LeakEye (1.1.2):
+    - SystemEye (~> 0.2.2)
+  - LeakEye (1.1.3):
     - AppSwizzle (~> 1.1.2)
-  - Log4G (0.2.1)
-  - NetworkEye.swift (1.1.2):
+  - Log4G (0.2.2)
+  - NetworkEye.swift (1.1.3):
     - AppSwizzle (~> 1.1.2)
   - SQLite.swift (0.11.2):
     - SQLite.swift/standard (= 0.11.2)
   - SQLite.swift/standard (0.11.2)
   - SwViewCapture (1.0.6)
-  - SystemEye (0.2.1)
+  - SystemEye (0.2.2)
 
 DEPENDENCIES:
   - GodEye (from `../`)
@@ -41,22 +41,22 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ANREye: 4bd6b25b35a2136b2d953475f6ac5141262c5496
-  AppBaseKit: c907e92b335e5128b72b18d3d635302b3bde8b0a
+  ANREye: 89ddab500dd2932041d97ef5213d8fc4081d2e00
+  AppBaseKit: a37076f159b3ffc8ab9e18ec3f330b543a48a223
   AppSwizzle: 45d1a9d71821e7e1bb3a2a503c2979ca6fe4e46d
   ASLEye: 5513769737d45529f26f242699d100dfa5d39d1a
-  AssistiveButton: 151816777487ba7d77fe31df0c5a3ec25b1c138c
-  CrashEye: 595a61a0687e798e163acf1f0df0c07836aab8e6
+  AssistiveButton: e0b9c9d350e4314439187ea14e1d6981686c1392
+  CrashEye: b93cebbeac65b50ee10969663675d3e6eeab7779
   ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
   FileBrowser: af8abc035daca66a6066351ae162c4af4c6b24dd
-  GodEye: 25d5346271f49b5527fea5f55d25c3dc6c103bd8
-  LeakEye: bb9dccc2f691e208beb1dd15bf2cb13045a3ff03
-  Log4G: 3675d5e769b16f33c3f347444229d6d950087730
-  NetworkEye.swift: ef355697fe45e9e3e9e66f6a1744b26ef897c2df
+  GodEye: b1a58f631dc6d83f3afe6bb583eb498c063ff555
+  LeakEye: df9f84812c68ecd6b9ca97c11de478a7c10ed75a
+  Log4G: ddfadd812eb0d2619dac3601b93e0c794f11b42e
+  NetworkEye.swift: 17a2377d361fbfe89b1f11d5a2a3426e5497cfaf
   SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
   SwViewCapture: edf1ea74e164f47af005fbdfdc6fc18ec373ec69
-  SystemEye: 1e7439148a4a9e4e4e85616b66356aedc6c0108a
+  SystemEye: 980da1c875cedf0b992518d901c3b502b60154a7
 
 PODFILE CHECKSUM: 9877fa90d1c0cee190e1a39a22342801b9f1adb4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1.beta.1

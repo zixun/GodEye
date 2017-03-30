@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CrashEye'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'CrashEye is an ios crash monitor，automatic catch exception crash & signal crash and return the stacktrace.'
 
 # This description is used to generate tags and improve search results.

@@ -33,6 +33,8 @@ open class ControlConfiguration: NSObject {
     /// allowed share to show under the device, default is false
     open var shakeShowForDevice = false
     
+//    open var location: CGPoint?
+    
     //--------------------------------------------------------------------------
     // MARK: INTERNAL FUNCTION
     //--------------------------------------------------------------------------

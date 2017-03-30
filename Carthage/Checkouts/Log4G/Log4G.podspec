@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Log4G'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'Simple, lightweight logging framework written in Swift.'
 
 # This description is used to generate tags and improve search results.
