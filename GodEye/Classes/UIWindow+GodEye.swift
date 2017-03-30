@@ -24,7 +24,10 @@ extension UIWindow {
     func makeEye(with configuration:Configuration) {
         GodEyeController.shared.configuration = configuration
         
-        let rect = CGRect(x: self.frame.size.width - 48, y: self.frame.size.height - 160, width: 48, height: 48)
+        var rect = CGRect(x: self.frame.size.width - 48, y: self.frame.size.height - 160, width: 48, height: 48)
+        if let location = configuration.control.location {
+            rect.origin = location
+        }
         
         var image = UIImage(named: "GodEye.bundle/eye", in: Bundle(for: GodEyeController.classForCoder()), compatibleWith: nil)
         if image == nil {

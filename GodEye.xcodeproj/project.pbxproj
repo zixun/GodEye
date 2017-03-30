@@ -38,7 +38,6 @@
 		9EC3B6201E8CD29C0052EC57 /* ANRRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5DE1E8CD29C0052EC57 /* ANRRecordModel+ORM.swift */; };
 		9EC3B6211E8CD29C0052EC57 /* CommandRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5DF1E8CD29C0052EC57 /* CommandRecordModel+ORM.swift */; };
 		9EC3B6221E8CD29C0052EC57 /* CrashRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5E01E8CD29C0052EC57 /* CrashRecordModel+ORM.swift */; };
-		9EC3B6231E8CD29C0052EC57 /* GodDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5E11E8CD29C0052EC57 /* GodDB.swift */; };
 		9EC3B6241E8CD29C0052EC57 /* LeakRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5E21E8CD29C0052EC57 /* LeakRecordModel+ORM.swift */; };
 		9EC3B6251E8CD29C0052EC57 /* LogRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5E31E8CD29C0052EC57 /* LogRecordModel+ORM.swift */; };
 		9EC3B6261E8CD29C0052EC57 /* NetworkRecordModel+ORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B5E41E8CD29C0052EC57 /* NetworkRecordModel+ORM.swift */; };
@@ -134,7 +133,6 @@
 		9EC3B5DE1E8CD29C0052EC57 /* ANRRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ANRRecordModel+ORM.swift"; sourceTree = "<group>"; };
 		9EC3B5DF1E8CD29C0052EC57 /* CommandRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CommandRecordModel+ORM.swift"; sourceTree = "<group>"; };
 		9EC3B5E01E8CD29C0052EC57 /* CrashRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CrashRecordModel+ORM.swift"; sourceTree = "<group>"; };
-		9EC3B5E11E8CD29C0052EC57 /* GodDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GodDB.swift; sourceTree = "<group>"; };
 		9EC3B5E21E8CD29C0052EC57 /* LeakRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LeakRecordModel+ORM.swift"; sourceTree = "<group>"; };
 		9EC3B5E31E8CD29C0052EC57 /* LogRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LogRecordModel+ORM.swift"; sourceTree = "<group>"; };
 		9EC3B5E41E8CD29C0052EC57 /* NetworkRecordModel+ORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkRecordModel+ORM.swift"; sourceTree = "<group>"; };
@@ -384,7 +382,6 @@
 				9EC3B5DE1E8CD29C0052EC57 /* ANRRecordModel+ORM.swift */,
 				9EC3B5DF1E8CD29C0052EC57 /* CommandRecordModel+ORM.swift */,
 				9EC3B5E01E8CD29C0052EC57 /* CrashRecordModel+ORM.swift */,
-				9EC3B5E11E8CD29C0052EC57 /* GodDB.swift */,
 				9EC3B5E21E8CD29C0052EC57 /* LeakRecordModel+ORM.swift */,
 				9EC3B5E31E8CD29C0052EC57 /* LogRecordModel+ORM.swift */,
 				9EC3B5E41E8CD29C0052EC57 /* NetworkRecordModel+ORM.swift */,
@@ -666,7 +663,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC3B6231E8CD29C0052EC57 /* GodDB.swift in Sources */,
 				9EC3B62D1E8CD29C0052EC57 /* Thread.swift in Sources */,
 				9EC3B6321E8CD29C0052EC57 /* UIScreen+GodEye.swift in Sources */,
 				9EC3B63D1E8CD29C0052EC57 /* LeakRecordViewModel.swift in Sources */,
