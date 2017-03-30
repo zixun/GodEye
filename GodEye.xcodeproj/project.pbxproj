@@ -90,6 +90,16 @@
 		9EC3B6761E8CD6AC0052EC57 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6751E8CD6AC0052EC57 /* DemoModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9EC3B69D1E8CE4170052EC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC3B5AA1E8CD2230052EC57;
+			remoteInfo = GodEye;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		9EC3B5AB1E8CD2230052EC57 /* GodEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GodEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC3B5AE1E8CD2230052EC57 /* GodEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodEye.h; sourceTree = "<group>"; };
@@ -537,6 +547,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9EC3B69E1E8CE4170052EC57 /* PBXTargetDependency */,
 			);
 			name = GodEye_Example;
 			productName = GodEye_Example;
@@ -726,6 +737,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC3B69E1E8CE4170052EC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC3B5AA1E8CD2230052EC57 /* GodEye */;
+			targetProxy = 9EC3B69D1E8CE4170052EC57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9EC3B6681E8CD5C90052EC57 /* Main.storyboard */ = {
@@ -956,6 +975,7 @@
 				9EC3B6731E8CD5C90052EC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
