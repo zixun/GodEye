@@ -7,7 +7,7 @@ PODS:
   - CrashEye (1.1.2)
   - ESPullToRefresh (2.6)
   - FileBrowser (0.2.0)
-  - GodEye (1.1.1):
+  - GodEye (1.1.2):
     - ANREye (~> 1.1.1)
     - AppBaseKit (~> 0.2.2)
     - AppSwizzle (~> 1.1.2)
@@ -49,7 +49,7 @@ SPEC CHECKSUMS:
   CrashEye: b93cebbeac65b50ee10969663675d3e6eeab7779
   ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
   FileBrowser: af8abc035daca66a6066351ae162c4af4c6b24dd
-  GodEye: b1a58f631dc6d83f3afe6bb583eb498c063ff555
+  GodEye: 3585d7f402c7722d22089cf4c575ee9998d077d1
   LeakEye: df9f84812c68ecd6b9ca97c11de478a7c10ed75a
   Log4G: ddfadd812eb0d2619dac3601b93e0c794f11b42e
   NetworkEye.swift: 17a2377d361fbfe89b1f11d5a2a3426e5497cfaf

@@ -88,6 +88,7 @@
 		9EA9D8C71E821DE90045492A /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C61E821DE90045492A /* SQLite.framework */; };
 		9EA9D8C91E821DED0045492A /* SwViewCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8C81E821DED0045492A /* SwViewCapture.framework */; };
 		9EA9D8CB1E821DF00045492A /* SystemEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D8CA1E821DF00045492A /* SystemEye.framework */; };
+		9EC7DF001E8CC8B5001F800B /* GodDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7DEFF1E8CC8B5001F800B /* GodDB.swift */; };
 		D8BE7E202C2E7281CE37BBF5 /* Pods_GodEye_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD8E22232895D32D06FB834 /* Pods_GodEye_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -192,6 +193,7 @@
 		9EA9D8C61E821DE90045492A /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = ../Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		9EA9D8C81E821DED0045492A /* SwViewCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwViewCapture.framework; path = ../Carthage/Build/iOS/SwViewCapture.framework; sourceTree = "<group>"; };
 		9EA9D8CA1E821DF00045492A /* SystemEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemEye.framework; path = ../Carthage/Build/iOS/SystemEye.framework; sourceTree = "<group>"; };
+		9EC7DEFF1E8CC8B5001F800B /* GodDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GodDB.swift; sourceTree = "<group>"; };
 		B7B09398705F2E997E16DF59 /* Pods-GodEye_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodEye_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GodEye_Tests/Pods-GodEye_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C0ABE2AA0DC951C75EC55266 /* Pods-GodEye_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodEye_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GodEye_Example/Pods-GodEye_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAD8E22232895D32D06FB834 /* Pods_GodEye_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GodEye_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -482,6 +484,7 @@
 				9EA9D8521E821D440045492A /* LogRecordModel+ORM.swift */,
 				9EA9D8531E821D440045492A /* NetworkRecordModel+ORM.swift */,
 				9EA9D8541E821D440045492A /* ORMProtocol.swift */,
+				9EC7DEFF1E8CC8B5001F800B /* GodDB.swift */,
 			);
 			path = ORM;
 			sourceTree = "<group>";
@@ -931,6 +934,7 @@
 				9EA9D8A51E821D440045492A /* MonitorDeviceView.swift in Sources */,
 				9EA9D87B1E821D440045492A /* SwitchConfiguration.swift in Sources */,
 				9EA9D8901E821D440045492A /* NetworkRecordModel.swift in Sources */,
+				9EC7DF001E8CC8B5001F800B /* GodDB.swift in Sources */,
 				9EA9D8781E821D440045492A /* CommandConfiguration.swift in Sources */,
 				9EA9D87C1E821D440045492A /* GodEyeController+Show.swift in Sources */,
 			);
