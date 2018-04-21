@@ -10,8 +10,8 @@ import Foundation
 
 class BaseRecordViewModel: NSObject {
     
-    private(set) var attributes = [NSForegroundColorAttributeName: UIColor.white,
-                                   NSFontAttributeName:UIFont.courier(with: 12)]
+    private(set) var attributes = [NSAttributedStringKey.foregroundColor: UIColor.white,
+                                   NSAttributedStringKey.font:UIFont.courier(with: 12)]
     
     func contentString(with prefex:String?,content:String?,newline:Bool = false,color:UIColor = UIColor(hex: 0x3D82C7)) -> NSAttributedString {
         let pre = prefex != nil ? "[\(prefex!)]:" : ""
@@ -20,7 +20,7 @@ class BaseRecordViewModel: NSObject {
         let result = NSMutableAttributedString(string: str, attributes: self.attributes)
         let range = str.NS.range(of: pre)
         if range.location != NSNotFound {
-            result.addAttribute(NSForegroundColorAttributeName, value: color, range: range)
+            result.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: range)
         }
         return result
     }
@@ -31,7 +31,7 @@ class BaseRecordViewModel: NSObject {
         
         let range = header.NS.range(of: prefex)
         if range.location + range.length <= header.NS.length {
-            result.addAttributes([NSForegroundColorAttributeName: color], range: range)
+            result.addAttributes([NSAttributedStringKey.foregroundColor: color], range: range)
         }
         return result
     }

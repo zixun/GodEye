@@ -41,7 +41,7 @@ Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and et
 
     s.dependency 'AppBaseKit', '~> 0.2.2'
     s.dependency 'Log4G', '~> 0.2.2'
-    s.dependency 'AppSwizzle', '~> 1.1.2'
+    s.dependency 'AppSwizzle', '~> 1.2'
     s.dependency 'AssistiveButton', '~> 1.1.2'
 
     s.dependency 'ASLEye', '~> 1.1.1'
@@ -51,9 +51,9 @@ Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and et
     s.dependency 'NetworkEye.swift', '~> 1.1.3'
     s.dependency 'LeakEye', '~> 1.1.3'
 
-    s.dependency 'FileBrowser', '~> 0.2.0'
+    s.dependency 'FileBrowser', '~> 1.0.0'
     s.dependency 'SwViewCapture', '~> 1.0.6'
-    s.dependency 'SQLite.swift', '~> 0.11.1'
+    s.dependency 'SQLite.swift', '~> 0.11.4'
     #s.dependency 'MJRefresh', '~> 3.1.12'
-    s.dependency 'ESPullToRefresh', '~> 2.6'
+    s.dependency 'ESPullToRefresh', '~> 2.7'
 end

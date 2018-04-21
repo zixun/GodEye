@@ -34,7 +34,7 @@ extension ConsoleController {
             pc.addRecord(model: model)
         }else {
             
-            let type = type(of:model).type
+            let type = Swift.type(of:model).type
             type.addUnread()
             self.reloadRow(of: type)
         }

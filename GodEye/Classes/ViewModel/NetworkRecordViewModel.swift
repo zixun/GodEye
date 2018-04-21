@@ -94,7 +94,7 @@ class NetworkRecordViewModel: BaseRecordViewModel {
         let  range = result.string.NS.range(of: status)
         if range.location != NSNotFound {
             let color = status == "200" ? UIColor(hex: 0x1CC221) : UIColor(hex: 0xF5261C)
-            result.addAttribute(NSForegroundColorAttributeName, value: color, range: range)
+            result.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: range)
         }
         return result
     }
@@ -109,7 +109,7 @@ class NetworkRecordViewModel: BaseRecordViewModel {
         
         let range = result.string.NS.range(of: responseAllHeaderFields)
         if range.location != NSNotFound {
-            result.addAttribute(NSFontAttributeName, value: UIFont.courier(with: 6), range: range)
+            result.addAttribute(NSAttributedStringKey.font, value: UIFont.courier(with: 6), range: range)
         }
         return result
     }
@@ -133,7 +133,7 @@ class NetworkRecordViewModel: BaseRecordViewModel {
         var result = NSMutableAttributedString(attributedString: self.contentString(with: header, content: transString,newline: true))
         let range = result.string.NS.range(of: transString)
         if range.location != NSNotFound {
-            result.addAttribute(NSFontAttributeName, value: UIFont.courier(with: 6), range: range)
+            result.addAttribute(NSAttributedStringKey.font, value: UIFont.courier(with: 6), range: range)
         }
         
         return result

@@ -109,7 +109,7 @@ class RecordTableViewDataSource: NSObject {
     func addRecord(model:RecordORMProtocol) {
         
         if self.recordData.count != 0 &&
-            type(of: model).type != self.type {
+            Swift.type(of: model).type != self.type {
             return
         }
         
