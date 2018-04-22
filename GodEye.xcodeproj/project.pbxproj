@@ -66,7 +66,6 @@
 		9EC3B63D1E8CD29C0052EC57 /* LeakRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6021E8CD29C0052EC57 /* LeakRecordViewModel.swift */; };
 		9EC3B63E1E8CD29C0052EC57 /* LogRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6031E8CD29C0052EC57 /* LogRecordViewModel.swift */; };
 		9EC3B63F1E8CD29C0052EC57 /* NetworkRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */; };
-		9EC3B64F1E8CD4AB0052EC57 /* ANREye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6411E8CD4AB0052EC57 /* ANREye.framework */; };
 		9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */; };
 		9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */; };
 		9EC3B6521E8CD4AB0052EC57 /* ASLEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6441E8CD4AB0052EC57 /* ASLEye.framework */; };
@@ -89,6 +88,12 @@
 		EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BF3E6208BECA8004C0B89 /* Log4G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE1BF3F8208BEEC4004C0B89 /* Log4G.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF3F6208BEEC4004C0B89 /* Log4G.swift */; };
 		EE1BF3F9208BEEC4004C0B89 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF3F7208BEEC4004C0B89 /* LogModel.swift */; };
+		EE1BF406208C9F01004C0B89 /* ANREye.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1BF404208C9F01004C0B89 /* ANREye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1BF40A208C9F01004C0B89 /* ANREye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BF402208C9F01004C0B89 /* ANREye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE1BF414208C9F3D004C0B89 /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1BF410208C9F3C004C0B89 /* BSBacktraceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1BF415208C9F3D004C0B89 /* AppBacktrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF411208C9F3C004C0B89 /* AppBacktrace.swift */; };
+		EE1BF416208C9F3D004C0B89 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF412208C9F3C004C0B89 /* BSBacktraceLogger.m */; };
+		EE1BF417208C9F3D004C0B89 /* ANREye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF413208C9F3C004C0B89 /* ANREye.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +111,13 @@
 			remoteGlobalIDString = EE1BF3E5208BECA8004C0B89;
 			remoteInfo = Log4G;
 		};
+		EE1BF418208CA0A0004C0B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1BF401208C9F01004C0B89;
+			remoteInfo = ANREye;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +127,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				EE1BF40A208C9F01004C0B89 /* ANREye.framework in Embed Frameworks */,
 				EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -184,7 +197,6 @@
 		9EC3B6021E8CD29C0052EC57 /* LeakRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakRecordViewModel.swift; sourceTree = "<group>"; };
 		9EC3B6031E8CD29C0052EC57 /* LogRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRecordViewModel.swift; sourceTree = "<group>"; };
 		9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRecordViewModel.swift; sourceTree = "<group>"; };
-		9EC3B6411E8CD4AB0052EC57 /* ANREye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ANREye.framework; path = Carthage/Build/iOS/ANREye.framework; sourceTree = "<group>"; };
 		9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppBaseKit.framework; path = Carthage/Build/iOS/AppBaseKit.framework; sourceTree = "<group>"; };
 		9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSwizzle.framework; path = Carthage/Build/iOS/AppSwizzle.framework; sourceTree = "<group>"; };
 		9EC3B6441E8CD4AB0052EC57 /* ASLEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASLEye.framework; path = Carthage/Build/iOS/ASLEye.framework; sourceTree = "<group>"; };
@@ -210,6 +222,13 @@
 		EE1BF3E9208BECA8004C0B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1BF3F6208BEEC4004C0B89 /* Log4G.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log4G.swift; sourceTree = "<group>"; };
 		EE1BF3F7208BEEC4004C0B89 /* LogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		EE1BF402208C9F01004C0B89 /* ANREye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANREye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1BF404208C9F01004C0B89 /* ANREye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANREye.h; sourceTree = "<group>"; };
+		EE1BF405208C9F01004C0B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1BF410208C9F3C004C0B89 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		EE1BF411208C9F3C004C0B89 /* AppBacktrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBacktrace.swift; sourceTree = "<group>"; };
+		EE1BF412208C9F3C004C0B89 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		EE1BF413208C9F3C004C0B89 /* ANREye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANREye.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,7 +236,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC3B64F1E8CD4AB0052EC57 /* ANREye.framework in Frameworks */,
 				9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */,
 				9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */,
 				9EC3B6521E8CD4AB0052EC57 /* ASLEye.framework in Frameworks */,
@@ -247,6 +265,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE1BF3FE208C9F01004C0B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -254,8 +279,9 @@
 			isa = PBXGroup;
 			children = (
 				9EC3B5AD1E8CD2230052EC57 /* GodEye */,
-				9EC3B6631E8CD5C90052EC57 /* GodEye_Example */,
 				EE1BF3E7208BECA8004C0B89 /* Log4G */,
+				9EC3B6631E8CD5C90052EC57 /* GodEye_Example */,
+				EE1BF403208C9F01004C0B89 /* ANREye */,
 				9EC3B5AC1E8CD2230052EC57 /* Products */,
 				9EC3B6401E8CD4AB0052EC57 /* Frameworks */,
 			);
@@ -267,6 +293,7 @@
 				9EC3B5AB1E8CD2230052EC57 /* GodEye.framework */,
 				9EC3B6621E8CD5C90052EC57 /* GodEye_Example.app */,
 				EE1BF3E6208BECA8004C0B89 /* Log4G.framework */,
+				EE1BF402208C9F01004C0B89 /* ANREye.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -501,7 +528,6 @@
 		9EC3B6401E8CD4AB0052EC57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EC3B6411E8CD4AB0052EC57 /* ANREye.framework */,
 				9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */,
 				9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */,
 				9EC3B6441E8CD4AB0052EC57 /* ASLEye.framework */,
@@ -551,6 +577,35 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		EE1BF403208C9F01004C0B89 /* ANREye */ = {
+			isa = PBXGroup;
+			children = (
+				EE1BF40E208C9F3C004C0B89 /* Classes */,
+				EE1BF404208C9F01004C0B89 /* ANREye.h */,
+				EE1BF405208C9F01004C0B89 /* Info.plist */,
+			);
+			path = ANREye;
+			sourceTree = "<group>";
+		};
+		EE1BF40E208C9F3C004C0B89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE1BF40F208C9F3C004C0B89 /* Backtrace */,
+				EE1BF413208C9F3C004C0B89 /* ANREye.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE1BF40F208C9F3C004C0B89 /* Backtrace */ = {
+			isa = PBXGroup;
+			children = (
+				EE1BF410208C9F3C004C0B89 /* BSBacktraceLogger.h */,
+				EE1BF411208C9F3C004C0B89 /* AppBacktrace.swift */,
+				EE1BF412208C9F3C004C0B89 /* BSBacktraceLogger.m */,
+			);
+			path = Backtrace;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -570,6 +625,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE1BF3FF208C9F01004C0B89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1BF414208C9F3D004C0B89 /* BSBacktraceLogger.h in Headers */,
+				EE1BF406208C9F01004C0B89 /* ANREye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -586,6 +650,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EE1BF419208CA0A0004C0B89 /* PBXTargetDependency */,
 				EE1BF3FC208C9C6E004C0B89 /* PBXTargetDependency */,
 			);
 			name = GodEye;
@@ -631,6 +696,24 @@
 			productReference = EE1BF3E6208BECA8004C0B89 /* Log4G.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EE1BF401208C9F01004C0B89 /* ANREye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1BF40B208C9F01004C0B89 /* Build configuration list for PBXNativeTarget "ANREye" */;
+			buildPhases = (
+				EE1BF3FD208C9F01004C0B89 /* Sources */,
+				EE1BF3FE208C9F01004C0B89 /* Frameworks */,
+				EE1BF3FF208C9F01004C0B89 /* Headers */,
+				EE1BF400208C9F01004C0B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANREye;
+			productName = ANREye;
+			productReference = EE1BF402208C9F01004C0B89 /* ANREye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -658,6 +741,11 @@
 						DevelopmentTeam = L35WZWVC98;
 						ProvisioningStyle = Automatic;
 					};
+					EE1BF401208C9F01004C0B89 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9EC3B5A51E8CD2230052EC57 /* Build configuration list for PBXProject "GodEye" */;
@@ -676,6 +764,7 @@
 				9EC3B5AA1E8CD2230052EC57 /* GodEye */,
 				9EC3B6611E8CD5C90052EC57 /* GodEye_Example */,
 				EE1BF3E5208BECA8004C0B89 /* Log4G */,
+				EE1BF401208C9F01004C0B89 /* ANREye */,
 			);
 		};
 /* End PBXProject section */
@@ -707,6 +796,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE1BF400208C9F01004C0B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -717,7 +813,6 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/ESPullToRefresh.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ANREye.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AppBaseKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AppSwizzle.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AssistiveButton.framework",
@@ -834,6 +929,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE1BF3FD208C9F01004C0B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1BF415208C9F3D004C0B89 /* AppBacktrace.swift in Sources */,
+				EE1BF416208C9F3D004C0B89 /* BSBacktraceLogger.m in Sources */,
+				EE1BF417208C9F3D004C0B89 /* ANREye.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -846,6 +951,11 @@
 			isa = PBXTargetDependency;
 			target = EE1BF3E5208BECA8004C0B89 /* Log4G */;
 			targetProxy = EE1BF3FB208C9C6E004C0B89 /* PBXContainerItemProxy */;
+		};
+		EE1BF419208CA0A0004C0B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1BF401208C9F01004C0B89 /* ANREye */;
+			targetProxy = EE1BF418208CA0A0004C0B89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1122,6 +1232,70 @@
 			};
 			name = Release;
 		};
+		EE1BF40C208C9F01004C0B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ANREye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.ANREye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1BF40D208C9F01004C0B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ANREye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.ANREye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1157,6 +1331,15 @@
 			buildConfigurations = (
 				EE1BF3EF208BECA8004C0B89 /* Debug */,
 				EE1BF3F0208BECA8004C0B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1BF40B208C9F01004C0B89 /* Build configuration list for PBXNativeTarget "ANREye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1BF40C208C9F01004C0B89 /* Debug */,
+				EE1BF40D208C9F01004C0B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
