@@ -39,21 +39,27 @@ Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and et
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
-    s.dependency 'AppBaseKit', '~> 0.2.2'
-    s.dependency 'Log4G', '~> 0.2.2'
-    s.dependency 'AppSwizzle', '~> 1.2'
-    s.dependency 'AssistiveButton', '~> 1.1.2'
+  s.subspec 'Log4G' do |subspec|
+    subspec.source_files = 'Log4G/Classes/**/*'
+    subspec.dependency 'ReactiveCocoa', '>= 1.8.0'
+    subspec.dependency 'BrynKit/Main'
+    subspec.dependency 'BrynKit/EDColor'
+  end
 
-    s.dependency 'ASLEye', '~> 1.1.1'
-    s.dependency 'CrashEye', '~> 1.1.2'
-    s.dependency 'ANREye', '~> 1.1.1'
-    s.dependency 'SystemEye', '~> 0.2.2'
-    s.dependency 'NetworkEye.swift', '~> 1.1.3'
-    s.dependency 'LeakEye', '~> 1.1.3'
+    s.dependency 'AppBaseKit', '~> 1.0.1'
+    s.dependency 'AppSwizzle', '~> 1.3.1'
+    s.dependency 'AssistiveButton', '~> 1.2.0'
+
+    s.dependency 'ASLEye', '~> 1.2.0'
+    s.dependency 'CrashEye', '~> 1.2.0'
+    s.dependency 'ANREye', '~> 1.2.0'
+    s.dependency 'SystemEye', '~> 0.3.0'
+    s.dependency 'NetworkEye.swift', '~> 1.2.0'
+    s.dependency 'LeakEye', '~> 1.2.0'
 
     s.dependency 'FileBrowser', '~> 1.0.0'
     s.dependency 'SwViewCapture', '~> 1.0.6'
-    s.dependency 'SQLite.swift', '~> 0.11.4'
+    s.dependency 'SQLite.swift', '0.11.4'
     #s.dependency 'MJRefresh', '~> 3.1.12'
     s.dependency 'ESPullToRefresh', '~> 2.7'
 end
