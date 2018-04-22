@@ -86,7 +86,6 @@
 		9EC3B66F1E8CD5C90052EC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC3B66D1E8CD5C90052EC57 /* LaunchScreen.storyboard */; };
 		9EC3B6761E8CD6AC0052EC57 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6751E8CD6AC0052EC57 /* DemoModel.swift */; };
 		EE1BF3EA208BECA8004C0B89 /* Log4G.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1BF3E8208BECA8004C0B89 /* Log4G.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE1BF3ED208BECA8004C0B89 /* Log4G.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BF3E6208BECA8004C0B89 /* Log4G.framework */; };
 		EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BF3E6208BECA8004C0B89 /* Log4G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE1BF3F8208BEEC4004C0B89 /* Log4G.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF3F6208BEEC4004C0B89 /* Log4G.swift */; };
 		EE1BF3F9208BEEC4004C0B89 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF3F7208BEEC4004C0B89 /* LogModel.swift */; };
@@ -100,7 +99,7 @@
 			remoteGlobalIDString = 9EC3B5AA1E8CD2230052EC57;
 			remoteInfo = GodEye;
 		};
-		EE1BF3EB208BECA8004C0B89 /* PBXContainerItemProxy */ = {
+		EE1BF3FB208C9C6E004C0B89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
 			proxyType = 1;
@@ -238,7 +237,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1BF3ED208BECA8004C0B89 /* Log4G.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +586,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EE1BF3FC208C9C6E004C0B89 /* PBXTargetDependency */,
 			);
 			name = GodEye;
 			productName = GodEye;
@@ -608,7 +607,6 @@
 			);
 			dependencies = (
 				9EC3B69E1E8CE4170052EC57 /* PBXTargetDependency */,
-				EE1BF3EC208BECA8004C0B89 /* PBXTargetDependency */,
 			);
 			name = GodEye_Example;
 			productName = GodEye_Example;
@@ -844,10 +842,10 @@
 			target = 9EC3B5AA1E8CD2230052EC57 /* GodEye */;
 			targetProxy = 9EC3B69D1E8CE4170052EC57 /* PBXContainerItemProxy */;
 		};
-		EE1BF3EC208BECA8004C0B89 /* PBXTargetDependency */ = {
+		EE1BF3FC208C9C6E004C0B89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EE1BF3E5208BECA8004C0B89 /* Log4G */;
-			targetProxy = EE1BF3EB208BECA8004C0B89 /* PBXContainerItemProxy */;
+			targetProxy = EE1BF3FB208C9C6E004C0B89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
