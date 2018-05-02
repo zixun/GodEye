@@ -1,7 +1,7 @@
 github "eggswift/pull-to-refresh" "2.7"
 github "marmelroy/FileBrowser" "1.0.0"
 github "startry/SwViewCapture" "1.0.6"
-github "stephencelis/SQLite.swift" "0.11.4"
+github "stephencelis/SQLite.swift" "0.11.5"
 github "zixun/ANREye" "1.2.0"
 github "zixun/ASLEye" "1.2.0"
 github "zixun/AppBaseKit" "1.0.1"

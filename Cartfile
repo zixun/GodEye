@@ -11,5 +11,5 @@ github "zixun/LeakEye" >= 1.2.0
 
 github "marmelroy/FileBrowser" >= 1.0.0
 github "startry/SwViewCapture" >= 1.0.6
-github "stephencelis/SQLite.swift" == 0.11.4  
+github "stephencelis/SQLite.swift" >= 0.11.5  
 github "eggswift/pull-to-refresh" ~> 2.7

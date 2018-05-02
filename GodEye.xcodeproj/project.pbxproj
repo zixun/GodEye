@@ -599,8 +599,8 @@
 		EE1BF40F208C9F3C004C0B89 /* Backtrace */ = {
 			isa = PBXGroup;
 			children = (
-				EE1BF410208C9F3C004C0B89 /* BSBacktraceLogger.h */,
 				EE1BF411208C9F3C004C0B89 /* AppBacktrace.swift */,
+				EE1BF410208C9F3C004C0B89 /* BSBacktraceLogger.h */,
 				EE1BF412208C9F3C004C0B89 /* BSBacktraceLogger.m */,
 			);
 			path = Backtrace;
