@@ -68,7 +68,6 @@
 		9EC3B63F1E8CD29C0052EC57 /* NetworkRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */; };
 		9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */; };
 		9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */; };
-		9EC3B6531E8CD4AB0052EC57 /* AssistiveButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6451E8CD4AB0052EC57 /* AssistiveButton.framework */; };
 		9EC3B6541E8CD4AB0052EC57 /* CrashEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6461E8CD4AB0052EC57 /* CrashEye.framework */; };
 		9EC3B6551E8CD4AB0052EC57 /* ESPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */; };
 		9EC3B6561E8CD4AB0052EC57 /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */; };
@@ -97,6 +96,7 @@
 		EE5727432099F85B0058B730 /* ASLEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57273C2099F85B0058B730 /* ASLEye.framework */; };
 		EE5727442099F85B0058B730 /* ASLEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE57273C2099F85B0058B730 /* ASLEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE57274A2099F8A60058B730 /* ASLEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727492099F8A60058B730 /* ASLEye.swift */; };
+		EE57274F2099FC4C0058B730 /* AssistiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE57274E2099FC4C0058B730 /* AssistiveButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,6 +250,7 @@
 		EE57273E2099F85B0058B730 /* ASLEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLEye.h; sourceTree = "<group>"; };
 		EE57273F2099F85B0058B730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5727492099F8A60058B730 /* ASLEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLEye.swift; sourceTree = "<group>"; };
+		EE57274E2099FC4C0058B730 /* AssistiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistiveButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,7 +260,6 @@
 			files = (
 				9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */,
 				9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */,
-				9EC3B6531E8CD4AB0052EC57 /* AssistiveButton.framework in Frameworks */,
 				9EC3B6541E8CD4AB0052EC57 /* CrashEye.framework in Frameworks */,
 				9EC3B6551E8CD4AB0052EC57 /* ESPullToRefresh.framework in Frameworks */,
 				9EC3B6561E8CD4AB0052EC57 /* FileBrowser.framework in Frameworks */,
@@ -516,6 +516,7 @@
 		9EC3B5F51E8CD29C0052EC57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE57274D2099FC4C0058B730 /* AssistiveButton */,
 				9EC3B5F61E8CD29C0052EC57 /* Monitor */,
 				9EC3B5FA1E8CD29C0052EC57 /* RecordTableView */,
 			);
@@ -651,6 +652,14 @@
 				EE5727492099F8A60058B730 /* ASLEye.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE57274D2099FC4C0058B730 /* AssistiveButton */ = {
+			isa = PBXGroup;
+			children = (
+				EE57274E2099FC4C0058B730 /* AssistiveButton.swift */,
+			);
+			path = AssistiveButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -903,7 +912,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/ESPullToRefresh.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AppBaseKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AppSwizzle.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AssistiveButton.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FileBrowser.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/LeakEye.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
@@ -952,6 +960,7 @@
 				9EC3B61D1E8CD29C0052EC57 /* LeakRecordModel.swift in Sources */,
 				9EC3B6141E8CD29C0052EC57 /* MonitorController.swift in Sources */,
 				9EC3B6371E8CD29C0052EC57 /* RecordTableView.swift in Sources */,
+				EE57274F2099FC4C0058B730 /* AssistiveButton.swift in Sources */,
 				9EC3B6331E8CD29C0052EC57 /* UIView+GodEye.swift in Sources */,
 				9EC3B6261E8CD29C0052EC57 /* NetworkRecordModel+ORM.swift in Sources */,
 				9EC3B6211E8CD29C0052EC57 /* CommandRecordModel+ORM.swift in Sources */,
