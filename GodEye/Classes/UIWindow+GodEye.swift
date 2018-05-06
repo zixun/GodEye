@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import AppSwizzle
+import AppBaseKit
 
 extension UIWindow {
     
@@ -51,6 +51,7 @@ extension UIWindow {
         var orig = #selector(UIWindow.sendEvent(_:))
         var alter = #selector(UIWindow.app_sendEvent(_:))
         UIWindow.swizzleInstanceMethod(origSelector: orig, toAlterSelector: alter)
+        
         
         
         orig = #selector(UIResponder.motionEnded(_:with:))

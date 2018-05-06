@@ -66,12 +66,8 @@
 		9EC3B63D1E8CD29C0052EC57 /* LeakRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6021E8CD29C0052EC57 /* LeakRecordViewModel.swift */; };
 		9EC3B63E1E8CD29C0052EC57 /* LogRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6031E8CD29C0052EC57 /* LogRecordViewModel.swift */; };
 		9EC3B63F1E8CD29C0052EC57 /* NetworkRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */; };
-		9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */; };
-		9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */; };
 		9EC3B6551E8CD4AB0052EC57 /* ESPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */; };
 		9EC3B6561E8CD4AB0052EC57 /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */; };
-		9EC3B6571E8CD4AB0052EC57 /* LeakEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6491E8CD4AB0052EC57 /* LeakEye.framework */; };
-		9EC3B6591E8CD4AB0052EC57 /* NetworkEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64B1E8CD4AB0052EC57 /* NetworkEye.framework */; };
 		9EC3B65A1E8CD4AB0052EC57 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64C1E8CD4AB0052EC57 /* SQLite.framework */; };
 		9EC3B65B1E8CD4AB0052EC57 /* SwViewCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64D1E8CD4AB0052EC57 /* SwViewCapture.framework */; };
 		9EC3B6651E8CD5C90052EC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6641E8CD5C90052EC57 /* AppDelegate.swift */; };
@@ -111,6 +107,40 @@
 		EE572788209F59040058B730 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE57277F209F59040058B730 /* Memory.swift */; };
 		EE572789209F59040058B730 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572780209F59040058B730 /* System.swift */; };
 		EE57278A209F59040058B730 /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572781209F59040058B730 /* CPU.swift */; };
+		EE572796209F5C1D0058B730 /* AppBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EE572794209F5C1D0058B730 /* AppBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE572799209F5C1D0058B730 /* AppBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE572792209F5C1D0058B730 /* AppBaseKit.framework */; };
+		EE57279A209F5C1D0058B730 /* AppBaseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE572792209F5C1D0058B730 /* AppBaseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE5727B0209F5C450058B730 /* UIAlertView+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A1209F5C450058B730 /* UIAlertView+AppBaseKit.swift */; };
+		EE5727B1209F5C450058B730 /* UIFont+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A2209F5C450058B730 /* UIFont+AppBaseKit.swift */; };
+		EE5727B2209F5C450058B730 /* UIView+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A3209F5C450058B730 /* UIView+AppBaseKit.swift */; };
+		EE5727B3209F5C450058B730 /* UIApplication+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A4209F5C450058B730 /* UIApplication+AppBaseKit.swift */; };
+		EE5727B4209F5C450058B730 /* UIImage+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A5209F5C450058B730 /* UIImage+AppBaseKit.swift */; };
+		EE5727B5209F5C450058B730 /* UIColor+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A6209F5C450058B730 /* UIColor+AppBaseKit.swift */; };
+		EE5727B6209F5C450058B730 /* UIAlertController+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A7209F5C450058B730 /* UIAlertController+AppBaseKit.swift */; };
+		EE5727B7209F5C450058B730 /* NSObject+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727A9209F5C450058B730 /* NSObject+Closure.swift */; };
+		EE5727B8209F5C450058B730 /* NSFileManager+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727AA209F5C450058B730 /* NSFileManager+AppBaseKit.swift */; };
+		EE5727B9209F5C450058B730 /* String+AppBaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727AB209F5C450058B730 /* String+AppBaseKit.swift */; };
+		EE5727BA209F5C450058B730 /* AppPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727AD209F5C450058B730 /* AppPaths.swift */; };
+		EE5727BB209F5C450058B730 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727AE209F5C450058B730 /* AppNavigationController.swift */; };
+		EE5727C0209F700F0058B730 /* AppSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727BF209F700E0058B730 /* AppSwizzle.swift */; };
+		EE5727CA209F71660058B730 /* LeakEye.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5727C8209F71660058B730 /* LeakEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5727CD209F71660058B730 /* LeakEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5727C6209F71650058B730 /* LeakEye.framework */; };
+		EE5727CE209F71660058B730 /* LeakEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE5727C6209F71650058B730 /* LeakEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE5727DF209F719B0058B730 /* NSObject+Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727D4209F719B0058B730 /* NSObject+Eye.swift */; };
+		EE5727E0209F719B0058B730 /* NSObject+Alive.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727D5209F719B0058B730 /* NSObject+Alive.swift */; };
+		EE5727E1209F719B0058B730 /* Preparer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727D6209F719B0058B730 /* Preparer.swift */; };
+		EE5727E2209F719B0058B730 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727D8209F719B0058B730 /* String+.swift */; };
+		EE5727E3209F719B0058B730 /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727D9209F719B0058B730 /* DispatchQueue+.swift */; };
+		EE5727E4209F719B0058B730 /* LeakEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727DA209F719B0058B730 /* LeakEye.swift */; };
+		EE5727E5209F719B0058B730 /* ObjectAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727DC209F719B0058B730 /* ObjectAgent.swift */; };
+		EE5727E6209F719B0058B730 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727DD209F719B0058B730 /* Variable.swift */; };
+		EE5727E7209F719B0058B730 /* NSNotification+LeakEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727DE209F719B0058B730 /* NSNotification+LeakEye.swift */; };
+		EE5727F5209F77CC0058B730 /* NetworkEye.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5727F3209F77CC0058B730 /* NetworkEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5727F8209F77CC0058B730 /* NetworkEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5727F1209F77CC0058B730 /* NetworkEye.framework */; };
+		EE5727F9209F77CC0058B730 /* NetworkEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE5727F1209F77CC0058B730 /* NetworkEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE572801209F780C0058B730 /* NetworkEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727FE209F780B0058B730 /* NetworkEye.swift */; };
+		EE572802209F780C0058B730 /* URLSession+Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727FF209F780B0058B730 /* URLSession+Eye.swift */; };
+		EE572803209F780C0058B730 /* EyeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572800209F780B0058B730 /* EyeProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +207,62 @@
 			remoteGlobalIDString = EE57276A209F58670058B730;
 			remoteInfo = SystemEye;
 		};
+		EE572797209F5C1D0058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE572791209F5C1D0058B730;
+			remoteInfo = AppBaseKit;
+		};
+		EE5727BD209F5C870058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE572791209F5C1D0058B730;
+			remoteInfo = AppBaseKit;
+		};
+		EE5727CB209F71660058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5727C5209F71650058B730;
+			remoteInfo = LeakEye;
+		};
+		EE5727E8209F722C0058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5727C5209F71650058B730;
+			remoteInfo = LeakEye;
+		};
+		EE5727EA209F74790058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE572791209F5C1D0058B730;
+			remoteInfo = AppBaseKit;
+		};
+		EE5727F6209F77CC0058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5727F0209F77CC0058B730;
+			remoteInfo = NetworkEye;
+		};
+		EE572804209F782E0058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE572791209F5C1D0058B730;
+			remoteInfo = AppBaseKit;
+		};
+		EE572806209F78440058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5727F0209F77CC0058B730;
+			remoteInfo = NetworkEye;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -186,9 +272,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				EE57279A209F5C1D0058B730 /* AppBaseKit.framework in Embed Frameworks */,
+				EE5727CE209F71660058B730 /* LeakEye.framework in Embed Frameworks */,
 				EE1BF40A208C9F01004C0B89 /* ANREye.framework in Embed Frameworks */,
 				EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */,
 				EE57275D209F50A90058B730 /* CrashEye.framework in Embed Frameworks */,
+				EE5727F9209F77CC0058B730 /* NetworkEye.framework in Embed Frameworks */,
 				EE5727442099F85B0058B730 /* ASLEye.framework in Embed Frameworks */,
 				EE572773209F58670058B730 /* SystemEye.framework in Embed Frameworks */,
 			);
@@ -259,12 +348,8 @@
 		9EC3B6021E8CD29C0052EC57 /* LeakRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakRecordViewModel.swift; sourceTree = "<group>"; };
 		9EC3B6031E8CD29C0052EC57 /* LogRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRecordViewModel.swift; sourceTree = "<group>"; };
 		9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRecordViewModel.swift; sourceTree = "<group>"; };
-		9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppBaseKit.framework; path = Carthage/Build/iOS/AppBaseKit.framework; sourceTree = "<group>"; };
-		9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSwizzle.framework; path = Carthage/Build/iOS/AppSwizzle.framework; sourceTree = "<group>"; };
 		9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESPullToRefresh.framework; path = Carthage/Build/iOS/ESPullToRefresh.framework; sourceTree = "<group>"; };
 		9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileBrowser.framework; path = Carthage/Build/iOS/FileBrowser.framework; sourceTree = "<group>"; };
-		9EC3B6491E8CD4AB0052EC57 /* LeakEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LeakEye.framework; path = Carthage/Build/iOS/LeakEye.framework; sourceTree = "<group>"; };
-		9EC3B64B1E8CD4AB0052EC57 /* NetworkEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkEye.framework; path = Carthage/Build/iOS/NetworkEye.framework; sourceTree = "<group>"; };
 		9EC3B64C1E8CD4AB0052EC57 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		9EC3B64D1E8CD4AB0052EC57 /* SwViewCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwViewCapture.framework; path = Carthage/Build/iOS/SwViewCapture.framework; sourceTree = "<group>"; };
 		9EC3B6621E8CD5C90052EC57 /* GodEye_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodEye_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -308,6 +393,40 @@
 		EE57277F209F59040058B730 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
 		EE572780209F59040058B730 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 		EE572781209F59040058B730 /* CPU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
+		EE572792209F5C1D0058B730 /* AppBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE572794209F5C1D0058B730 /* AppBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppBaseKit.h; sourceTree = "<group>"; };
+		EE572795209F5C1D0058B730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5727A1209F5C450058B730 /* UIAlertView+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertView+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A2209F5C450058B730 /* UIFont+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A3209F5C450058B730 /* UIView+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A4209F5C450058B730 /* UIApplication+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A5209F5C450058B730 /* UIImage+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A6209F5C450058B730 /* UIColor+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A7209F5C450058B730 /* UIAlertController+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727A9209F5C450058B730 /* NSObject+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Closure.swift"; sourceTree = "<group>"; };
+		EE5727AA209F5C450058B730 /* NSFileManager+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727AB209F5C450058B730 /* String+AppBaseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AppBaseKit.swift"; sourceTree = "<group>"; };
+		EE5727AD209F5C450058B730 /* AppPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPaths.swift; sourceTree = "<group>"; };
+		EE5727AE209F5C450058B730 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		EE5727BF209F700E0058B730 /* AppSwizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSwizzle.swift; sourceTree = "<group>"; };
+		EE5727C6209F71650058B730 /* LeakEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeakEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5727C8209F71660058B730 /* LeakEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeakEye.h; sourceTree = "<group>"; };
+		EE5727C9209F71660058B730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5727D4209F719B0058B730 /* NSObject+Eye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Eye.swift"; sourceTree = "<group>"; };
+		EE5727D5209F719B0058B730 /* NSObject+Alive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Alive.swift"; sourceTree = "<group>"; };
+		EE5727D6209F719B0058B730 /* Preparer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preparer.swift; sourceTree = "<group>"; };
+		EE5727D8209F719B0058B730 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		EE5727D9209F719B0058B730 /* DispatchQueue+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+.swift"; sourceTree = "<group>"; };
+		EE5727DA209F719B0058B730 /* LeakEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakEye.swift; sourceTree = "<group>"; };
+		EE5727DC209F719B0058B730 /* ObjectAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectAgent.swift; sourceTree = "<group>"; };
+		EE5727DD209F719B0058B730 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		EE5727DE209F719B0058B730 /* NSNotification+LeakEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotification+LeakEye.swift"; sourceTree = "<group>"; };
+		EE5727F1209F77CC0058B730 /* NetworkEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5727F3209F77CC0058B730 /* NetworkEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkEye.h; sourceTree = "<group>"; };
+		EE5727F4209F77CC0058B730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5727FE209F780B0058B730 /* NetworkEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEye.swift; sourceTree = "<group>"; };
+		EE5727FF209F780B0058B730 /* URLSession+Eye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Eye.swift"; sourceTree = "<group>"; };
+		EE572800209F780B0058B730 /* EyeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,12 +434,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */,
-				9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */,
 				9EC3B6551E8CD4AB0052EC57 /* ESPullToRefresh.framework in Frameworks */,
 				9EC3B6561E8CD4AB0052EC57 /* FileBrowser.framework in Frameworks */,
-				9EC3B6571E8CD4AB0052EC57 /* LeakEye.framework in Frameworks */,
-				9EC3B6591E8CD4AB0052EC57 /* NetworkEye.framework in Frameworks */,
 				9EC3B65A1E8CD4AB0052EC57 /* SQLite.framework in Frameworks */,
 				9EC3B65B1E8CD4AB0052EC57 /* SwViewCapture.framework in Frameworks */,
 			);
@@ -330,7 +445,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE572799209F5C1D0058B730 /* AppBaseKit.framework in Frameworks */,
+				EE5727CD209F71660058B730 /* LeakEye.framework in Frameworks */,
 				EE57275C209F50A90058B730 /* CrashEye.framework in Frameworks */,
+				EE5727F8209F77CC0058B730 /* NetworkEye.framework in Frameworks */,
 				EE572772209F58670058B730 /* SystemEye.framework in Frameworks */,
 				EE5727432099F85B0058B730 /* ASLEye.framework in Frameworks */,
 			);
@@ -371,19 +489,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE57278E209F5C1D0058B730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727C2209F71650058B730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727ED209F77CC0058B730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9EC3B5A11E8CD2230052EC57 = {
 			isa = PBXGroup;
 			children = (
+				9EC3B6631E8CD5C90052EC57 /* GodEye_Example */,
 				9EC3B5AD1E8CD2230052EC57 /* GodEye */,
 				EE1BF3E7208BECA8004C0B89 /* Log4G */,
-				9EC3B6631E8CD5C90052EC57 /* GodEye_Example */,
 				EE1BF403208C9F01004C0B89 /* ANREye */,
 				EE57273D2099F85B0058B730 /* ASLEye */,
 				EE572756209F50A90058B730 /* CrashEye */,
 				EE57276C209F58670058B730 /* SystemEye */,
+				EE572793209F5C1D0058B730 /* AppBaseKit */,
+				EE5727C7209F71660058B730 /* LeakEye */,
+				EE5727F2209F77CC0058B730 /* NetworkEye */,
 				9EC3B5AC1E8CD2230052EC57 /* Products */,
 				9EC3B6401E8CD4AB0052EC57 /* Frameworks */,
 			);
@@ -399,6 +541,9 @@
 				EE57273C2099F85B0058B730 /* ASLEye.framework */,
 				EE572755209F50A80058B730 /* CrashEye.framework */,
 				EE57276B209F58670058B730 /* SystemEye.framework */,
+				EE572792209F5C1D0058B730 /* AppBaseKit.framework */,
+				EE5727C6209F71650058B730 /* LeakEye.framework */,
+				EE5727F1209F77CC0058B730 /* NetworkEye.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -634,12 +779,8 @@
 		9EC3B6401E8CD4AB0052EC57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */,
-				9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */,
 				9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */,
 				9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */,
-				9EC3B6491E8CD4AB0052EC57 /* LeakEye.framework */,
-				9EC3B64B1E8CD4AB0052EC57 /* NetworkEye.framework */,
 				9EC3B64C1E8CD4AB0052EC57 /* SQLite.framework */,
 				9EC3B64D1E8CD4AB0052EC57 /* SwViewCapture.framework */,
 			);
@@ -786,6 +927,138 @@
 			path = OCBridge;
 			sourceTree = "<group>";
 		};
+		EE572793209F5C1D0058B730 /* AppBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE57279E209F5C450058B730 /* Classes */,
+				EE572794209F5C1D0058B730 /* AppBaseKit.h */,
+				EE572795209F5C1D0058B730 /* Info.plist */,
+			);
+			path = AppBaseKit;
+			sourceTree = "<group>";
+		};
+		EE57279E209F5C450058B730 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE57279F209F5C450058B730 /* Extension */,
+				EE5727AC209F5C450058B730 /* Util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE57279F209F5C450058B730 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727A0209F5C450058B730 /* UIKit */,
+				EE5727A8209F5C450058B730 /* Foundation */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EE5727A0209F5C450058B730 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727A1209F5C450058B730 /* UIAlertView+AppBaseKit.swift */,
+				EE5727A2209F5C450058B730 /* UIFont+AppBaseKit.swift */,
+				EE5727A3209F5C450058B730 /* UIView+AppBaseKit.swift */,
+				EE5727A4209F5C450058B730 /* UIApplication+AppBaseKit.swift */,
+				EE5727A5209F5C450058B730 /* UIImage+AppBaseKit.swift */,
+				EE5727A6209F5C450058B730 /* UIColor+AppBaseKit.swift */,
+				EE5727A7209F5C450058B730 /* UIAlertController+AppBaseKit.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EE5727A8209F5C450058B730 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727A9209F5C450058B730 /* NSObject+Closure.swift */,
+				EE5727AA209F5C450058B730 /* NSFileManager+AppBaseKit.swift */,
+				EE5727AB209F5C450058B730 /* String+AppBaseKit.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EE5727AC209F5C450058B730 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727AD209F5C450058B730 /* AppPaths.swift */,
+				EE5727BF209F700E0058B730 /* AppSwizzle.swift */,
+				EE5727AE209F5C450058B730 /* AppNavigationController.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EE5727C7209F71660058B730 /* LeakEye */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727D2209F719B0058B730 /* Classes */,
+				EE5727C8209F71660058B730 /* LeakEye.h */,
+				EE5727C9209F71660058B730 /* Info.plist */,
+			);
+			path = LeakEye;
+			sourceTree = "<group>";
+		};
+		EE5727D2209F719B0058B730 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727D3209F719B0058B730 /* Monitor */,
+				EE5727D7209F719B0058B730 /* Util */,
+				EE5727DA209F719B0058B730 /* LeakEye.swift */,
+				EE5727DB209F719B0058B730 /* Agent */,
+				EE5727DD209F719B0058B730 /* Variable.swift */,
+				EE5727DE209F719B0058B730 /* NSNotification+LeakEye.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE5727D3209F719B0058B730 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727D4209F719B0058B730 /* NSObject+Eye.swift */,
+				EE5727D5209F719B0058B730 /* NSObject+Alive.swift */,
+				EE5727D6209F719B0058B730 /* Preparer.swift */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		EE5727D7209F719B0058B730 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727D8209F719B0058B730 /* String+.swift */,
+				EE5727D9209F719B0058B730 /* DispatchQueue+.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EE5727DB209F719B0058B730 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727DC209F719B0058B730 /* ObjectAgent.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		EE5727F2209F77CC0058B730 /* NetworkEye */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727FD209F780B0058B730 /* Classes */,
+				EE5727F3209F77CC0058B730 /* NetworkEye.h */,
+				EE5727F4209F77CC0058B730 /* Info.plist */,
+			);
+			path = NetworkEye;
+			sourceTree = "<group>";
+		};
+		EE5727FD209F780B0058B730 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE5727FE209F780B0058B730 /* NetworkEye.swift */,
+				EE5727FF209F780B0058B730 /* URLSession+Eye.swift */,
+				EE572800209F780B0058B730 /* EyeProtocol.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -839,6 +1112,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE57278F209F5C1D0058B730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE572796209F5C1D0058B730 /* AppBaseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727C3209F71650058B730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5727CA209F71660058B730 /* LeakEye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727EE209F77CC0058B730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5727F5209F77CC0058B730 /* NetworkEye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -855,6 +1152,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				EE572807209F78440058B730 /* PBXTargetDependency */,
+				EE5727E9209F722C0058B730 /* PBXTargetDependency */,
+				EE5727BE209F5C870058B730 /* PBXTargetDependency */,
 				EE57278C209F594F0058B730 /* PBXTargetDependency */,
 				EE572762209F50CD0058B730 /* PBXTargetDependency */,
 				EE57274C2099F8CB0058B730 /* PBXTargetDependency */,
@@ -883,6 +1183,9 @@
 				EE5727422099F85B0058B730 /* PBXTargetDependency */,
 				EE57275B209F50A90058B730 /* PBXTargetDependency */,
 				EE572771209F58670058B730 /* PBXTargetDependency */,
+				EE572798209F5C1D0058B730 /* PBXTargetDependency */,
+				EE5727CC209F71660058B730 /* PBXTargetDependency */,
+				EE5727F7209F77CC0058B730 /* PBXTargetDependency */,
 			);
 			name = GodEye_Example;
 			productName = GodEye_Example;
@@ -979,6 +1282,62 @@
 			productReference = EE57276B209F58670058B730 /* SystemEye.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EE572791209F5C1D0058B730 /* AppBaseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE57279B209F5C1D0058B730 /* Build configuration list for PBXNativeTarget "AppBaseKit" */;
+			buildPhases = (
+				EE57278D209F5C1D0058B730 /* Sources */,
+				EE57278E209F5C1D0058B730 /* Frameworks */,
+				EE57278F209F5C1D0058B730 /* Headers */,
+				EE572790209F5C1D0058B730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppBaseKit;
+			productName = AppBaseKit;
+			productReference = EE572792209F5C1D0058B730 /* AppBaseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE5727C5209F71650058B730 /* LeakEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5727CF209F71660058B730 /* Build configuration list for PBXNativeTarget "LeakEye" */;
+			buildPhases = (
+				EE5727C1209F71650058B730 /* Sources */,
+				EE5727C2209F71650058B730 /* Frameworks */,
+				EE5727C3209F71650058B730 /* Headers */,
+				EE5727C4209F71650058B730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE5727EB209F74790058B730 /* PBXTargetDependency */,
+			);
+			name = LeakEye;
+			productName = LeakEye;
+			productReference = EE5727C6209F71650058B730 /* LeakEye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE5727F0209F77CC0058B730 /* NetworkEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5727FA209F77CC0058B730 /* Build configuration list for PBXNativeTarget "NetworkEye" */;
+			buildPhases = (
+				EE5727EC209F77CC0058B730 /* Sources */,
+				EE5727ED209F77CC0058B730 /* Frameworks */,
+				EE5727EE209F77CC0058B730 /* Headers */,
+				EE5727EF209F77CC0058B730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE572805209F782E0058B730 /* PBXTargetDependency */,
+			);
+			name = NetworkEye;
+			productName = NetworkEye;
+			productReference = EE5727F1209F77CC0058B730 /* NetworkEye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1026,6 +1385,21 @@
 						DevelopmentTeam = L35WZWVC98;
 						ProvisioningStyle = Automatic;
 					};
+					EE572791209F5C1D0058B730 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
+					EE5727C5209F71650058B730 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
+					EE5727F0209F77CC0058B730 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9EC3B5A51E8CD2230052EC57 /* Build configuration list for PBXProject "GodEye" */;
@@ -1048,6 +1422,9 @@
 				EE57273B2099F85B0058B730 /* ASLEye */,
 				EE572754209F50A80058B730 /* CrashEye */,
 				EE57276A209F58670058B730 /* SystemEye */,
+				EE572791209F5C1D0058B730 /* AppBaseKit */,
+				EE5727C5209F71650058B730 /* LeakEye */,
+				EE5727F0209F77CC0058B730 /* NetworkEye */,
 			);
 		};
 /* End PBXProject section */
@@ -1107,6 +1484,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE572790209F5C1D0058B730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727C4209F71650058B730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727EF209F77CC0058B730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1117,12 +1515,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/ESPullToRefresh.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AppBaseKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AppSwizzle.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FileBrowser.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/LeakEye.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/NetworkEye.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwViewCapture.framework",
 			);
 			outputPaths = (
@@ -1271,6 +1665,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE57278D209F5C1D0058B730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5727B2209F5C450058B730 /* UIView+AppBaseKit.swift in Sources */,
+				EE5727B7209F5C450058B730 /* NSObject+Closure.swift in Sources */,
+				EE5727B1209F5C450058B730 /* UIFont+AppBaseKit.swift in Sources */,
+				EE5727B3209F5C450058B730 /* UIApplication+AppBaseKit.swift in Sources */,
+				EE5727B9209F5C450058B730 /* String+AppBaseKit.swift in Sources */,
+				EE5727C0209F700F0058B730 /* AppSwizzle.swift in Sources */,
+				EE5727B8209F5C450058B730 /* NSFileManager+AppBaseKit.swift in Sources */,
+				EE5727B5209F5C450058B730 /* UIColor+AppBaseKit.swift in Sources */,
+				EE5727B4209F5C450058B730 /* UIImage+AppBaseKit.swift in Sources */,
+				EE5727BA209F5C450058B730 /* AppPaths.swift in Sources */,
+				EE5727BB209F5C450058B730 /* AppNavigationController.swift in Sources */,
+				EE5727B6209F5C450058B730 /* UIAlertController+AppBaseKit.swift in Sources */,
+				EE5727B0209F5C450058B730 /* UIAlertView+AppBaseKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727C1209F71650058B730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5727E3209F719B0058B730 /* DispatchQueue+.swift in Sources */,
+				EE5727DF209F719B0058B730 /* NSObject+Eye.swift in Sources */,
+				EE5727E5209F719B0058B730 /* ObjectAgent.swift in Sources */,
+				EE5727E4209F719B0058B730 /* LeakEye.swift in Sources */,
+				EE5727E0209F719B0058B730 /* NSObject+Alive.swift in Sources */,
+				EE5727E2209F719B0058B730 /* String+.swift in Sources */,
+				EE5727E7209F719B0058B730 /* NSNotification+LeakEye.swift in Sources */,
+				EE5727E1209F719B0058B730 /* Preparer.swift in Sources */,
+				EE5727E6209F719B0058B730 /* Variable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5727EC209F77CC0058B730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE572802209F780C0058B730 /* URLSession+Eye.swift in Sources */,
+				EE572801209F780C0058B730 /* NetworkEye.swift in Sources */,
+				EE572803209F780C0058B730 /* EyeProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1318,6 +1758,46 @@
 			isa = PBXTargetDependency;
 			target = EE57276A209F58670058B730 /* SystemEye */;
 			targetProxy = EE57278B209F594F0058B730 /* PBXContainerItemProxy */;
+		};
+		EE572798209F5C1D0058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE572791209F5C1D0058B730 /* AppBaseKit */;
+			targetProxy = EE572797209F5C1D0058B730 /* PBXContainerItemProxy */;
+		};
+		EE5727BE209F5C870058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE572791209F5C1D0058B730 /* AppBaseKit */;
+			targetProxy = EE5727BD209F5C870058B730 /* PBXContainerItemProxy */;
+		};
+		EE5727CC209F71660058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5727C5209F71650058B730 /* LeakEye */;
+			targetProxy = EE5727CB209F71660058B730 /* PBXContainerItemProxy */;
+		};
+		EE5727E9209F722C0058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5727C5209F71650058B730 /* LeakEye */;
+			targetProxy = EE5727E8209F722C0058B730 /* PBXContainerItemProxy */;
+		};
+		EE5727EB209F74790058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE572791209F5C1D0058B730 /* AppBaseKit */;
+			targetProxy = EE5727EA209F74790058B730 /* PBXContainerItemProxy */;
+		};
+		EE5727F7209F77CC0058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5727F0209F77CC0058B730 /* NetworkEye */;
+			targetProxy = EE5727F6209F77CC0058B730 /* PBXContainerItemProxy */;
+		};
+		EE572805209F782E0058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE572791209F5C1D0058B730 /* AppBaseKit */;
+			targetProxy = EE572804209F782E0058B730 /* PBXContainerItemProxy */;
+		};
+		EE572807209F78440058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5727F0209F77CC0058B730 /* NetworkEye */;
+			targetProxy = EE572806209F78440058B730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1868,6 +2348,216 @@
 			};
 			name = Release;
 		};
+		EE57279C209F5C1D0058B730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AppBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.AppBaseKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE57279D209F5C1D0058B730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AppBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.AppBaseKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE5727D0209F71660058B730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LeakEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.LeakEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE5727D1209F71660058B730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LeakEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.LeakEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE5727FB209F77CC0058B730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NetworkEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.NetworkEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE5727FC209F77CC0058B730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NetworkEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.NetworkEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1939,6 +2629,33 @@
 			buildConfigurations = (
 				EE572775209F58670058B730 /* Debug */,
 				EE572776209F58670058B730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE57279B209F5C1D0058B730 /* Build configuration list for PBXNativeTarget "AppBaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE57279C209F5C1D0058B730 /* Debug */,
+				EE57279D209F5C1D0058B730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5727CF209F71660058B730 /* Build configuration list for PBXNativeTarget "LeakEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5727D0209F71660058B730 /* Debug */,
+				EE5727D1209F71660058B730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5727FA209F77CC0058B730 /* Build configuration list for PBXNativeTarget "NetworkEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5727FB209F77CC0058B730 /* Debug */,
+				EE5727FC209F77CC0058B730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
