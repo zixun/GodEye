@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import AssistiveButton
 import AppSwizzle
 
 extension UIWindow {

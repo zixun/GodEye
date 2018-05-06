@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import AssistiveButton
 
 extension GodEyeController {
     
