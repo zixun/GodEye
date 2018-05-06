@@ -68,14 +68,12 @@
 		9EC3B63F1E8CD29C0052EC57 /* NetworkRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */; };
 		9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */; };
 		9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */; };
-		9EC3B6541E8CD4AB0052EC57 /* CrashEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6461E8CD4AB0052EC57 /* CrashEye.framework */; };
 		9EC3B6551E8CD4AB0052EC57 /* ESPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */; };
 		9EC3B6561E8CD4AB0052EC57 /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */; };
 		9EC3B6571E8CD4AB0052EC57 /* LeakEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B6491E8CD4AB0052EC57 /* LeakEye.framework */; };
 		9EC3B6591E8CD4AB0052EC57 /* NetworkEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64B1E8CD4AB0052EC57 /* NetworkEye.framework */; };
 		9EC3B65A1E8CD4AB0052EC57 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64C1E8CD4AB0052EC57 /* SQLite.framework */; };
 		9EC3B65B1E8CD4AB0052EC57 /* SwViewCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64D1E8CD4AB0052EC57 /* SwViewCapture.framework */; };
-		9EC3B65C1E8CD4AB0052EC57 /* SystemEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3B64E1E8CD4AB0052EC57 /* SystemEye.framework */; };
 		9EC3B6651E8CD5C90052EC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6641E8CD5C90052EC57 /* AppDelegate.swift */; };
 		9EC3B6671E8CD5C90052EC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6661E8CD5C90052EC57 /* ViewController.swift */; };
 		9EC3B66A1E8CD5C90052EC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC3B6681E8CD5C90052EC57 /* Main.storyboard */; };
@@ -101,6 +99,18 @@
 		EE57275C209F50A90058B730 /* CrashEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE572755209F50A80058B730 /* CrashEye.framework */; };
 		EE57275D209F50A90058B730 /* CrashEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE572755209F50A80058B730 /* CrashEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE572765209F51000058B730 /* CrashEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572764209F50FF0058B730 /* CrashEye.swift */; };
+		EE57276F209F58670058B730 /* SystemEye.h in Headers */ = {isa = PBXBuildFile; fileRef = EE57276D209F58670058B730 /* SystemEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE572772209F58670058B730 /* SystemEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57276B209F58670058B730 /* SystemEye.framework */; };
+		EE572773209F58670058B730 /* SystemEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE57276B209F58670058B730 /* SystemEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE572782209F59040058B730 /* NetworkFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572778209F59040058B730 /* NetworkFlow.swift */; };
+		EE572783209F59040058B730 /* FPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572779209F59040058B730 /* FPS.swift */; };
+		EE572784209F59040058B730 /* NetObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = EE57277B209F59040058B730 /* NetObjc.m */; };
+		EE572785209F59040058B730 /* NetObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EE57277C209F59040058B730 /* NetObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE572786209F59040058B730 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE57277D209F59040058B730 /* Network.swift */; };
+		EE572787209F59040058B730 /* Hardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE57277E209F59040058B730 /* Hardware.swift */; };
+		EE572788209F59040058B730 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE57277F209F59040058B730 /* Memory.swift */; };
+		EE572789209F59040058B730 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572780209F59040058B730 /* System.swift */; };
+		EE57278A209F59040058B730 /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572781209F59040058B730 /* CPU.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +163,20 @@
 			remoteGlobalIDString = EE572754209F50A80058B730;
 			remoteInfo = CrashEye;
 		};
+		EE572770209F58670058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE57276A209F58670058B730;
+			remoteInfo = SystemEye;
+		};
+		EE57278B209F594F0058B730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE57276A209F58670058B730;
+			remoteInfo = SystemEye;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,6 +190,7 @@
 				EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */,
 				EE57275D209F50A90058B730 /* CrashEye.framework in Embed Frameworks */,
 				EE5727442099F85B0058B730 /* ASLEye.framework in Embed Frameworks */,
+				EE572773209F58670058B730 /* SystemEye.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,15 +261,12 @@
 		9EC3B6041E8CD29C0052EC57 /* NetworkRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRecordViewModel.swift; sourceTree = "<group>"; };
 		9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppBaseKit.framework; path = Carthage/Build/iOS/AppBaseKit.framework; sourceTree = "<group>"; };
 		9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSwizzle.framework; path = Carthage/Build/iOS/AppSwizzle.framework; sourceTree = "<group>"; };
-		9EC3B6451E8CD4AB0052EC57 /* AssistiveButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssistiveButton.framework; path = Carthage/Build/iOS/AssistiveButton.framework; sourceTree = "<group>"; };
-		9EC3B6461E8CD4AB0052EC57 /* CrashEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashEye.framework; path = Carthage/Build/iOS/CrashEye.framework; sourceTree = "<group>"; };
 		9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESPullToRefresh.framework; path = Carthage/Build/iOS/ESPullToRefresh.framework; sourceTree = "<group>"; };
 		9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileBrowser.framework; path = Carthage/Build/iOS/FileBrowser.framework; sourceTree = "<group>"; };
 		9EC3B6491E8CD4AB0052EC57 /* LeakEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LeakEye.framework; path = Carthage/Build/iOS/LeakEye.framework; sourceTree = "<group>"; };
 		9EC3B64B1E8CD4AB0052EC57 /* NetworkEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkEye.framework; path = Carthage/Build/iOS/NetworkEye.framework; sourceTree = "<group>"; };
 		9EC3B64C1E8CD4AB0052EC57 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		9EC3B64D1E8CD4AB0052EC57 /* SwViewCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwViewCapture.framework; path = Carthage/Build/iOS/SwViewCapture.framework; sourceTree = "<group>"; };
-		9EC3B64E1E8CD4AB0052EC57 /* SystemEye.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemEye.framework; path = Carthage/Build/iOS/SystemEye.framework; sourceTree = "<group>"; };
 		9EC3B6621E8CD5C90052EC57 /* GodEye_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodEye_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC3B6641E8CD5C90052EC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC3B6661E8CD5C90052EC57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -274,6 +296,18 @@
 		EE572757209F50A90058B730 /* CrashEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashEye.h; sourceTree = "<group>"; };
 		EE572758209F50A90058B730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE572764209F50FF0058B730 /* CrashEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashEye.swift; sourceTree = "<group>"; };
+		EE57276B209F58670058B730 /* SystemEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SystemEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE57276D209F58670058B730 /* SystemEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemEye.h; sourceTree = "<group>"; };
+		EE57276E209F58670058B730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE572778209F59040058B730 /* NetworkFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFlow.swift; sourceTree = "<group>"; };
+		EE572779209F59040058B730 /* FPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPS.swift; sourceTree = "<group>"; };
+		EE57277B209F59040058B730 /* NetObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetObjc.m; sourceTree = "<group>"; };
+		EE57277C209F59040058B730 /* NetObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetObjc.h; sourceTree = "<group>"; };
+		EE57277D209F59040058B730 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EE57277E209F59040058B730 /* Hardware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hardware.swift; sourceTree = "<group>"; };
+		EE57277F209F59040058B730 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		EE572780209F59040058B730 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		EE572781209F59040058B730 /* CPU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,14 +317,12 @@
 			files = (
 				9EC3B6501E8CD4AB0052EC57 /* AppBaseKit.framework in Frameworks */,
 				9EC3B6511E8CD4AB0052EC57 /* AppSwizzle.framework in Frameworks */,
-				9EC3B6541E8CD4AB0052EC57 /* CrashEye.framework in Frameworks */,
 				9EC3B6551E8CD4AB0052EC57 /* ESPullToRefresh.framework in Frameworks */,
 				9EC3B6561E8CD4AB0052EC57 /* FileBrowser.framework in Frameworks */,
 				9EC3B6571E8CD4AB0052EC57 /* LeakEye.framework in Frameworks */,
 				9EC3B6591E8CD4AB0052EC57 /* NetworkEye.framework in Frameworks */,
 				9EC3B65A1E8CD4AB0052EC57 /* SQLite.framework in Frameworks */,
 				9EC3B65B1E8CD4AB0052EC57 /* SwViewCapture.framework in Frameworks */,
-				9EC3B65C1E8CD4AB0052EC57 /* SystemEye.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE57275C209F50A90058B730 /* CrashEye.framework in Frameworks */,
+				EE572772209F58670058B730 /* SystemEye.framework in Frameworks */,
 				EE5727432099F85B0058B730 /* ASLEye.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +364,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE572767209F58670058B730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -343,6 +383,7 @@
 				EE1BF403208C9F01004C0B89 /* ANREye */,
 				EE57273D2099F85B0058B730 /* ASLEye */,
 				EE572756209F50A90058B730 /* CrashEye */,
+				EE57276C209F58670058B730 /* SystemEye */,
 				9EC3B5AC1E8CD2230052EC57 /* Products */,
 				9EC3B6401E8CD4AB0052EC57 /* Frameworks */,
 			);
@@ -357,6 +398,7 @@
 				EE1BF402208C9F01004C0B89 /* ANREye.framework */,
 				EE57273C2099F85B0058B730 /* ASLEye.framework */,
 				EE572755209F50A80058B730 /* CrashEye.framework */,
+				EE57276B209F58670058B730 /* SystemEye.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -594,15 +636,12 @@
 			children = (
 				9EC3B6421E8CD4AB0052EC57 /* AppBaseKit.framework */,
 				9EC3B6431E8CD4AB0052EC57 /* AppSwizzle.framework */,
-				9EC3B6451E8CD4AB0052EC57 /* AssistiveButton.framework */,
-				9EC3B6461E8CD4AB0052EC57 /* CrashEye.framework */,
 				9EC3B6471E8CD4AB0052EC57 /* ESPullToRefresh.framework */,
 				9EC3B6481E8CD4AB0052EC57 /* FileBrowser.framework */,
 				9EC3B6491E8CD4AB0052EC57 /* LeakEye.framework */,
 				9EC3B64B1E8CD4AB0052EC57 /* NetworkEye.framework */,
 				9EC3B64C1E8CD4AB0052EC57 /* SQLite.framework */,
 				9EC3B64D1E8CD4AB0052EC57 /* SwViewCapture.framework */,
-				9EC3B64E1E8CD4AB0052EC57 /* SystemEye.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -713,6 +752,40 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		EE57276C209F58670058B730 /* SystemEye */ = {
+			isa = PBXGroup;
+			children = (
+				EE572777209F59040058B730 /* Classes */,
+				EE57276D209F58670058B730 /* SystemEye.h */,
+				EE57276E209F58670058B730 /* Info.plist */,
+			);
+			path = SystemEye;
+			sourceTree = "<group>";
+		};
+		EE572777209F59040058B730 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE572778209F59040058B730 /* NetworkFlow.swift */,
+				EE572779209F59040058B730 /* FPS.swift */,
+				EE57277A209F59040058B730 /* OCBridge */,
+				EE57277D209F59040058B730 /* Network.swift */,
+				EE57277E209F59040058B730 /* Hardware.swift */,
+				EE57277F209F59040058B730 /* Memory.swift */,
+				EE572780209F59040058B730 /* System.swift */,
+				EE572781209F59040058B730 /* CPU.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE57277A209F59040058B730 /* OCBridge */ = {
+			isa = PBXGroup;
+			children = (
+				EE57277B209F59040058B730 /* NetObjc.m */,
+				EE57277C209F59040058B730 /* NetObjc.h */,
+			);
+			path = OCBridge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -757,6 +830,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE572768209F58670058B730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE572785209F59040058B730 /* NetObjc.h in Headers */,
+				EE57276F209F58670058B730 /* SystemEye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -773,6 +855,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EE57278C209F594F0058B730 /* PBXTargetDependency */,
 				EE572762209F50CD0058B730 /* PBXTargetDependency */,
 				EE57274C2099F8CB0058B730 /* PBXTargetDependency */,
 				EE1BF419208CA0A0004C0B89 /* PBXTargetDependency */,
@@ -799,6 +882,7 @@
 				9EC3B69E1E8CE4170052EC57 /* PBXTargetDependency */,
 				EE5727422099F85B0058B730 /* PBXTargetDependency */,
 				EE57275B209F50A90058B730 /* PBXTargetDependency */,
+				EE572771209F58670058B730 /* PBXTargetDependency */,
 			);
 			name = GodEye_Example;
 			productName = GodEye_Example;
@@ -877,6 +961,24 @@
 			productReference = EE572755209F50A80058B730 /* CrashEye.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EE57276A209F58670058B730 /* SystemEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE572774209F58670058B730 /* Build configuration list for PBXNativeTarget "SystemEye" */;
+			buildPhases = (
+				EE572766209F58670058B730 /* Sources */,
+				EE572767209F58670058B730 /* Frameworks */,
+				EE572768209F58670058B730 /* Headers */,
+				EE572769209F58670058B730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemEye;
+			productName = SystemEye;
+			productReference = EE57276B209F58670058B730 /* SystemEye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -919,6 +1021,11 @@
 						DevelopmentTeam = L35WZWVC98;
 						ProvisioningStyle = Automatic;
 					};
+					EE57276A209F58670058B730 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9EC3B5A51E8CD2230052EC57 /* Build configuration list for PBXProject "GodEye" */;
@@ -940,6 +1047,7 @@
 				EE1BF401208C9F01004C0B89 /* ANREye */,
 				EE57273B2099F85B0058B730 /* ASLEye */,
 				EE572754209F50A80058B730 /* CrashEye */,
+				EE57276A209F58670058B730 /* SystemEye */,
 			);
 		};
 /* End PBXProject section */
@@ -992,6 +1100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE572769209F58670058B730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1008,7 +1123,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/LeakEye.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/NetworkEye.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SystemEye.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwViewCapture.framework",
 			);
 			outputPaths = (
@@ -1142,6 +1256,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE572766209F58670058B730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE572788209F59040058B730 /* Memory.swift in Sources */,
+				EE572789209F59040058B730 /* System.swift in Sources */,
+				EE572782209F59040058B730 /* NetworkFlow.swift in Sources */,
+				EE572784209F59040058B730 /* NetObjc.m in Sources */,
+				EE57278A209F59040058B730 /* CPU.swift in Sources */,
+				EE572787209F59040058B730 /* Hardware.swift in Sources */,
+				EE572786209F59040058B730 /* Network.swift in Sources */,
+				EE572783209F59040058B730 /* FPS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1179,6 +1308,16 @@
 			isa = PBXTargetDependency;
 			target = EE572754209F50A80058B730 /* CrashEye */;
 			targetProxy = EE572761209F50CD0058B730 /* PBXContainerItemProxy */;
+		};
+		EE572771209F58670058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE57276A209F58670058B730 /* SystemEye */;
+			targetProxy = EE572770209F58670058B730 /* PBXContainerItemProxy */;
+		};
+		EE57278C209F594F0058B730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE57276A209F58670058B730 /* SystemEye */;
+			targetProxy = EE57278B209F594F0058B730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1659,6 +1798,76 @@
 			};
 			name = Release;
 		};
+		EE572775209F58670058B730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SystemEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.SystemEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE572776209F58670058B730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SystemEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.SystemEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1721,6 +1930,15 @@
 			buildConfigurations = (
 				EE57275F209F50A90058B730 /* Debug */,
 				EE572760209F50A90058B730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE572774209F58670058B730 /* Build configuration list for PBXNativeTarget "SystemEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE572775209F58670058B730 /* Debug */,
+				EE572776209F58670058B730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
