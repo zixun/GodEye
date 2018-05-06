@@ -115,7 +115,10 @@ class MonitorContainerView: UIScrollView,FPSDelegate,NetDelegate {
     }
     
     func networkFlow(networkFlow:NetworkFlow,catchWithWifiSend wifiSend:UInt32,wifiReceived:UInt32,wwanSend:UInt32,wwanReceived:UInt32) {
-        self.sysNetView.configure(wifiSend: wifiSend, wifiReceived: wifiReceived, wwanSend: wwanSend, wwanReceived: wwanReceived)
+        DispatchQueue.main.async {
+            self.sysNetView.configure(wifiSend: wifiSend, wifiReceived: wifiReceived, wwanSend: wwanSend, wwanReceived: wwanReceived)
+        }
+        
     }
     //--------------------------------------------------------------------------
     // MARK: PRIVATE PROPERTY
