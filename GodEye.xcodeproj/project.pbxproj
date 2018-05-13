@@ -76,6 +76,7 @@
 		9EC3B66C1E8CD5C90052EC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC3B66B1E8CD5C90052EC57 /* Assets.xcassets */; };
 		9EC3B66F1E8CD5C90052EC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC3B66D1E8CD5C90052EC57 /* LaunchScreen.storyboard */; };
 		9EC3B6761E8CD6AC0052EC57 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3B6751E8CD6AC0052EC57 /* DemoModel.swift */; };
+		D474C0F339EEFC6E72E12067 /* UIThreadEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = D474C98EF015A33176667FA6 /* UIThreadEye.swift */; };
 		EE1BF3EA208BECA8004C0B89 /* Log4G.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1BF3E8208BECA8004C0B89 /* Log4G.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BF3E6208BECA8004C0B89 /* Log4G.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE1BF3F8208BEEC4004C0B89 /* Log4G.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BF3F6208BEEC4004C0B89 /* Log4G.swift */; };
@@ -141,6 +142,9 @@
 		EE572801209F780C0058B730 /* NetworkEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727FE209F780B0058B730 /* NetworkEye.swift */; };
 		EE572802209F780C0058B730 /* URLSession+Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5727FF209F780B0058B730 /* URLSession+Eye.swift */; };
 		EE572803209F780C0058B730 /* EyeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE572800209F780B0058B730 /* EyeProtocol.swift */; };
+		EE8B98C120A88B83001DAE9C /* UIThreadEye.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8B98BF20A88B83001DAE9C /* UIThreadEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8B98C420A88B83001DAE9C /* UIThreadEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8B98BD20A88B82001DAE9C /* UIThreadEye.framework */; };
+		EE8B98C520A88B83001DAE9C /* UIThreadEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE8B98BD20A88B82001DAE9C /* UIThreadEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -263,6 +267,20 @@
 			remoteGlobalIDString = EE5727F0209F77CC0058B730;
 			remoteInfo = NetworkEye;
 		};
+		EE8B98C220A88B83001DAE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8B98BC20A88B82001DAE9C;
+			remoteInfo = UIThreadEye;
+		};
+		EE8B98CA20A88F6E001DAE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC3B5A21E8CD2230052EC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8B98BC20A88B82001DAE9C;
+			remoteInfo = UIThreadEye;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -273,6 +291,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				EE57279A209F5C1D0058B730 /* AppBaseKit.framework in Embed Frameworks */,
+				EE8B98C520A88B83001DAE9C /* UIThreadEye.framework in Embed Frameworks */,
 				EE5727CE209F71660058B730 /* LeakEye.framework in Embed Frameworks */,
 				EE1BF40A208C9F01004C0B89 /* ANREye.framework in Embed Frameworks */,
 				EE1BF3EE208BECA8004C0B89 /* Log4G.framework in Embed Frameworks */,
@@ -360,6 +379,7 @@
 		9EC3B66E1E8CD5C90052EC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC3B6701E8CD5C90052EC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EC3B6751E8CD6AC0052EC57 /* DemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModel.swift; sourceTree = "<group>"; };
+		D474C98EF015A33176667FA6 /* UIThreadEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIThreadEye.swift; sourceTree = "<group>"; };
 		EE1BF3E6208BECA8004C0B89 /* Log4G.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Log4G.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1BF3E8208BECA8004C0B89 /* Log4G.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log4G.h; sourceTree = "<group>"; };
 		EE1BF3E9208BECA8004C0B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -427,6 +447,9 @@
 		EE5727FE209F780B0058B730 /* NetworkEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEye.swift; sourceTree = "<group>"; };
 		EE5727FF209F780B0058B730 /* URLSession+Eye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Eye.swift"; sourceTree = "<group>"; };
 		EE572800209F780B0058B730 /* EyeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeProtocol.swift; sourceTree = "<group>"; };
+		EE8B98BD20A88B82001DAE9C /* UIThreadEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIThreadEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8B98BF20A88B83001DAE9C /* UIThreadEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIThreadEye.h; sourceTree = "<group>"; };
+		EE8B98C020A88B83001DAE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +468,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8B98C420A88B83001DAE9C /* UIThreadEye.framework in Frameworks */,
 				EE572799209F5C1D0058B730 /* AppBaseKit.framework in Frameworks */,
 				EE5727CD209F71660058B730 /* LeakEye.framework in Frameworks */,
 				EE57275C209F50A90058B730 /* CrashEye.framework in Frameworks */,
@@ -510,6 +534,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE8B98B920A88B82001DAE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -526,6 +557,7 @@
 				EE572793209F5C1D0058B730 /* AppBaseKit */,
 				EE5727C7209F71660058B730 /* LeakEye */,
 				EE5727F2209F77CC0058B730 /* NetworkEye */,
+				EE8B98BE20A88B83001DAE9C /* UIThreadEye */,
 				9EC3B5AC1E8CD2230052EC57 /* Products */,
 				9EC3B6401E8CD4AB0052EC57 /* Frameworks */,
 			);
@@ -544,6 +576,7 @@
 				EE572792209F5C1D0058B730 /* AppBaseKit.framework */,
 				EE5727C6209F71650058B730 /* LeakEye.framework */,
 				EE5727F1209F77CC0058B730 /* NetworkEye.framework */,
+				EE8B98BD20A88B82001DAE9C /* UIThreadEye.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1059,6 +1092,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		EE8B98BE20A88B83001DAE9C /* UIThreadEye */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B98C920A88BC2001DAE9C /* Classes */,
+				EE8B98BF20A88B83001DAE9C /* UIThreadEye.h */,
+				EE8B98C020A88B83001DAE9C /* Info.plist */,
+			);
+			path = UIThreadEye;
+			sourceTree = "<group>";
+		};
+		EE8B98C920A88BC2001DAE9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D474C98EF015A33176667FA6 /* UIThreadEye.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1136,6 +1187,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE8B98BA20A88B82001DAE9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8B98C120A88B83001DAE9C /* UIThreadEye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1152,6 +1211,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EE8B98CB20A88F6E001DAE9C /* PBXTargetDependency */,
 				EE572807209F78440058B730 /* PBXTargetDependency */,
 				EE5727E9209F722C0058B730 /* PBXTargetDependency */,
 				EE5727BE209F5C870058B730 /* PBXTargetDependency */,
@@ -1186,6 +1246,7 @@
 				EE572798209F5C1D0058B730 /* PBXTargetDependency */,
 				EE5727CC209F71660058B730 /* PBXTargetDependency */,
 				EE5727F7209F77CC0058B730 /* PBXTargetDependency */,
+				EE8B98C320A88B83001DAE9C /* PBXTargetDependency */,
 			);
 			name = GodEye_Example;
 			productName = GodEye_Example;
@@ -1338,6 +1399,24 @@
 			productReference = EE5727F1209F77CC0058B730 /* NetworkEye.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EE8B98BC20A88B82001DAE9C /* UIThreadEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8B98C820A88B83001DAE9C /* Build configuration list for PBXNativeTarget "UIThreadEye" */;
+			buildPhases = (
+				EE8B98B820A88B82001DAE9C /* Sources */,
+				EE8B98B920A88B82001DAE9C /* Frameworks */,
+				EE8B98BA20A88B82001DAE9C /* Headers */,
+				EE8B98BB20A88B82001DAE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIThreadEye;
+			productName = UIThreadEye;
+			productReference = EE8B98BD20A88B82001DAE9C /* UIThreadEye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1400,6 +1479,11 @@
 						DevelopmentTeam = L35WZWVC98;
 						ProvisioningStyle = Automatic;
 					};
+					EE8B98BC20A88B82001DAE9C = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = L35WZWVC98;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9EC3B5A51E8CD2230052EC57 /* Build configuration list for PBXProject "GodEye" */;
@@ -1425,6 +1509,7 @@
 				EE572791209F5C1D0058B730 /* AppBaseKit */,
 				EE5727C5209F71650058B730 /* LeakEye */,
 				EE5727F0209F77CC0058B730 /* NetworkEye */,
+				EE8B98BC20A88B82001DAE9C /* UIThreadEye */,
 			);
 		};
 /* End PBXProject section */
@@ -1499,6 +1584,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EE5727EF209F77CC0058B730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8B98BB20A88B82001DAE9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1711,6 +1803,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE8B98B820A88B82001DAE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D474C0F339EEFC6E72E12067 /* UIThreadEye.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1798,6 +1898,16 @@
 			isa = PBXTargetDependency;
 			target = EE5727F0209F77CC0058B730 /* NetworkEye */;
 			targetProxy = EE572806209F78440058B730 /* PBXContainerItemProxy */;
+		};
+		EE8B98C320A88B83001DAE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8B98BC20A88B82001DAE9C /* UIThreadEye */;
+			targetProxy = EE8B98C220A88B83001DAE9C /* PBXContainerItemProxy */;
+		};
+		EE8B98CB20A88F6E001DAE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8B98BC20A88B82001DAE9C /* UIThreadEye */;
+			targetProxy = EE8B98CA20A88F6E001DAE9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2558,6 +2668,76 @@
 			};
 			name = Release;
 		};
+		EE8B98C620A88B83001DAE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UIThreadEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.UIThreadEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8B98C720A88B83001DAE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L35WZWVC98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UIThreadEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.UIThreadEye;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2656,6 +2836,15 @@
 			buildConfigurations = (
 				EE5727FB209F77CC0058B730 /* Debug */,
 				EE5727FC209F77CC0058B730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8B98C820A88B83001DAE9C /* Build configuration list for PBXNativeTarget "UIThreadEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8B98C620A88B83001DAE9C /* Debug */,
+				EE8B98C720A88B83001DAE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

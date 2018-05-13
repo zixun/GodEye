@@ -13,6 +13,7 @@ import Log4G
 import CrashEye
 import ANREye
 import LeakEye
+import UIThreadEye
 
 class EyesManager: NSObject {
     
@@ -143,5 +144,23 @@ extension EyesManager {
     
     func closeLeakEye() {
         self.leakEye.close()
+    }
+}
+
+//--------------------------------------------------------------------------
+// MARK: - UIThreadEye
+//--------------------------------------------------------------------------
+extension EyesManager {
+    
+    func isUIThreadEyeOpening() -> Bool {
+        return UIThreadEye.isWatching
+    }
+    
+    func openUIThreadEye() {
+        UIThreadEye.open()
+    }
+    
+    func closeUIThreadEye() {
+        UIThreadEye.close()
     }
 }
