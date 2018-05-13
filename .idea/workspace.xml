@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae83862-2ac7-487d-bfd5-3e63e5ff60cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/ANREye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/GodEye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Log4G.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GodEye.xcodeproj/xcshareddata/xcschemes/GodEye.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/GodEye.xcodeproj/xcshareddata/xcschemes/GodEye.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GodEye.xcodeproj/xcshareddata/xcschemes/Log4G.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/GodEye.xcodeproj/xcshareddata/xcschemes/Log4G.xcscheme" afterDir="false" />
-    </list>
+    <list default="true" id="3ae83862-2ac7-487d-bfd5-3e63e5ff60cd" name="Default" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/GodEye-ftevogdutqommyhcybcsfdotlswq/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +16,8 @@
       <file leaf-file-name="AppDelegate.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GodEye_Example/AppDelegate.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#130#142#0" expanded="true" />
               </folding>
@@ -130,16 +122,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525973796880</updated>
-      <workItem from="1525973801140" duration="2426000" />
+      <workItem from="1525973801140" duration="2818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2426000" />
+    <option name="totallyTimeSpent" value="2818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-42" y="-1026" width="1400" height="987" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49928573" weight="0.32968238" />
@@ -199,8 +190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GodEye_Example/AppDelegate.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#130#142#0" expanded="true" />
           </folding>
