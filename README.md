@@ -56,7 +56,7 @@ It's so huge that I split it into several independent components:
 
 ## Book and Principle
 
-**I has wrote a book named [《iOS监控编程》](https://www.qingdan.us/product/25),each chapter records the course function of the implementation details and the way to explore.sorry for english friends,this book wrote by chineses.**
+**I has wrote a book named [《iOS监控编程》](https://xiaozhuanlan.com/godeye),each chapter records the course function of the implementation details and the way to explore.sorry for english friends,this book wrote by chineses.**
 
 <p align="center">
   <img src="./design/image/cover.jpg" width=45%/>
