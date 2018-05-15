@@ -54,7 +54,7 @@ Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and et
 
 ## 书与原理
 
-**笔者写了一本书，名叫[《iOS监控编程》](https://www.qingdan.us/product/25),每个章节记录了功能的实现细节，以及笔者一路探索的心路历程。当然，笔者后续依旧会寻求与探索新的监控方向，一旦有所得都会更新到本书的章节中.**
+**笔者写了一本书，目前放在小专栏里，名叫[《iOS监控编程》](https://xiaozhuanlan.com/godeye),每个章节记录了功能的实现细节，以及笔者一路探索的心路历程。当然，笔者后续依旧会寻求与探索新的监控方向，一旦有所得都会更新到本书的章节中.**
 
 <p align="center">
   <img src="./design/image/cover.jpg" width=45%/>
