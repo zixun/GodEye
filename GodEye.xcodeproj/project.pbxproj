@@ -521,7 +521,6 @@
 				9EC3B5A71E8CD2230052EC57 /* Frameworks */,
 				9EC3B5A81E8CD2230052EC57 /* Headers */,
 				9EC3B5A91E8CD2230052EC57 /* Resources */,
-				9EC3B65D1E8CD4B00052EC57 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -615,33 +614,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9EC3B65D1E8CD4B00052EC57 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/ESPullToRefresh.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ANREye.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AppBaseKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AppSwizzle.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AssistiveButton.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ASLEye.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FileBrowser.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Log4G.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/LeakEye.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/NetworkEye.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SystemEye.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwViewCapture.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/CrashEye.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		9EC3B6771E8CD6B70052EC57 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
