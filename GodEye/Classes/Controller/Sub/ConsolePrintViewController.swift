@@ -42,7 +42,7 @@ class ConsolePrintViewController: UIViewController {
         self.view.addSubview(self.recordTableView)
         self.view.addSubview(self.inputField)
         
-        self.recordTableView.es_addPullToRefresh { [weak self] in
+        self.recordTableView.es.addPullToRefresh { [weak self] in
             guard let sself = self else {
                 return
             }
@@ -51,7 +51,7 @@ class ConsolePrintViewController: UIViewController {
             if result == true {
                 sself.recordTableView.reloadData()
             }
-            sself.recordTableView.es_stopPullToRefresh()
+            sself.recordTableView.es.stopPullToRefresh()
         }
         
         NotificationCenter.default.addObserver(self,
