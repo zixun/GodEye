@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae83862-2ac7-487d-bfd5-3e63e5ff60cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/UIThreadEye/Classes/UIThreadEye.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GodEye.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/GodEye.xcodeproj/project.pbxproj" afterDir="false" />
-    </list>
+    <list default="true" id="3ae83862-2ac7-487d-bfd5-3e63e5ff60cd" name="Default" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/GodEye-ftevogdutqommyhcybcsfdotlswq/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="UIThreadEye.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UIThreadEye/Classes/UIThreadEye.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="825">
+              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
               <folding>
                 <element signature="e#91#108#0" expanded="true" />
               </folding>
@@ -78,8 +74,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-101" />
-    <option name="y" value="-1031" />
+    <option name="x" value="38" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
   </component>
@@ -198,21 +194,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3886000" />
+    <option name="totallyTimeSpent" value="4471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-101" y="-1031" width="1400" height="987" extended-state="0" />
+    <frame x="38" y="23" width="1400" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49928573" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49857143" visible="true" weight="0.32968238" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007143" side_tool="true" visible="true" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50142854" side_tool="true" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" weight="0.32968238" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="LuaJ" />
       <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49928573" weight="0.4370208" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -322,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UIThreadEye/Classes/UIThreadEye.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="825">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
             <element signature="e#91#108#0" expanded="true" />
           </folding>
