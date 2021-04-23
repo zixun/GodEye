@@ -10,7 +10,7 @@
 ASLEye is an ASL(Apple System Log) monitor, automatic catch the log from NSLog by asl module
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automatically display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 

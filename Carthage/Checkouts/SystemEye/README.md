@@ -5,10 +5,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/SystemEye.svg?style=flat)](http://cocoapods.org/pods/SystemEye)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
 
-SystemEye is a system monitor,automatic catch the infomation of cpu,memory,fps,netflow....etc.
+SystemEye is a system monitor,automatic catch the information of cpu,memory,fps,netflow....etc.
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automatically display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 

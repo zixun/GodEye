@@ -8,12 +8,12 @@
 Simple, lightweight logging framework written in Swift
 
 ## Context
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly disply Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automatically disply Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Features
 
 - [x] Log type support: `log`,`warning`,`error`.
-- [x] Automaticly get log‘s file, line, function and thread.
+- [x] Automatically get log‘s file, line, function and thread.
 - [x] Allow multiple delegate listeners to monitor log behavior.
 
 

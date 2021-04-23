@@ -4,10 +4,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/NetworkEye.svg?style=flat)](http://cocoapods.org/pods/NetworkEye)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
 
-NetworkEye is a network monitor,automatic catch the request and response infomation of all kinds of request send
+NetworkEye is a network monitor,automatic catch the request and response information of all kinds of request send
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automatically display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 
