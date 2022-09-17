@@ -16,7 +16,7 @@
 #include <string.h>
 #include <mach-o/dyld.h>
 #include <mach-o/nlist.h>
-
+//TODO: change to swift
 @interface BSBacktraceLogger : NSObject
 
 + (NSString *)backtraceOfMachthread:(thread_t)thread;
