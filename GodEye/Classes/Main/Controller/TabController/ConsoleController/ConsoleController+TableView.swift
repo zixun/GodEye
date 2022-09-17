@@ -24,7 +24,7 @@ class ConsoleTableViewModel: NSObject {
 extension ConsoleController {
     func reloadRow(of type:RecordType) {
         if let indexPath = self.indexPath(of: type) {
-            self.tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.none)
+            self.tableView.reloadRows(at: [indexPath], with: UITableView.RowAnimation.none)
         }
     }
     
@@ -71,7 +71,7 @@ extension ConsoleController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        return tableView.dequeueReusableCell(style: UITableViewCellStyle.subtitle,
+        return tableView.dequeueReusableCell(style: UITableViewCell.CellStyle.subtitle,
                                              identifier: ConsoleTableViewCell.identifier(), { (cell:ConsoleTableViewCell) in
                                                 
         })
@@ -96,12 +96,12 @@ extension ConsoleController: UITableViewDataSource {
 
 class ConsoleTableViewCell: UITableViewCell {
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.backgroundColor = UIColor.clear
         self.textLabel?.textColor = UIColor.white
         self.detailTextLabel?.textColor = UIColor.gray
-        self.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        self.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         
         self.contentView.addSubview(self.unreadLabel)
     }

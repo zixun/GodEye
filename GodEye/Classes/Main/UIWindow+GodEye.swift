@@ -62,10 +62,10 @@ extension UIWindow {
 }
 
 extension UIResponder {
-    @objc func app_motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    @objc func app_motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         let control = GodEyeController.shared.configuration.control
         if control.enabled && control.shakeToShow() {
-            if event?.type == UIEventType.motion && event?.subtype == UIEventSubtype.motionShake {
+            if event?.type == UIEvent.EventType.motion && event?.subtype == UIEvent.EventSubtype.motionShake {
                 if GodEyeController.shared.showing {
                     GodEyeController.hide()
                 }else {

@@ -95,7 +95,7 @@ extension GodEyeController {
         //bring AssistiveButton to front
         for subview in superView.subviews {
             if subview.isKind(of: AssistiveButton.classForCoder()) {
-                superView.bringSubview(toFront: subview)
+                superView.bringSubviewToFront(subview)
             }
         }
     }

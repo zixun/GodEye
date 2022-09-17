@@ -55,7 +55,7 @@ extension UIColor {
     
     private func string(of component:Int) -> String {
         var result = String(format: "%x",  component)
-        let count = result.characters.count
+        let count = result.count
         if count == 0 {
             return "00"
         }else if count == 1 {

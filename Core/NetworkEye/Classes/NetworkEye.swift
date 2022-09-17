@@ -23,13 +23,13 @@ class WeakNetworkEyeDelegate: NSObject {
 
 open class NetworkEye: NSObject {
     
-    open static var isWatching: Bool  {
+    public static var isWatching: Bool  {
         get {
             return EyeProtocol.delegates.count > 0
         }
     }
     
-    open class func add(observer:NetworkEyeDelegate) {
+    public class func add(observer:NetworkEyeDelegate) {
         if EyeProtocol.delegates.count == 0 {
             EyeProtocol.open()
             URLSession.open()
@@ -37,7 +37,7 @@ open class NetworkEye: NSObject {
         EyeProtocol.add(delegate: observer)
     }
     
-    open class func remove(observer:NetworkEyeDelegate) {
+    public class func remove(observer:NetworkEyeDelegate) {
         EyeProtocol.remove(delegate: observer)
         if EyeProtocol.delegates.count == 0 {
             EyeProtocol.close()

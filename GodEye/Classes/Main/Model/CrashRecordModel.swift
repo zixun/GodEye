@@ -11,11 +11,11 @@ import SQLite
 
 final class CrashRecordModel: NSObject {
     
-    open var type: CrashModelType!
-    open var name: String!
-    open var reason: String!
-    open var appinfo: String!
-    open var callStack: String!
+    public var type: CrashModelType!
+    public var name: String!
+    public var reason: String!
+    public var appinfo: String!
+    public var callStack: String!
     
     init(model:CrashModel) {
         super.init()

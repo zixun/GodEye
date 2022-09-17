@@ -15,7 +15,7 @@ open class Hardware: NSObject {
     //--------------------------------------------------------------------------
     
     /// System uptime, you can get the components from the result
-    open static var uptime: Date {
+    public static var uptime: Date {
         get {
             /// get the info about the process
             let processsInfo = ProcessInfo.processInfo
@@ -26,15 +26,15 @@ open class Hardware: NSObject {
         }
     }
     /// model of the device, eg: "iPhone", "iPod touch"
-    open static let deviceModel: String = UIDevice.current.model
+    public static let deviceModel: String = UIDevice.current.model
     /// name of the device, eg: "My iPhone"
-    open static var deviceName: String = UIDevice.current.name
+    public static var deviceName: String = UIDevice.current.name
     /// system name of the device, eg: "iOS"
-    open static let systemName: String = UIDevice.current.systemName
+    public static let systemName: String = UIDevice.current.systemName
     /// system version of the device, eg: "10.0"
-    open static let systemVersion: String = UIDevice.current.systemVersion
+    public static let systemVersion: String = UIDevice.current.systemVersion
     /// version code of device, eg: "iPhone7,1"
-    open static var deviceVersionCode: String {
+    public static var deviceVersionCode: String {
         get {
             var systemInfo = utsname()
             uname(&systemInfo)
@@ -45,7 +45,7 @@ open class Hardware: NSObject {
         }
     }
     /// version of device, eg: "iPhone5"
-    open static var deviceVersion: String {
+    public static var deviceVersion: String {
         get {
             switch self.deviceVersionCode {
             /*** iPhone ***/
@@ -91,31 +91,31 @@ open class Hardware: NSObject {
         }
     }
     /// get the screen width (x)
-    open static var screenWidth: CGFloat {
+    public static var screenWidth: CGFloat {
         get {
             return UIScreen.main.bounds.size.width
         }
     }
     /// get the screen height (y)
-    open static var screenHeight: CGFloat {
+    public static var screenHeight: CGFloat {
         get {
             return UIScreen.main.bounds.size.height
         }
     }
     /// get the brightness of screen
-    open static var screenBrightness: CGFloat {
+    public static var screenBrightness: CGFloat {
         get {
             return UIScreen.main.brightness
         }
     }
     
-    open static var isMultitaskingSupported: Bool {
+    public static var isMultitaskingSupported: Bool {
         get {
             return UIDevice.current.isMultitaskingSupported
         }
     }
     /// is the debugger attached
-    open static var isDebuggerAttached: Bool {
+    public static var isDebuggerAttached: Bool {
         get {
             var info = kinfo_proc()
             var mib : [Int32] = [CTL_KERN, KERN_PROC, KERN_PROC_PID, getpid()]
@@ -127,7 +127,7 @@ open class Hardware: NSObject {
     }
     
     /// is the device plugged in
-    open static var isPluggedIn: Bool {
+    public static var isPluggedIn: Bool {
         get {
             let preEnable = UIDevice.current.isBatteryMonitoringEnabled
             UIDevice.current.isBatteryMonitoringEnabled = true
@@ -138,7 +138,7 @@ open class Hardware: NSObject {
     }
     
     /// is the device jailbrokened
-    open static var isJailbroken: Bool {
+    public static var isJailbroken: Bool {
         let cydiaURL = "/Applications/Cydia.app"
         return FileManager.default.fileExists(atPath: cydiaURL)
     }

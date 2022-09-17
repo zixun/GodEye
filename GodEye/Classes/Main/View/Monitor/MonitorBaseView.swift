@@ -103,9 +103,9 @@ class MonitorBaseView: UIButton {
 
 // MARK: - Tool
 extension MonitorBaseView {
-    fileprivate func attributes(size:CGFloat) -> [NSAttributedStringKey : Any] {
-        return [NSAttributedStringKey.font:UIFont(name: "HelveticaNeue-UltraLight", size: size),
-                NSAttributedStringKey.foregroundColor:UIColor.white]
+    fileprivate func attributes(size:CGFloat) -> [NSAttributedString.Key : Any] {
+        return [NSAttributedString.Key.font:UIFont(name: "HelveticaNeue-UltraLight", size: size),
+                NSAttributedString.Key.foregroundColor:UIColor.white]
     }
     
     fileprivate func contentString(_ string:String,unit:String) -> NSAttributedString {

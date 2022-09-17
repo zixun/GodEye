@@ -38,14 +38,14 @@ class MonitorSysNetFlowView: UIButton {
         let storage = Double(byte).storageCapacity()
         
         result.append(NSAttributedString(string: prefix + "  ",
-                                         attributes: [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 10),
-                                                      NSAttributedStringKey.foregroundColor:UIColor.white]))
+                                         attributes: [NSAttributedString.Key.font:UIFont.systemFont(ofSize: 10),
+                                                      NSAttributedString.Key.foregroundColor:UIColor.white]))
         result.append(NSAttributedString(string: String.init(format: "%.1f",storage.capacity),
-                                         attributes: [NSAttributedStringKey.font:UIFont(name: "HelveticaNeue-UltraLight", size: 18),
-                                                      NSAttributedStringKey.foregroundColor:UIColor.white]))
+                                         attributes: [NSAttributedString.Key.font:UIFont(name: "HelveticaNeue-UltraLight", size: 18),
+                                                      NSAttributedString.Key.foregroundColor:UIColor.white]))
         result.append(NSAttributedString(string: storage.unit,
-                                         attributes: [NSAttributedStringKey.font:UIFont(name: "HelveticaNeue-UltraLight", size: 12),
-                                                      NSAttributedStringKey.foregroundColor:UIColor.white]))
+                                         attributes: [NSAttributedString.Key.font:UIFont(name: "HelveticaNeue-UltraLight", size: 12),
+                                                      NSAttributedString.Key.foregroundColor:UIColor.white]))
         return result
     }
     

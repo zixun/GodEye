@@ -16,13 +16,13 @@ open class System: NSObject {
     // MARK: - OPEN PROPERTY
     //--------------------------------------------------------------------------
     
-    open static let hardware = Hardware.classForCoder() as! Hardware.Type
+    public static let hardware = Hardware.classForCoder() as! Hardware.Type
     
-    open static let cpu      = CPU.classForCoder() as! CPU.Type
+    public static let cpu      = CPU.classForCoder() as! CPU.Type
     
-    open static let memory   = Memory.classForCoder() as! Memory.Type
+    public static let memory   = Memory.classForCoder() as! Memory.Type
     
-    open static let network  = Network.classForCoder() as! Network.Type
+    public static let network  = Network.classForCoder() as! Network.Type
     
     //--------------------------------------------------------------------------
     // MARK: - Internal PROPERTY

@@ -9,7 +9,7 @@
 import Foundation
 
 extension UITableView {
-    func dequeueReusableCell<E: UITableViewCell>(style:UITableViewCellStyle = UITableViewCellStyle.default,
+    func dequeueReusableCell<E: UITableViewCell>(style:UITableViewCell.CellStyle = UITableViewCell.CellStyle.default,
                              identifier:String = E.identifier(),
                              _ configure: (E) -> Void) -> E {
         var cell = self.dequeueReusableCell(withIdentifier: identifier) as? E

@@ -47,8 +47,8 @@ class LogRecordViewModel: BaseRecordViewModel {
         let result = NSMutableAttributedString(attributedString: self.contentString(with: nil, content: content))
         let  range = result.string.NS.range(of: content)
         if range.location != NSNotFound {
-            let att = [NSAttributedStringKey.font:UIFont(name: "Courier", size: 10)!,
-                       NSAttributedStringKey.foregroundColor:UIColor.white] as! [NSAttributedStringKey : Any]
+            let att = [NSAttributedString.Key.font:UIFont(name: "Courier", size: 10)!,
+                       NSAttributedString.Key.foregroundColor:UIColor.white] as! [NSAttributedString.Key : Any]
             result.setAttributes(att, range: range)
         }
         return result

@@ -49,8 +49,8 @@ class CrashRecordViewModel: BaseRecordViewModel {
         let result = NSMutableAttributedString(attributedString: self.contentString(with: "CALL STACK", content: self.model.callStack))
         let  range = result.string.NS.range(of: self.model.callStack!)
         if range.location != NSNotFound {
-            let att = [NSAttributedStringKey.font:UIFont(name: "Courier", size: 6)!,
-                       NSAttributedStringKey.foregroundColor:UIColor.white] as! [NSAttributedStringKey : Any]
+            let att = [NSAttributedString.Key.font:UIFont(name: "Courier", size: 6)!,
+                       NSAttributedString.Key.foregroundColor:UIColor.white] as! [NSAttributedString.Key : Any]
             result.setAttributes(att, range: range)
             
             

@@ -32,7 +32,7 @@ extension UIAlertController {
             clickedButtonAtIndex(0)
         })
         
-        let style = destructive == false ? UIAlertActionStyle.default : .destructive
+        let style = destructive == false ? UIAlertAction.Style.default : .destructive
         alertView.addAction(UIAlertAction(title: confirmButtonTitle, style: style) { _ in
             clickedButtonAtIndex(1)
         })

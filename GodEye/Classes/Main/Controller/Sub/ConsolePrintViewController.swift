@@ -55,17 +55,17 @@ class ConsolePrintViewController: UIViewController {
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(ConsolePrintViewController.keyboardWillShow(noti:)),
-                                               name: NSNotification.Name.UIKeyboardWillShow,
+                                               name: UIResponder.keyboardWillShowNotification,
                                                object: nil)
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(ConsolePrintViewController.keyboardWillHide(noti:)),
-                                               name: NSNotification.Name.UIKeyboardWillHide,
+                                               name: UIResponder.keyboardWillHideNotification,
                                                object: nil)
     }
     
     deinit {
-        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
     override func viewWillLayoutSubviews() {
@@ -199,22 +199,22 @@ extension ConsolePrintViewController: UITextFieldDelegate {
             return
         }
         
-        guard let frame = (userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else {
+        guard let frame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else {
             return
         }
         
-        guard let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval else {
+        guard let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval else {
             return
         }
         
-        guard let curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? UIViewAnimationCurve.RawValue else {
+        guard let curve = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as? UIView.AnimationCurve.RawValue else {
             return
         }
         
         UIView.beginAnimations(nil, context: nil)
         UIView.setAnimationBeginsFromCurrentState(true)
         UIView.setAnimationDuration(duration)
-        UIView.setAnimationCurve(UIViewAnimationCurve(rawValue: curve)!)
+        UIView.setAnimationCurve(UIView.AnimationCurve(rawValue: curve)!)
         
         var bounds = self.view.frame
         self.originRect = bounds
@@ -244,18 +244,18 @@ extension ConsolePrintViewController: UITextFieldDelegate {
             return
         }
         
-        guard let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval else {
+        guard let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval else {
             return
         }
         
-        guard let curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? UIViewAnimationCurve.RawValue else {
+        guard let curve = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as? UIView.AnimationCurve.RawValue else {
             return
         }
         
         UIView.beginAnimations(nil, context: nil)
         UIView.setAnimationBeginsFromCurrentState(true)
         UIView.setAnimationDuration(duration)
-        UIView.setAnimationCurve(UIViewAnimationCurve(rawValue: curve)!)
+        UIView.setAnimationCurve(UIView.AnimationCurve(rawValue: curve)!)
         self.view.frame = self.originRect
         UIView.commitAnimations()
     }

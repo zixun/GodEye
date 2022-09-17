@@ -39,11 +39,11 @@ extension FileController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        return tableView.dequeueReusableCell(style: UITableViewCellStyle.subtitle, identifier: UITableViewCell.identifier(), { (cell:UITableViewCell) in
+        return tableView.dequeueReusableCell(style: UITableViewCell.CellStyle.subtitle, identifier: UITableViewCell.identifier(), { (cell:UITableViewCell) in
             cell.backgroundColor = UIColor.clear
             cell.textLabel?.textColor = UIColor.white
             cell.detailTextLabel?.textColor = UIColor.gray
-            cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+            cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         })
     }
     

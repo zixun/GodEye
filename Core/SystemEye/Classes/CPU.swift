@@ -19,7 +19,7 @@ open class CPU: NSObject {
     //--------------------------------------------------------------------------
     
     /// Number of physical cores on this machine.
-    open static var physicalCores: Int {
+    public static var physicalCores: Int {
         get {
             return Int(System.hostBasicInfo.physical_cpu)
         }
@@ -27,7 +27,7 @@ open class CPU: NSObject {
     
     /// Number of logical cores on this machine. Will be equal to physicalCores
     /// unless it has hyper-threading, in which case it will be double.
-    open static var logicalCores: Int {
+    public static var logicalCores: Int {
         get {
             return Int(System.hostBasicInfo.logical_cpu)
         }
@@ -39,7 +39,7 @@ open class CPU: NSObject {
     
     ///  Get CPU usage of hole system (system, user, idle, nice). Determined by the delta between
     ///  the current and last call.
-    open static func systemUsage() -> (system: Double,
+    public static func systemUsage() -> (system: Double,
                                          user: Double,
                                          idle: Double,
                                          nice: Double) {
@@ -64,7 +64,7 @@ open class CPU: NSObject {
     
     
     /// Get CPU usage of application,get from all thread
-    open class func applicationUsage() -> Double {
+    public class func applicationUsage() -> Double {
         let threads = self.threadBasicInfos()
         var result : Double = 0.0
         threads.forEach { (thread:thread_basic_info) in
