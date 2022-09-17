@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GodEye'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.swift_versions = ["5.0", "5.1"]
   s.summary          = 'Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code based on Swift. Just like God opened his eyes.'
 
