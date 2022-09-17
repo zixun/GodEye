@@ -26,7 +26,6 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'zixun' => 'chenyl.exe@gmail.com' }
     s.source           = { :git => 'https://github.com/zixun/GodEye.git', :tag => s.version.to_s }
-    s.social_media_url = 'https://twitter.com/zixun_'
 
     s.ios.deployment_target = '8.0'
 
@@ -77,10 +76,5 @@ Pod::Spec.new do |s|
   
   s.dependency 'FileBrowser', '~> 1.0.0'
   s.dependency 'SQLite.swift', '0.11.4'
-  #s.dependency 'MJRefresh', '~> 3.1.12'
   s.dependency 'ESPullToRefresh', '~> 2.7'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
