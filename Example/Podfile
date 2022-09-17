@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GodEye_Example' do
+  pod 'GodEye', :path => '../'
+
+  target 'GodEye_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

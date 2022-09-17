@@ -1,0 +1,78 @@
+PODS:
+  - ESPullToRefresh (2.7)
+  - FileBrowser (1.0.0)
+  - GodEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - GodEye/ANREye (= 2.0.0)
+    - GodEye/AppBaseKit (= 2.0.0)
+    - GodEye/ASLEye (= 2.0.0)
+    - GodEye/CrashEye (= 2.0.0)
+    - GodEye/LeakEye (= 2.0.0)
+    - GodEye/Log4G (= 2.0.0)
+    - GodEye/NetworkEye (= 2.0.0)
+    - GodEye/SystemEye (= 2.0.0)
+    - GodEye/UIThreadEye (= 2.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/ANREye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/AppBaseKit (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/ASLEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/CrashEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/LeakEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/Log4G (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/NetworkEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/SystemEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - GodEye/UIThreadEye (2.0.0):
+    - ESPullToRefresh (~> 2.7)
+    - FileBrowser (~> 1.0.0)
+    - SQLite.swift (= 0.11.4)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+
+DEPENDENCIES:
+  - GodEye (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ESPullToRefresh
+    - FileBrowser
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  GodEye:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
+  FileBrowser: 2ca91ff61c9ea09665eb3b8f9e64a7a77e66a0bf
+  GodEye: 6cb7f1f3be7827886cc518514d161367045c229f
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+
+PODFILE CHECKSUM: 1e3cc37e34a95e7b24b1946d6f44623e9ba4f950
+
+COCOAPODS: 1.6.1
