@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import FileBrowser
 
 class GodEyeController: UITabBarController {
     
