@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Log4G" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GodEye" TARGET_NAME="Log4G" CONFIG_NAME="Debug" SCHEME_NAME="Log4G" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" MAKE_ACTIVE="TRUE">
-    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-    </EXTENSION>
-    <method />
-  </configuration>
-</component>
