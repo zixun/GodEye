@@ -59,6 +59,10 @@ extension NSObject {
         
         for name in monitorVariables {
             
+            print(name)
+            if name == "tabBarObservedScrollView" {
+                continue
+            }
             guard let cur = self.value(forKey: name) else {
                 continue
             }
