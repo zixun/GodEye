@@ -1,5 +1,5 @@
 PODS:
-  - ESPullToRefresh (2.7)
+  - ESPullToRefresh (2.9.3)
   - FileBrowser (1.0.0)
   - GodEye (2.0.0):
     - ESPullToRefresh (~> 2.7)
@@ -58,7 +58,7 @@ DEPENDENCIES:
   - GodEye (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - ESPullToRefresh
     - FileBrowser
     - SQLite.swift
@@ -68,11 +68,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
   FileBrowser: 2ca91ff61c9ea09665eb3b8f9e64a7a77e66a0bf
   GodEye: 6cb7f1f3be7827886cc518514d161367045c229f
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
 
 PODFILE CHECKSUM: 1e3cc37e34a95e7b24b1946d6f44623e9ba4f950
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.11.3
