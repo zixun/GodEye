@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GodEye'
   s.version          = '2.0.3'
-  s.swift_versions = ["5.0", "5.1"]
+  s.swift_versions = ["5.9"]
   s.summary          = 'Automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code based on Swift. Just like God opened his eyes.'
 
     # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.author           = { 'zixun' => 'chenyl.exe@gmail.com' }
     s.source           = { :git => 'https://github.com/zixun/GodEye.git', :tag => s.version.to_s }
 
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '12.0'
 
 
   s.source_files = 'GodEye/Classes/**/*'
@@ -75,6 +75,6 @@ Pod::Spec.new do |s|
   
 
   
-  s.dependency 'SQLite.swift', '0.13.3'
-  s.dependency 'ESPullToRefresh', '~> 2.7'
+  s.dependency 'SQLite.swift'
+#  s.dependency 'ESPullToRefresh', '~> 2.7'
 end

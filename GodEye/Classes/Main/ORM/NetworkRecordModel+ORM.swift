@@ -91,20 +91,20 @@ extension NetworkRecordModel: RecordORMProtocol {
     class col: NSObject {
         
         /// request col
-        static let requestURLString = Expression<String?>("requestURLString")
-        static let requestCachePolicy = Expression<String?>("requestCachePolicy")
-        static let requestTimeoutInterval = Expression<String?>("requestTimeoutInterval")
-        static let requestHTTPMethod = Expression<String?>("requestHTTPMethod")
-        static let requestAllHTTPHeaderFields = Expression<String?>("requestAllHTTPHeaderFields")
-        static let requestHTTPBody = Expression<String?>("requestHTTPBody")
+        static let requestURLString = SQLite.Expression<String?>("requestURLString")
+        static let requestCachePolicy = SQLite.Expression<String?>("requestCachePolicy")
+        static let requestTimeoutInterval = SQLite.Expression<String?>("requestTimeoutInterval")
+        static let requestHTTPMethod = SQLite.Expression<String?>("requestHTTPMethod")
+        static let requestAllHTTPHeaderFields = SQLite.Expression<String?>("requestAllHTTPHeaderFields")
+        static let requestHTTPBody = SQLite.Expression<String?>("requestHTTPBody")
         
         /// response col
-        static let responseMIMEType = Expression<String?>("responseMIMEType")
-        static let responseExpectedContentLength = Expression<Int64>("responseExpectedContentLength")
-        static let responseTextEncodingName = Expression<String?>("responseTextEncodingName")
-        static let responseSuggestedFilename = Expression<String?>("responseSuggestedFilename")
-        static let responseStatusCode = Expression<Int>("responseStatusCode")
-        static let responseAllHeaderFields = Expression<String?>("responseAllHeaderFields")
-        static let receiveJSONData = Expression<String?>("receiveJSONData")
+        static let responseMIMEType = SQLite.Expression<String?>("responseMIMEType")
+        static let responseExpectedContentLength = SQLite.Expression<Int64>("responseExpectedContentLength")
+        static let responseTextEncodingName = SQLite.Expression<String?>("responseTextEncodingName")
+        static let responseSuggestedFilename = SQLite.Expression<String?>("responseSuggestedFilename")
+        static let responseStatusCode = SQLite.Expression<Int>("responseStatusCode")
+        static let responseAllHeaderFields = SQLite.Expression<String?>("responseAllHeaderFields")
+        static let receiveJSONData = SQLite.Expression<String?>("receiveJSONData")
     }
 }

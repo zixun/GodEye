@@ -12,13 +12,13 @@ import SQLite
 extension LogRecordModel: RecordORMProtocol {
 
     class col: NSObject {
-        static let type = Expression<Int>("type")
-        static let message = Expression<String>("message")
-        static let date = Expression<String?>("date")
-        static let thread = Expression<String?>("thread")
-        static let file = Expression<String?>("file")
-        static let line = Expression<Int?>("line")
-        static let function = Expression<String?>("function")
+        static let type = SQLite.Expression<Int>("type")
+        static let message = SQLite.Expression<String>("message")
+        static let date = SQLite.Expression<String?>("date")
+        static let thread = SQLite.Expression<String?>("thread")
+        static let file = SQLite.Expression<String?>("file")
+        static let line = SQLite.Expression<Int?>("line")
+        static let function = SQLite.Expression<String?>("function")
         
     }
     

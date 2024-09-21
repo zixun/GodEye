@@ -205,11 +205,11 @@ extension RecordORMProtocol {
         }
     }
     
-    fileprivate static var col_id:Expression<Int64> {
+    fileprivate static var col_id:SQLite.Expression<Int64> {
         get {
             var key = "\(#file)+\(#line)"
-            guard let result = objc_getAssociatedObject(self, &key) as? Expression<Int64> else {
-                let result = Expression<Int64>("id")
+            guard let result = objc_getAssociatedObject(self, &key) as? SQLite.Expression<Int64> else {
+                let result = SQLite.Expression<Int64>("id")
                 objc_setAssociatedObject(self, &key, result, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
                 return result
             }
