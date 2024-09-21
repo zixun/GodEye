@@ -54,9 +54,9 @@ extension ANRRecordModel: RecordORMProtocol {
     }
     
     class col: NSObject {
-        static let threshold = Expression<Double>("threshold")
-        static let mainThreadBacktrace = Expression<String?>("mainThreadBacktrace")
-        static let allThreadBacktrace = Expression<String?>("allThreadBacktrace")
+        static let threshold = SQLite.Expression<Double>("threshold")
+        static let mainThreadBacktrace = SQLite.Expression<String?>("mainThreadBacktrace")
+        static let allThreadBacktrace = SQLite.Expression<String?>("allThreadBacktrace")
     }
 }
 

@@ -53,10 +53,10 @@ extension CrashRecordModel: RecordORMProtocol {
     }
     
     class col: NSObject {
-        static let type = Expression<Int>("type")
-        static let name = Expression<String>("name")
-        static let reason = Expression<String>("reason")
-        static let appinfo = Expression<String>("appinfo")
-        static let callStack = Expression<String>("callStack")
+        static let type = SQLite.Expression<Int>("type")
+        static let name = SQLite.Expression<String>("name")
+        static let reason = SQLite.Expression<String>("reason")
+        static let appinfo = SQLite.Expression<String>("appinfo")
+        static let callStack = SQLite.Expression<String>("callStack")
     }
 }

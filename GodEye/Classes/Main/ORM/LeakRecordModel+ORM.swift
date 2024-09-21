@@ -40,8 +40,8 @@ extension LeakRecordModel: RecordORMProtocol {
     }
     
     class col: NSObject {
-        static let clazz = Expression<String>("clazz")
-        static let address = Expression<String>("address")
+        static let clazz = SQLite.Expression<String>("clazz")
+        static let address = SQLite.Expression<String>("address")
     }
     
 }

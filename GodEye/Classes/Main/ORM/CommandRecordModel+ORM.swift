@@ -40,7 +40,7 @@ extension CommandRecordModel: RecordORMProtocol {
     }
     
     class col: NSObject {
-        static let command = Expression<String>("command")
-        static let actionResult = Expression<String>("actionResult")
+        static let command = SQLite.Expression<String>("command")
+        static let actionResult = SQLite.Expression<String>("actionResult")
     }
 }
