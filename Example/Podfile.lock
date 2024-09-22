@@ -9,25 +9,36 @@ PODS:
     - GodEye/NetworkEye (= 2.0.3)
     - GodEye/SystemEye (= 2.0.3)
     - GodEye/UIThreadEye (= 2.0.3)
+    - MJRefresh
     - SQLite.swift
   - GodEye/ANREye (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/AppBaseKit (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/ASLEye (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/CrashEye (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/LeakEye (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/Log4G (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/NetworkEye (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/SystemEye (2.0.3):
+    - MJRefresh
     - SQLite.swift
   - GodEye/UIThreadEye (2.0.3):
+    - MJRefresh
     - SQLite.swift
+  - MJRefresh (3.7.9)
   - SQLite.swift (0.14.1):
     - SQLite.swift/standard (= 0.14.1)
   - SQLite.swift/standard (0.14.1)
@@ -37,6 +48,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - MJRefresh
     - SQLite.swift
 
 EXTERNAL SOURCES:
@@ -44,7 +56,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GodEye: 23cbfee1456b5b17a78fb8a0c5c7caaa427c7517
+  GodEye: 6908dbc388bca87b3479c74d51b553c921cf2009
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
 
 PODFILE CHECKSUM: 1e3cc37e34a95e7b24b1946d6f44623e9ba4f950
